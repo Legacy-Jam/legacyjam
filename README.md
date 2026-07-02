@@ -49,6 +49,15 @@ the `src` in `index.html`):
   Breaking Canada (`breaking-canada.svg`) and TUFF (`tuff.svg`); overwrite
   each placeholder with the real logo file.
 
+### Guest artist headshots
+
+The Guest Artists section uses placeholder initial-avatars in `assets/artists/`
+(48 px circles on the page). Overwrite any file with a **square photo** using the same
+filename (e.g. `logistx.svg` → upload the photo and I/you update the extension + `src`),
+or upload with any name and update the `src` in `index.html`. To add a newly confirmed
+artist, copy a `<li class="person">` block — the layout handles any number of people.
+The 5–12-word bios are draft copy — edit freely in `index.html`.
+
 ## 📋 Internal production notes (keep off the public site)
 
 - [ ] Check if **Mad Track** is still available Oct 24

@@ -312,26 +312,34 @@ section[id] { scroll-margin-top: 4.5rem; }
 .inner-list { margin: 0.6rem 0 0; padding-left: 1.2rem; }
 .inner-list li { margin: 0.25rem 0; }
 
-/* ---------- lineup ---------- */
-.lineup { margin-top: 3rem; }
-.lineup h3 {
-  color: var(--gold); text-transform: uppercase; letter-spacing: 0.12em;
-  font-size: 1rem;
+/* ---------- guest artists (compact people grid) ---------- */
+.people {
+  list-style: none; margin: 0.4rem 0 0; padding: 0;
+  display: grid; gap: 0.4rem 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
 }
-.lineup-list {
-  list-style: none; margin: 0.9rem 0 0; padding: 0;
-  display: flex; flex-wrap: wrap; gap: 0.6rem;
+.person { display: flex; align-items: center; gap: 0.7rem; padding: 0.3rem 0; }
+.person > div { min-width: 0; }
+.person strong { display: block; font-size: 0.98rem; line-height: 1.25; }
+.person div > span {
+  display: block; font-size: 0.82rem; color: var(--cream-dim); line-height: 1.35;
 }
-.lineup-list li {
-  background: rgba(12,17,28,0.8);
-  border: 1px solid rgba(224,174,90,0.25);
-  border-radius: 2rem; padding: 0.5rem 1.2rem; font-size: 0.95rem;
-  transition: border-color 0.15s, transform 0.15s;
+.avatar {
+  width: 48px; height: 48px; border-radius: 50%;
+  object-fit: cover; flex: none;
+  border: 2px solid rgba(224,174,90,0.5);
+  background: var(--navy-2);
 }
-.lineup-list li:hover { border-color: var(--gold); transform: translateY(-2px); }
-.role {
-  color: var(--gold); font-size: 0.75rem; font-weight: 800;
-  letter-spacing: 0.1em; text-transform: uppercase; margin-left: 0.45rem;
+.avatar-duo { display: flex; flex: none; }
+.avatar-duo .avatar + .avatar { margin-left: -14px; }
+.vs {
+  color: var(--gold); font-weight: 800; font-size: 0.78rem;
+  text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0.15rem;
+}
+.mod-tag {
+  color: var(--gold); font-size: 0.7rem; font-weight: 800;
+  letter-spacing: 0.1em; text-transform: uppercase; margin-left: 0.35rem;
+  vertical-align: middle;
 }
 
 /* ---------- schedule (timeline style) ---------- */
