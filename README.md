@@ -43,8 +43,9 @@ the `src` in `index.html`):
 
 - **Unity Charity** — <https://www.unitycharity.com>
 - **Expand the Cypher / Cypher Playground** — request from partners
-- **National partners** — export logos from the sponsorship deck into `assets/logos/`, then
-  uncomment the "National partners" block in `index.html` (marked with a `TODO`).
+- **National partners** — spots are live for BRKN Québec (`brkn-quebec.svg`), WNTR MSSV
+  (`wntr-mssv.svg`), Break TO (`break-to.svg`), The Flava Factory (`flava-factory.svg`) and
+  The Legits Blast (`legits-blast.svg`); overwrite each placeholder with the real logo file.
 
 ## 📋 Internal production notes (keep off the public site)
 
