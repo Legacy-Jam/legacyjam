@@ -43,9 +43,11 @@ the `src` in `index.html`):
 
 - **Unity Charity** — <https://www.unitycharity.com>
 - **Expand the Cypher / Cypher Playground** — request from partners
-- **National partners** — spots are live for BRKN Québec (`brkn-quebec.svg`), WNTR MSSV
-  (`wntr-mssv.svg`), Break TO (`break-to.svg`), The Flava Factory (`flava-factory.svg`) and
-  The Legits Blast (`legits-blast.svg`); overwrite each placeholder with the real logo file.
+- **National partners** — real logos are in for BRKN Québec, WNTR MSSV, Break TO and The
+  Flava Factory. Placeholder tiles remain for The Legits Blast (`legits-blast.svg`),
+  Break City (`break-city.svg`), ABA (`aba.svg`), The Spot Arts Community (`the-spot.svg`),
+  Breaking Canada (`breaking-canada.svg`) and Tuff (`tuff.svg` — confirm name); overwrite
+  each placeholder with the real logo file.
 
 ## 📋 Internal production notes (keep off the public site)
 
