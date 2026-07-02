@@ -46,7 +46,7 @@ the `src` in `index.html`):
 - **National partners** — real logos are in for BRKN Québec, WNTR MSSV, Break TO and The
   Flava Factory. Placeholder tiles remain for The Legits Blast (`legits-blast.svg`),
   Break City (`break-city.svg`), ABA (`aba.svg`), The Spot Arts Community (`the-spot.svg`),
-  Breaking Canada (`breaking-canada.svg`) and Tuff (`tuff.svg` — confirm name); overwrite
+  Breaking Canada (`breaking-canada.svg`) and TUFF (`tuff.svg`); overwrite
   each placeholder with the real logo file.
 
 ## 📋 Internal production notes (keep off the public site)
