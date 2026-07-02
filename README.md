@@ -3,9 +3,11 @@
 A simple, accessible, single-page website for **Legacy Jam** (October 23–25, 2026, Toronto).
 No build step, no JavaScript — just `index.html` + `style.css` + `assets/`.
 
-**Design:** gold-on-navy palette pulled from the Legacy Jam logo set (deep navy `#0e1420`,
-cream `#f4e9cf`, gold `#e0ae5a`, maroon `#6e2c24`), with a script typeface (Yellowtail) echoing
-the brand wordmark.
+**Design:** gold-on-navy palette pulled from the Legacy Jam logo set (deep navy `#0c111c`,
+cream `#f4e9cf`, gold `#e0ae5a`, maroon `#64251e`), with a script typeface (Yellowtail) echoing
+the brand wordmark, gold-gradient headings, subtle film grain, hairline gold rules echoing the
+"— JAM —" mark, and a timeline-styled schedule. All decorative; content order and reading
+clarity come first, and `prefers-reduced-motion` disables the entrance animation.
 
 ## How to publish
 
