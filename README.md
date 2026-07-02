@@ -36,27 +36,9 @@ These placeholders are marked with `TODO` comments in `index.html`:
 
 ### Logos
 
-Real logos are in place for **Toronto Arts Council, Sheridan College, Outbreak Europe and
-Bboy Network** (`assets/logos/`). Still showing **styled placeholder SVGs** — to swap in a
-real logo, save the official file over the placeholder using the same filename (or update
-the `src` in `index.html`):
-
-- **Unity Charity** — <https://www.unitycharity.com>
-- **Expand the Cypher / Cypher Playground** — request from partners
-- **National partners** — real logos are in for BRKN Québec, WNTR MSSV, Break TO and The
-  Flava Factory. Placeholder tiles remain for The Legits Blast (`legits-blast.svg`),
-  Break City (`break-city.svg`), ABA (`aba.svg`), The Spot Arts Community (`the-spot.svg`),
-  Breaking Canada (`breaking-canada.svg`) and TUFF (`tuff.svg`); overwrite
-  each placeholder with the real logo file.
-
-### Guest artist headshots
-
-The Guest Artists section uses placeholder initial-avatars in `assets/artists/`
-(48 px circles on the page). Overwrite any file with a **square photo** using the same
-filename (e.g. `logistx.svg` → upload the photo and I/you update the extension + `src`),
-or upload with any name and update the `src` in `index.html`. To add a newly confirmed
-artist, copy a `<li class="person">` block — the layout handles any number of people.
-The 5–12-word bios are draft copy — edit freely in `index.html`.
+All partner and funder logos are real files in `assets/logos/` — nothing left to swap.
+To add a new partner: drop the logo file in `assets/logos/` and add an `<li>` to the
+matching `logo-row` list in `index.html`.
 
 ## 📋 Internal production notes (keep off the public site)
 
