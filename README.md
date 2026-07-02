@@ -36,14 +36,11 @@ These placeholders are marked with `TODO` comments in `index.html`:
 
 ### Logos
 
-The site currently shows **styled placeholder SVGs** in `assets/logos/`. To swap in a real
-logo, save the official file over the placeholder using the **same filename** (or update the
-`src` in `index.html`). Official sources:
+Real logos are in place for **Toronto Arts Council, Sheridan College, Outbreak Europe and
+Bboy Network** (`assets/logos/`). Still showing **styled placeholder SVGs** — to swap in a
+real logo, save the official file over the placeholder using the same filename (or update
+the `src` in `index.html`):
 
-- **Toronto Arts Council** — official downloads: <https://torontoartscouncil.org/reusable-forms/logo-downloads> (use the "Funded by Toronto Arts Council" version; their guidelines require it)
-- **Sheridan College** — brand assets via <https://www.sheridancollege.ca> (marketing dept.)
-- **Outbreak Europe / The Legits** — <https://thelegitsblast.com> or ask their team directly
-- **Bboy Network** — request from their team
 - **Unity Charity** — <https://www.unitycharity.com>
 - **Expand the Cypher / Cypher Playground** — request from partners
 - **National partners** — export logos from the sponsorship deck into `assets/logos/`, then

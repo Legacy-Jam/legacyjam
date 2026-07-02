@@ -420,14 +420,20 @@ section[id] { scroll-margin-top: 4.5rem; }
   list-style: none; margin: 0; padding: 0;
   display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
 }
+/* white plates so dark-ink and white-background partner logos sit cleanly on the navy page */
 .logo-row li {
-  background: rgba(12,17,28,0.7);
-  border: 1px solid rgba(224,174,90,0.16);
-  border-radius: 0.6rem; padding: 0.8rem 1.1rem;
-  transition: border-color 0.15s, transform 0.15s;
+  background: #fff;
+  border: 1px solid rgba(224,174,90,0.35);
+  border-radius: 0.6rem; padding: 0.9rem 1.2rem;
+  display: flex; align-items: center; justify-content: center;
+  min-height: 6rem; min-width: 11rem;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
 }
-.logo-row li:hover { border-color: rgba(224,174,90,0.5); transform: translateY(-2px); }
-.logo-row img { display: block; max-width: 200px; height: auto; }
+.logo-row li:hover {
+  border-color: var(--gold); transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.4);
+}
+.logo-row img { display: block; max-width: 190px; max-height: 4.5rem; width: auto; height: auto; }
 
 /* ---------- about ---------- */
 .about-narrow { max-width: 46rem; }
