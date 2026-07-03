@@ -33,7 +33,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | Legacy Talks topics | `#festival` section | the two confirmed talk topics from the deck |
 | Crew bio | `#about` section | final copy from the crew bio file |
 | Friday Oct 23 venue | `#schedule` | opening-night location once confirmed |
-| Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgability, boobjester) |
+| Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgbility, boobjester) |
 
 ### Logos
 

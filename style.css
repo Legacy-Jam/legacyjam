@@ -468,6 +468,29 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 .logo-row img { display: block; max-width: 190px; max-height: 4.5rem; width: auto; height: auto; }
 
+/* tighter logo wall on phones — smaller tiles, less scrolling */
+@media (max-width: 40rem) {
+  .logo-row { gap: 0.5rem; }
+  .logo-row li {
+    flex: 1 1 28%; min-width: 0; min-height: 3.6rem;
+    padding: 0.45rem 0.6rem;
+  }
+  .logo-row img { max-width: 100%; max-height: 2.6rem; margin: 0 auto; }
+}
+
+/* small Outbreak Europe logo beside each prize mention */
+.outbreak-inline {
+  height: 1.6em; width: auto;
+  vertical-align: middle; margin: 0 0.1em;
+  display: inline-block;
+}
+
+/* short note under a group heading (e.g. exhibition battles) */
+.group-note {
+  color: var(--cream-dim); font-size: 0.9rem;
+  margin: 0.1rem 0 0.5rem;
+}
+
 /* ---------- about ---------- */
 .about-narrow { max-width: 46rem; }
 .purpose {
