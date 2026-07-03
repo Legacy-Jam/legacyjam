@@ -29,11 +29,12 @@ places if you change the message.
 
 - **Generations Battle (2v2)** — Teacher and student battle side by side; every duo needs a
   minimum 10-year age gap. Breaking is passed down — this battle proves it.
-  *Prize: $2,000 cash.*
-- **Youth Cypher Battle (Under 18, 1v1)** — The next generation goes head to head.
-  *Prize: flight + entry to Outbreak Europe 2027.*
-- **Pro Cypher Battle (1v1)** — Canada's top breakers battle for the biggest stage in the
-  culture. *Prize: flight + entry to Outbreak Europe 2027.*
+  Prelims to top 8: 1 round each; top 4 and final: 2 rounds each.
+  *Prizes: winner $2,000 · top 4 $200 · top 8 $100.*
+- **Youth Cypher Battle (Under 19, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds
+  each), final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
+- **Pro Cypher Battle (19+, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds each),
+  final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
 - **Legacy Exchanges** — Battle conversations curated to push the art form of breaking to
   new heights. Each Exchange matches a Canadian breaker against an international guest,
   bringing Canadian breaking to the world stage.
@@ -78,14 +79,16 @@ places if you change the message.
 
 ## 5. Schedule (canonical)
 
-**Fri Oct 23 — Legacy Sessions (Opening Night)** · venue TBA
-7 PM doors & open practice · 8 PM welcome cyphers + battle check-in · 10 PM close
+**Fri Oct 23 — Opening Night (FREE, limited space)** · venue TBC
+5 PM doors & open cyphers · 6:30 PM festival welcome + Legacy Talks (panelists & topic
+announced soon on Instagram) · 8:30 PM open cyphers continue · 9 PM close
 
-**Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7 PM
-12:00 doors/cyphers/check-in → 12:30 Youth prelims → 1:30 Pro prelims → 2:30 Generations
-prelims → 3:30 Exchanges I → 4:00 Youth semis/final → 4:45 Generations semis/final →
-5:30 Exchanges II → 6:00 Pro semis/final → 6:45 awards + closing circle →
-**9:00 PM Legacy Party** (DJ Mensa × Cypher Playground)
+**Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7:30 PM
+12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
+prelims (2 circles each) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
+→ 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 → 5:45 Pro & Youth top 4 (3 rds) →
+6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals (5 rds) → 7:00 Generations final
+(2 rds) → 7:30 awards → **9:00 PM Legacy Party** (DJ Mensa × Cypher Playground)
 
 *Flow rationale: youth battles finish early so families can leave before evening; the Pro
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
