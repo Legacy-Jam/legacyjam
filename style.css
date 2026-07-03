@@ -159,9 +159,16 @@ section[id] { scroll-margin-top: 4.5rem; }
 .btn-small { font-size: 0.82rem; padding: 0.5rem 1.05rem; }
 
 /* ---------- hero ---------- */
+/* visually hidden but read by screen readers */
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
 .hero {
   text-align: center;
-  padding: 5.5rem 0 4rem;
+  padding: 4.5rem 0 4rem;
   position: relative;
   overflow: hidden;
   background:
@@ -189,8 +196,8 @@ section[id] { scroll-margin-top: 4.5rem; }
   font-family: var(--font-script);
   color: var(--gold);
   font-size: clamp(5rem, 15vw, 9.5rem);
-  line-height: 1;
-  margin: 0;
+  line-height: 1.1;
+  margin: 0 0 1.4rem;
   text-shadow:
     0 3px 0 rgba(0,0,0,0.4),
     0 8px 40px rgba(224,174,90,0.45);
