@@ -283,6 +283,12 @@ section[id] { scroll-margin-top: 4.5rem; }
   letter-spacing: 0.06em; text-transform: uppercase;
   margin: 0.1rem 0 0;
 }
+.price-was {
+  font-size: 1.15rem; font-weight: 700;
+  color: var(--cream-dim); -webkit-text-fill-color: var(--cream-dim);
+  text-decoration: line-through;
+  margin-right: 0.35rem; vertical-align: 0.5rem;
+}
 .price {
   font-size: 2.7rem; font-weight: 900; line-height: 1;
   margin: 0.35rem 0 0.5rem;
@@ -478,9 +484,9 @@ section[id] { scroll-margin-top: 4.5rem; }
   .logo-row img { max-width: 100%; max-height: 2.6rem; margin: 0 auto; }
 }
 
-/* small Outbreak Europe logo beside each prize mention */
+/* Outbreak Europe logo beside each prize mention */
 .outbreak-inline {
-  height: 1.6em; width: auto;
+  height: 2.3em; width: auto;
   vertical-align: middle; margin: 0 0.1em;
   display: inline-block;
 }
@@ -526,3 +532,14 @@ section[id] { scroll-margin-top: 4.5rem; }
   * { transition: none !important; animation: none !important; }
   .hero-inner > * { opacity: 1; transform: none; }
 }
+
+/* ---------- hidden sections (e.g. Guest Artists pre-announcement) ---------- */
+section[hidden] { display: none !important; }
+
+/* ---------- hero Instagram CTA ---------- */
+.btn-ig { font-size: 0.95rem; text-transform: none; letter-spacing: 0.02em; }
+
+/* ---------- final call-to-action band ---------- */
+.cta-final { text-align: center; }
+.cta-final .section-lede { margin-left: auto; margin-right: auto; }
+.cta-final .cta-row { justify-content: center; margin-top: 1.5rem; }
