@@ -307,7 +307,18 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-radius: 1rem; padding: 0.18rem 0.75rem; margin-left: 0.45rem;
   vertical-align: middle;
 }
-.prize { color: var(--gold-bright); font-weight: 700; }
+.prize {
+  margin-top: 0.8rem;
+  background: rgba(224,174,90,0.12);
+  border: 1px solid rgba(224,174,90,0.4);
+  border-radius: 0.45rem;
+  padding: 0.55rem 0.85rem;
+  color: var(--cream-dim); font-size: 0.92rem;
+}
+.prize-amount {
+  color: var(--gold-bright); font-weight: 900;
+  font-size: 1.05rem; letter-spacing: 0.02em;
+}
 
 .inner-list { margin: 0.6rem 0 0; padding-left: 1.2rem; }
 .inner-list li { margin: 0.25rem 0; }

@@ -29,6 +29,7 @@ places if you change the message.
 
 - **Generations Battle (2v2)** — Teacher and student battle side by side; every duo needs a
   minimum 10-year age gap. Breaking is passed down — this battle proves it.
+  *Prize: $2,000 cash.*
 - **Youth Cypher Battle (Under 18, 1v1)** — The next generation goes head to head.
   *Prize: flight + entry to Outbreak Europe 2027.*
 - **Pro Cypher Battle (1v1)** — Canada's top breakers battle for the biggest stage in the
