@@ -206,7 +206,6 @@ section[id] { scroll-margin-top: 4.5rem; }
 .hero-logo-h1 { margin: 0 0 1.25rem; }
 .hero-logo {
   max-width: min(36rem, 90vw); height: auto; display: block; margin: 0 auto;
-  filter: drop-shadow(0 8px 40px rgba(224,174,90,0.35));
 }
 .hero-title {
   display: flex; align-items: center; justify-content: center; gap: 1rem;
