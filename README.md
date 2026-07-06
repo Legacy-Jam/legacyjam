@@ -29,7 +29,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | `https://forms.gle/REPLACE-ME` | "Register to Battle" button | real battle registration form URL |
 | `https://www.instagram.com/legacyjam` | hero, schedule, footer | confirmed Instagram handle |
 | `shuttle@legacyjam.ca` / `hello@legacyjam.ca` | travel section, footer | confirmed email addresses |
-| ~~`assets/legacy-jam-logo.jpeg`~~ | header, hero, footer | ✅ done — official logo uploaded |
+| ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
 | Legacy Talks topics | `#festival` section | the two confirmed talk topics from the deck |
 | Crew bio | `#about` section | final copy from the crew bio file |
 | Friday Oct 23 venue | `#schedule` | opening-night location once confirmed |
