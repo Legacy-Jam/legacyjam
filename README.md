@@ -29,7 +29,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | `https://forms.gle/REPLACE-ME` | "Register to Battle" button | real battle registration form URL |
 | `https://forms.gle/REPLACE-ME-PARTNER` | "Become a Generations Partner" button | real Generations Partner sign-up form URL |
 | `https://www.instagram.com/legacyjam` | hero, schedule, footer | confirmed Instagram handle |
-| `shuttle@legacyjam.ca` / `hello@legacyjam.ca` | travel section, footer | confirmed email addresses |
+| `shuttle@legacyjam.com` / `info@legacyjam.com` | travel section, footer | confirmed email addresses |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
 | Crew bio | `#about` section | final copy from the crew bio file |
 | Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgbility, boobjester) |
