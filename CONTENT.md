@@ -79,9 +79,10 @@ places if you change the message.
 
 ## 5. Schedule (canonical)
 
-**Fri Oct 23 — Opening Night (FREE, limited space)** · venue TBC
-5 PM doors & open cyphers · 6:30 PM festival welcome + Legacy Talks (panelists & topic
-announced soon on Instagram) · 8:30 PM open cyphers continue · 9 PM close
+**Fri Oct 23 — Opening Night (Free, pay what you can)** · venue TBC
+5 PM doors & open cyphers · 5:45 PM call-out battles · 6:30 PM festival welcome + Legacy
+Talks (panelists & topic announced soon on Instagram) · 7:30 PM meet & greet with the
+artists · 8 PM close
 
 **Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
