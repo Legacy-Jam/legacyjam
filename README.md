@@ -46,7 +46,7 @@ matching `logo-row` list in `index.html`.
 - [ ] Check if **Mad Track** is still available Oct 24
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm Friday Oct 23 opening-night venue
-- [ ] Confirm shuttle logistics + who monitors the shuttle inbox
+- [ ] Confirm airport shuttle logistics + who monitors the airport shuttle inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$70 workshops / $75 full weekend
 
 ## Confirmed details baked into the site
