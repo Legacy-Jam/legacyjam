@@ -10,8 +10,8 @@ places if you change the message.
 
 **Event name:** Legacy Jam 2026
 **Tagline:** Cyphers / Culture / Community
-**Dates:** October 23–25, 2026 · Toronto
-**One-liner:** A three-day breaking festival connecting generations — battles, cyphers, workshops, talks and the Legacy Party.
+**Dates:** October 24–25, 2026 · Toronto
+**One-liner:** A two-day breaking festival connecting generations — battles, cyphers, workshops, talks and the Legacy Party.
 
 **Purpose statement (short):**
 > Breaking is passed down — from teacher to student, from cypher to cypher, from one
@@ -20,7 +20,7 @@ places if you change the message.
 > Canadian breakers on the world stage.
 
 **Elevator pitch (for Eventbrite / press):**
-> Legacy Jam is Toronto's intergenerational breaking festival. Over three days, teachers
+> Legacy Jam is Toronto's intergenerational breaking festival. Over two days, teachers
 > battle beside their students, youth winners earn flights to Outbreak Europe 2027, and
 > Canadian breakers face international guests in curated Legacy Exchanges — plus workshops,
 > talks, and a party that brings the whole community together.
@@ -47,14 +47,15 @@ places if you change the message.
 | Audience | $30 | Battle Day entry for spectators |
 | 1 Workshop | $30 | Any single Sunday workshop |
 | 2 Workshops | $50 | Any two Sunday workshops |
-| 3 Workshops | $70 | All Sunday workshops |
-| **Full Weekend Pass** | **$75** | All 3 workshops + Battle Day + Legacy Party |
+| 3 Workshops | $70 | Any three Sunday workshops |
+| 4 Workshops | $90 | All Sunday workshops |
+| **Full Weekend Pass** | **$75** | All 4 workshops + Battle Day + Legacy Party |
 
 ## 4. Reusable prompts
 
 **Instagram announcement post:**
 > Write an Instagram caption (max 150 words, high energy, no hashtag spam — 5 hashtags max)
-> announcing Legacy Jam 2026, Oct 23–25 in Toronto. Lead with "winners fly to Outbreak
+> announcing Legacy Jam 2026, Oct 24–25 in Toronto. Lead with "winners fly to Outbreak
 > Europe 2027". Mention the Generations Battle (teacher × student 2v2), early-bird tickets
 > on Eventbrite, and the tagline "Cyphers / Culture / Community". End with a call to
 > register to battle — link in bio.
@@ -79,11 +80,6 @@ places if you change the message.
 
 ## 5. Schedule (canonical)
 
-**Fri Oct 23 — Opening Night (Free, pay what you can)** · venue TBC
-5 PM doors & open cyphers · 5:45 PM call-out battles · 6:30 PM festival welcome + Legacy
-Talks (panelists & topic announced soon on Instagram) · 7:30 PM meet & greet with the
-artists · 8 PM close
-
 **Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
 prelims (2 circles each) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
@@ -95,9 +91,10 @@ prelims (2 circles each) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generat
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
 tournament rounds.*
 
-**Sun Oct 25 — Workshops & Talks** · Unity Studio, 1560 Yonge St Suite 204
-11:00 doors → 11:30 Workshop 1 → 1:00 Talks I → 2:15 Workshop 2 → 3:45 Talks II →
-5:00 Workshop 3 → 6:15 closing cypher
+**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204
+11:00 cyphers (community) → 12:00 Panel 1 — Mentorship (light lunch) → 12:45 Panel 2 —
+Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 3:30 Workshop 3
+→ 4:30 Workshop 4
 
 ## 6. Voice & style rules
 
