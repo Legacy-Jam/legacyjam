@@ -30,7 +30,7 @@ places if you change the message.
 - **Generations Battle (2v2)** — Teacher and student battle side by side; every duo needs a
   minimum 10-year age gap. Breaking is passed down — this battle proves it.
   Prelims to top 8: 1 round each; top 4 and final: 2 rounds each.
-  *Prizes: winner $2,000 · top 4 $200 · top 8 $100.*
+  *Prizes: $2,500 cash — $1,200 winning team · $500 second place · $200 top 4 · $100 top 8.*
 - **Youth Cypher Battle (Under 19, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds
   each), final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
 - **Pro Cypher Battle (19+, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds each),
