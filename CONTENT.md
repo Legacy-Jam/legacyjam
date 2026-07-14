@@ -85,7 +85,7 @@ places if you change the message.
 prelims (2 circles each) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
 → 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 → 5:45 Pro & Youth top 4 (3 rds) →
 6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals (5 rds) → 7:00 Generations final
-(2 rds) → 7:30 awards → **9:00 PM Legacy Party** (DJ Mensa × Cypher Playground)
+(2 rds) → 7:30 awards → **9:00 PM Legacy Party (19+)** (DJ Mensa × Cypher Playground)
 
 *Flow rationale: youth battles finish early so families can leave before evening; the Pro
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
