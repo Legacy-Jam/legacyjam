@@ -87,6 +87,7 @@ h3 { font-size: 1.2rem; margin: 0 0 0.5rem; letter-spacing: 0.02em; }
 }
 
 section[id] { scroll-margin-top: 4.5rem; }
+#top { scroll-margin-top: 0; }
 
 /* ---------- skip link ---------- */
 .skip-link {
@@ -547,6 +548,19 @@ section[id] { scroll-margin-top: 4.5rem; }
 
 /* ---------- hidden sections (e.g. Guest Artists pre-announcement) ---------- */
 section[hidden] { display: none !important; }
+
+/* ---------- back to top ---------- */
+.back-to-top {
+  position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 90;
+  width: 3rem; height: 3rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--gold-grad); box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+  opacity: 0; transform: translateY(0.6rem); pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.back-to-top.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.back-to-top:hover, .back-to-top:focus-visible { filter: brightness(1.08); }
+.back-to-top svg { width: 1.4rem; height: 1.4rem; fill: var(--navy); }
 
 /* ---------- hero Instagram CTA ---------- */
 .btn-ig { font-size: 0.95rem; text-transform: none; letter-spacing: 0.02em; }

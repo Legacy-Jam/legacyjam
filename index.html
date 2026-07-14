@@ -365,8 +365,8 @@
 
       <h3 class="partner-group">Media partners</h3>
       <ul class="logo-row">
-        <li><a href="https://thelegitsblast.com"><img src="assets/logos/outbreak-europe.png" alt="Outbreak Europe / The Legits" loading="lazy"></a></li>
         <li><img src="assets/logos/bboy-network.jpeg" alt="Bboy Network" loading="lazy"></li>
+        <li><a href="https://thelegitsblast.com"><img src="assets/logos/outbreak-europe.png" alt="Outbreak Europe / The Legits" loading="lazy"></a></li>
       </ul>
 
       <h3 class="partner-group">Program partners</h3>
@@ -400,9 +400,7 @@
            (or upload with any name and update the src) -->
       <ul class="logo-row">
         <li><img src="assets/logos/brkn-quebec.png" alt="BRKN Québec" loading="lazy"></li>
-        <li><a href="https://torontobreakdance.com"><img src="assets/logos/break-to.webp" alt="Break TO" loading="lazy"></a></li>
         <li><img src="assets/logos/flava-factory.png" alt="The Flava Factory" loading="lazy"></li>
-        <li><img src="assets/logos/break-city.png" alt="Break City" loading="lazy"></li>
         <li><img src="assets/logos/aba.png" alt="ABA" loading="lazy"></li>
         <li><img src="assets/logos/the-spot.png" alt="The Spot Arts Community" loading="lazy"></li>
         <li><img src="assets/logos/breaking-canada.png" alt="Breaking Canada" loading="lazy"></li>
@@ -471,6 +469,23 @@
     </p>
   </div>
 </footer>
+
+<a href="#top" class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5l-7 7h4v7h6v-7h4z"/></svg>
+</a>
+<script>
+  // Progressive enhancement only: the link above works with plain #top navigation
+  // even if this never runs. It just toggles when the button is visible.
+  (function () {
+    var btn = document.querySelector('.back-to-top');
+    if (!btn) return;
+    var toggle = function () {
+      btn.classList.toggle('is-visible', window.scrollY > 600);
+    };
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+  })();
+</script>
 
 </body>
 </html>

@@ -1,7 +1,9 @@
 # Legacy Jam 2026 — Website
 
 A simple, accessible, single-page website for **Legacy Jam** (October 24–25, 2026, Toronto).
-No build step, no JavaScript — just `index.html` + `style.css` + `assets/`.
+No build step — just `index.html` + `style.css` + `assets/`. The only JavaScript is a
+~10-line progressive enhancement that shows/hides the back-to-top button; the button's
+`href="#top"` link works with plain CSS scrolling even if it never runs.
 
 **Design:** gold-on-navy palette pulled from the Legacy Jam logo set (deep navy `#0c111c`,
 cream `#f4e9cf`, gold `#e0ae5a`, maroon `#64251e`), with a script typeface (Yellowtail) echoing
