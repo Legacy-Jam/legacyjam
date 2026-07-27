@@ -103,23 +103,23 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 ## 6. Crew & volunteering
 
 **MEC Crew bio (short):**
-> MEC Crew brings together organizers, certified judges and internationally recognized
-> artists from Canada's breaking scene — decades of competitive breaking, youth
-> mentorship, event production and cultural exchange, in Canada and abroad.
+> MEC Crew is built from people who've lived every element of hip hop culture —
+> breaking, DJing, hosting, teaching, visual art — and who still show up for the
+> cypher because they love it, not because it's a job. Between them they've taught
+> the workshops, planned the events, and judged the battles, always putting the
+> culture and the next generation first.
 
-**Milestones:** certified breaking judges with the World DanceSport Federation; organized
-major battles including Red Bull BC One Canada and Red Bull Dance Your Style; delivered
-youth programming across Canada through Unity Charity and Blueprint for Life.
-
-**Organizing team (prose, no headshots/links):** Piecez (Michael Prosserman) has broken
-since 1999, judged internationally for the World DanceSport Federation, and founded
-Unity Charity, which has reached 250,000+ youth across Canada. Boobjester (Roberto
-Veruela Jr.) has broken since 1994, co-organized Red Bull BC One Canada, and serves as
-Unity Charity's National Program Director. B Bad (Andel James) has DJed international
-battles like Red Bull BC One since 2010 and founded the 2U4U collective. Switch B
-(Adrian Bernard) has 50+ competition wins over 20+ years and called Olympic breaking for
-CBC in 2024. MEDÊIO (Rei Misiri) is a former competitive breaker turned calligraphy
-artist whose work has shown from New York to Barcelona.
+**Organizing team (prose, no headshots/links, street cred over résumé):** Piecez
+(Michael Prosserman) has been on the floor since 1999 — battling, judging, teaching
+from the Canadian Arctic to stages overseas — because he believes breaking can change
+a life, and Unity Charity is him proving it. Boobjester (Roberto Veruela Jr.) has
+repped Winnipeg since 1994, building scenes and running major battles because the
+culture matters more to him than the spotlight. B Bad (Andel James) started as a
+b-boy before he ever touched a set of decks, and it shows — every mix is built for
+the cypher, not the radio. Switch B (Adrian Bernard) has battled, hosted, DJed and
+mentored for over 20 years, and still keeps it real about where the culture comes
+from. MEDÊIO (Rei Misiri) came up as a breaker before turning that same movement into
+calligraphy, and still stays close to the scene as a judge and mentor.
 
 *Full source bios (much more detail available — judged events, discography, awards,
 exhibitions) are on file; the above is condensed to match the site's existing length.*
