@@ -284,11 +284,11 @@
       <p class="eyebrow">Our purpose</p>
       <h2 id="purpose-title">Why Legacy Jam</h2>
       <p class="purpose">
-        Breaking is passed down — from teacher to student, from cypher to cypher, from one
-        generation to the next. Legacy Jam exists to keep that chain alive: to celebrate the
-        people who built Canadian breaking, invest in the youth who will carry it forward,
-        and put Canadian breakers on the world stage. We do this for the culture —
-        bringing back the cypher and curating exchanges that inspire across generations.
+        Breaking is rooted in cyphers, community and commitment — passed down each one
+        teach one, from teacher to student, generation to generation. Legacy Jam keeps
+        that chain alive: celebrating the people who built Canadian breaking, investing
+        in the youth who&rsquo;ll carry it forward, and putting Canadian breakers on the
+        world stage.
       </p>
       <h3>The festival</h3>
       <p>Six experiences, one weekend, all built around that purpose:</p>
@@ -411,31 +411,26 @@
       <p class="eyebrow">Who&rsquo;s behind it</p>
       <h2 id="about-title">MEC Crew</h2>
       <p class="bio">
-        MEC Crew came up the same way this culture has always passed itself down —
-        in cyphers, community centres and school gyms, taught by the dancers and DJs
-        who came before them. Breaking, DJing, hosting, teaching, visual art: between
-        them they&rsquo;ve lived every element, and they still show up for the cypher
-        because they love it, not because it&rsquo;s a job. They&rsquo;ve taught the
-        workshops, planned the events, and judged the battles, always putting the
-        culture and the next generation first — each one teach one.
+        MEC Crew came up the way this culture always has — in cyphers, community
+        centres and school gyms, each one teach one. Breaking, DJing, hosting,
+        teaching, visual art: they&rsquo;ve lived every element, and still show up for
+        the cypher because they love it, not because it&rsquo;s a job.
       </p>
 
-      <h3>The organizing team</h3>
-      <p>
-        <strong>Piecez</strong> (Michael Prosserman) has been on the floor since 1999 —
-        battling, judging, teaching from the Canadian Arctic to stages overseas —
-        because he believes breaking can change a life, and Unity Charity is him
-        proving it. <strong>Boobjester</strong> (Roberto Veruela Jr.) has repped
-        Winnipeg since 1994, coming up through the cyphers before building scenes and
-        running major battles, because the culture matters more to him than the
-        spotlight. <strong>B Bad</strong> (Andel James) started as a b-boy before he
-        ever touched a set of decks, and it shows — every mix is built for the cypher,
-        not the radio. <strong>Switch B</strong> (Adrian Bernard) has battled, hosted,
-        DJed and mentored for over 20 years, and still keeps it real about where this
-        culture comes from and who built it. <strong>MEDÊIO</strong> (Rei Misiri) came
-        up as a breaker before turning that same movement into calligraphy, and still
-        stays close to the scene as a judge and mentor.
-      </p>
+      <details class="crew-details">
+        <summary>Meet the organizing team</summary>
+        <p>
+          <strong>Piecez</strong> (Michael Prosserman) — on the floor since 1999,
+          battling, judging and teaching from the Canadian Arctic to stages overseas;
+          founder of Unity Charity. <strong>Boobjester</strong> (Roberto Veruela Jr.)
+          — repping Winnipeg since 1994, came up through the cyphers before building
+          scenes and running major battles. <strong>B Bad</strong> (Andel James) — a
+          b-boy before he was ever a DJ, so every mix is built for the cypher, not the
+          radio. <strong>Switch B</strong> (Adrian Bernard) — battling, hosting,
+          DJing and mentoring for 20+ years. <strong>MEDÊIO</strong> (Rei Misiri) —
+          came up as a breaker, now a calligraphy artist, judge and mentor.
+        </p>
+      </details>
 
       <p class="cta-row">
         <a class="btn btn-outline" href="mailto:info@legacyjam.com?subject=I%27d%20like%20to%20volunteer%20for%20Legacy%20Jam&amp;body=Some%20areas%20I%27d%20like%20to%20contribute%3A%0A%0A">Want to volunteer for Legacy Jam? Click here</a>
@@ -478,7 +473,9 @@
 </a>
 <script>
   // Progressive enhancement only: the link above works with plain #top navigation
-  // even if this never runs. It just toggles when the button is visible.
+  // even if this never runs. It just toggles when the button is visible, and
+  // forces a true scroll to (0,0) — some mobile browsers stop short of the
+  // page top when following a #top anchor past the sticky header.
   (function () {
     var btn = document.querySelector('.back-to-top');
     if (!btn) return;
@@ -487,6 +484,10 @@
     };
     window.addEventListener('scroll', toggle, { passive: true });
     toggle();
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+    });
   })();
 </script>
 

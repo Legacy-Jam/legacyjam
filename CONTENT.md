@@ -14,10 +14,10 @@ places if you change the message.
 **One-liner:** A two-day breaking festival connecting generations — battles, cyphers, workshops, talks and the Legacy Party.
 
 **Purpose statement (short):**
-> Breaking is passed down — from teacher to student, from cypher to cypher, from one
-> generation to the next. Legacy Jam exists to keep that chain alive: to celebrate the people
-> who built Canadian breaking, invest in the youth who will carry it forward, and put
-> Canadian breakers on the world stage.
+> Breaking is rooted in cyphers, community and commitment — passed down each one teach
+> one, from teacher to student, generation to generation. Legacy Jam keeps that chain
+> alive: celebrating the people who built Canadian breaking, investing in the youth
+> who'll carry it forward, and putting Canadian breakers on the world stage.
 
 **Elevator pitch (for Eventbrite / press):**
 > Legacy Jam is Toronto's intergenerational breaking festival. Over two days, teachers
@@ -103,26 +103,21 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 ## 6. Crew & volunteering
 
 **MEC Crew bio (short):**
-> MEC Crew came up the same way this culture has always passed itself down — in
-> cyphers, community centres and school gyms, taught by the dancers and DJs who came
-> before them. Breaking, DJing, hosting, teaching, visual art: between them they've
-> lived every element, and they still show up for the cypher because they love it,
-> not because it's a job. They've taught the workshops, planned the events, and
-> judged the battles, always putting the culture and the next generation first —
-> each one teach one.
+> MEC Crew came up the way this culture always has — in cyphers, community centres
+> and school gyms, each one teach one. Breaking, DJing, hosting, teaching, visual
+> art: they've lived every element, and still show up for the cypher because they
+> love it, not because it's a job.
 
-**Organizing team (prose, no headshots/links, street cred over résumé):** Piecez
-(Michael Prosserman) has been on the floor since 1999 — battling, judging, teaching
-from the Canadian Arctic to stages overseas — because he believes breaking can change
-a life, and Unity Charity is him proving it. Boobjester (Roberto Veruela Jr.) has
-repped Winnipeg since 1994, coming up through the cyphers before building scenes and
-running major battles, because the culture matters more to him than the spotlight.
-B Bad (Andel James) started as a b-boy before he ever touched a set of decks, and it
-shows — every mix is built for the cypher, not the radio. Switch B (Adrian Bernard)
-has battled, hosted, DJed and mentored for over 20 years, and still keeps it real
-about where this culture comes from and who built it. MEDÊIO (Rei Misiri) came up as
-a breaker before turning that same movement into calligraphy, and still stays close
-to the scene as a judge and mentor.
+**Organizing team (on the site, collapsed behind a "Meet the organizing team"
+`<details>` dropdown so the About section stays short by default — street cred over
+résumé):** Piecez (Michael Prosserman) — on the floor since 1999, battling, judging
+and teaching from the Canadian Arctic to stages overseas; founder of Unity Charity.
+Boobjester (Roberto Veruela Jr.) — repping Winnipeg since 1994, came up through the
+cyphers before building scenes and running major battles. B Bad (Andel James) — a
+b-boy before he was ever a DJ, so every mix is built for the cypher, not the radio.
+Switch B (Adrian Bernard) — battling, hosting, DJing and mentoring for 20+ years.
+MEDÊIO (Rei Misiri) — came up as a breaker, now a calligraphy artist, judge and
+mentor.
 
 *Full source bios (much more detail available — judged events, discography, awards,
 exhibitions) are on file; the above is condensed to match the site's existing length.*
