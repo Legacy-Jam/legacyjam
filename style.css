@@ -428,21 +428,31 @@ section[id] { scroll-margin-top: 4.5rem; }
 
 /* ---------- travel ---------- */
 .travel-cols {
-  display: grid; gap: 2rem; margin-top: 1.75rem;
+  display: grid; gap: 1.5rem; margin-top: 1.25rem;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 }
 .travel-cols > div {
   background: linear-gradient(180deg, var(--navy-2), rgba(20,28,43,0.6));
   border: 1px solid rgba(224,174,90,0.16);
-  border-radius: 0.7rem; padding: 1.75rem;
+  border-radius: 0.7rem; padding: 1.4rem 1.5rem;
   box-shadow: var(--shadow-card);
 }
 .travel-cols h3 { color: var(--gold); font-size: 1.3rem; margin-top: 0; }
 .shuttle-email { margin: 1.1rem 0; }
 .shuttle-email .btn { text-transform: none; letter-spacing: 0.02em; }
-.hotel-list { padding-left: 1.2rem; }
+.hotel-list { padding-left: 1.2rem; margin: 0.9rem 0 0; }
 .hotel-list li { margin: 0.55rem 0; }
 .hotel-list strong { color: var(--gold-bright); }
+.hotel-details summary {
+  cursor: pointer; color: var(--gold-bright); font-weight: 700;
+  list-style: none;
+}
+.hotel-details summary::-webkit-details-marker { display: none; }
+.hotel-details summary::before {
+  content: "▸ "; color: var(--gold);
+}
+.hotel-details[open] summary::before { content: "▾ "; }
+.hotel-details summary:hover { text-decoration: underline; }
 
 /* ---------- partners ---------- */
 .partner-group {

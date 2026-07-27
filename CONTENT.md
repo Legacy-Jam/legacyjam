@@ -35,11 +35,14 @@ places if you change the message.
   each), final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
 - **Pro Cypher Battle (19+, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds each),
   final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
-- **Legacy Exchanges** — Battle conversations curated to push the art form of breaking to
-  new heights. Each Exchange matches a Canadian breaker against an international guest,
-  bringing Canadian breaking to the world stage.
+
+Legacy Exchanges is a showcase, not a competitive battle format — it lives in "The Festival"
+copy, not the Battles section: *Curated battle conversations — Canadian breakers vs
+international guests, built to inspire across generations.*
 
 ## 3. Ticket packages
+
+*Prices below are current early-bird rates — limited quantities.*
 
 | Package | Price | Includes |
 |---|---|---|
@@ -100,16 +103,20 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 ## 6. Crew & volunteering
 
 **MEC Crew bio (short):**
-> Legacy Jam is produced by MEC Crew, a Toronto breaking crew built inside the city's
-> cyphers over years of battling, teaching and throwing jams. MEC members have judged,
-> hosted, DJed and competed at events across Canada, and have put just as much work into
-> the next generation — through workshops, mentorship and organizations like Unity Charity
-> — as they have on the floor themselves.
+> MEC Crew is a Toronto breaking collective built inside the city's cyphers, co-led by
+> Piecez and Boobjester. Legacy Jam is MEC's biggest undertaking yet — the festival the
+> crew wished existed when they were coming up.
 
-**Organizing team (prose, no headshots/links):** Piecez leads the team — founder of Unity
-Charity and EPIC Leadership, a career building youth programming across Toronto. B Bad has
-kept the city's cyphers moving as a DJ for over a decade. Boobjester is a Canadian b-boy
-legend turned MC and host. Switch B rounds out the crew as an MC and community builder.
+*Milestones (TODO: replace with confirmed dates/figures):* judged, hosted, DJed and
+competed at events across Canada; delivered breaking workshops and mentorship to youth
+across Toronto, including through Unity Charity; years building the city's cypher and
+jam scene.
+
+**Organizing team (prose, no headshots/links):** Piecez and Boobjester co-lead Legacy
+Jam. Piecez founded Unity Charity and EPIC Leadership and has spent years building youth
+programming across Toronto. Boobjester is a Canadian b-boy legend turned MC and host, a
+fixture at events across the country. B Bad (DJ, over a decade behind the decks) and
+Switch B (MC and community builder) round out the crew.
 
 **Volunteer CTA:** "Want to volunteer for Legacy Jam? Click here" — mailto link to
 info@legacyjam.com, subject "I'd like to volunteer for Legacy Jam", body pre-filled with

@@ -33,7 +33,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | `https://www.instagram.com/legacyjam` | hero, schedule, footer | confirmed Instagram handle |
 | `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
-| Crew bio | `#about` section | final copy from the crew bio file |
+| Crew bio + milestones | `#about` section | confirmed founding year/dates and real milestone figures (currently generic placeholders) |
 | Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgbility, boobjester) |
 
 ### Logos
@@ -54,7 +54,7 @@ matching `logo-row` list in `index.html`.
 
 - **Oct 24 (Sat)** — Battle Day, 918 Bathurst St, Toronto, 12–7:30 PM; Legacy Party after (DJ Mensa × Cypher Playground)
 - **Oct 25 (Sun)** — Workshops & Panels, Unity Studio, 1560 Yonge St Suite 204, Toronto — cyphers, 2 panel discussions (mentorship; breaking & parallel careers), 4 workshops
-- **Battles** — Generations (2v2 teacher×student, 10-yr age gap), Youth Cypher (Under 19), Pro Cypher (19+), Legacy Exchanges (Canada vs. international)
+- **Battles** — Generations (2v2 teacher×student, 10-yr age gap), Youth Cypher (Under 19), Pro Cypher (19+); Legacy Exchanges (Canada vs. international) is a showcase, not a competitive battle — lives in "The Festival" copy
 - **Prizes** — Youth + Pro winners: flight & entry to Outbreak Europe 2027
 - **Judges** — Ronnie (Full Force), Logistx (Red Bull BC One All Star), MGability
 - **DJs** — Timber, B Bad; DJ Mensa for the Legacy Party
@@ -62,4 +62,4 @@ matching `logo-row` list in `index.html`.
 - **Academic partner** — Sheridan College
 - **Media partners** — Bboy Network, Outbreak Europe / The Legits
 - **Generations Partners** — schools/crews that register students for the Generations Battle
-- **MEC Crew** — produces Legacy Jam; organizing team includes Piecez, B Bad, Boobjester, Switch B
+- **MEC Crew** — produces Legacy Jam; co-led by Piecez and Boobjester, with B Bad and Switch B rounding out the organizing team
