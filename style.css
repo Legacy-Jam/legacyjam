@@ -257,7 +257,7 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 
 /* ---------- sections ---------- */
-.section { padding: 4.5rem 0; }
+.section { padding: 3.25rem 0; }
 .section-alt {
   background: linear-gradient(180deg, rgba(20,28,43,0.7), rgba(20,28,43,0.35));
   border-top: 1px solid rgba(224,174,90,0.18);
@@ -381,14 +381,14 @@ section[id] { scroll-margin-top: 4.5rem; }
 
 /* ---------- schedule (timeline style) ---------- */
 .sched-grid {
-  display: grid; gap: 1.25rem; margin-top: 1.75rem;
+  display: grid; gap: 1.1rem; margin-top: 1.25rem;
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
 .sched-day {
   background: linear-gradient(180deg, var(--navy-2), rgba(20,28,43,0.6));
   border: 1px solid rgba(224,174,90,0.16);
   border-top: 3px solid var(--gold);
-  border-radius: 0.7rem; padding: 1.5rem;
+  border-radius: 0.7rem; padding: 1.15rem 1.25rem;
   box-shadow: var(--shadow-card);
 }
 .sched-day h3 { color: var(--cream); font-size: 1.25rem; }
@@ -398,11 +398,11 @@ section[id] { scroll-margin-top: 4.5rem; }
   -webkit-background-clip: text; background-clip: text; color: transparent;
   font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em;
 }
-.venue { color: var(--cream-dim); font-size: 0.92rem; margin: 0.5rem 0 1.1rem; }
+.venue { color: var(--cream-dim); font-size: 0.92rem; margin: 0.4rem 0 0.7rem; }
 .sched-list { list-style: none; margin: 0; padding: 0; }
 .sched-list li {
   position: relative;
-  padding: 0.5rem 0 0.5rem 1.1rem;
+  padding: 0.32rem 0 0.32rem 1.1rem;
   font-size: 0.97rem;
 }
 /* gold timeline: vertical rule + dot per item */
@@ -447,41 +447,42 @@ section[id] { scroll-margin-top: 4.5rem; }
 /* ---------- partners ---------- */
 .partner-group {
   color: var(--cream-dim); text-transform: uppercase;
-  font-size: 0.82rem; letter-spacing: 0.22em; margin: 2.25rem 0 0.8rem;
+  font-size: 0.82rem; letter-spacing: 0.22em; margin: 1.4rem 0 0.6rem;
   display: flex; align-items: center; gap: 0.8rem;
 }
-.partner-note { color: var(--cream-dim); max-width: 42rem; margin: -0.4rem 0 1rem; }
+.partner-group:first-of-type { margin-top: 0; }
+.partner-note { color: var(--cream-dim); max-width: 42rem; margin: -0.3rem 0 0.6rem; }
 .partner-group::after {
   content: ""; height: 1px; flex: 1; max-width: 12rem;
   background: var(--hairline);
 }
 .logo-row {
   list-style: none; margin: 0; padding: 0;
-  display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
+  display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center;
 }
 /* white plates so dark-ink and white-background partner logos sit cleanly on the navy page */
 .logo-row li {
   background: #fff;
   border: 1px solid rgba(224,174,90,0.35);
-  border-radius: 0.6rem; padding: 0.9rem 1.2rem;
+  border-radius: 0.6rem; padding: 0.55rem 0.9rem;
   display: flex; align-items: center; justify-content: center;
-  min-height: 6rem; min-width: 11rem;
+  min-height: 4.2rem; min-width: 8rem;
   transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
 }
 .logo-row li:hover {
   border-color: var(--gold); transform: translateY(-2px);
   box-shadow: 0 10px 24px rgba(0,0,0,0.4);
 }
-.logo-row img { display: block; max-width: 190px; max-height: 4.5rem; width: auto; height: auto; }
+.logo-row img { display: block; max-width: 150px; max-height: 3.2rem; width: auto; height: auto; }
 
 /* tighter logo wall on phones — smaller tiles, less scrolling */
 @media (max-width: 40rem) {
   .logo-row { gap: 0.5rem; }
   .logo-row li {
-    flex: 1 1 28%; min-width: 0; min-height: 3.6rem;
-    padding: 0.45rem 0.6rem;
+    flex: 1 1 28%; min-width: 0; min-height: 3.2rem;
+    padding: 0.4rem 0.5rem;
   }
-  .logo-row img { max-width: 100%; max-height: 2.6rem; margin: 0 auto; }
+  .logo-row img { max-width: 100%; max-height: 2.2rem; margin: 0 auto; }
 }
 
 /* Outbreak Europe logo beside each prize mention */
@@ -500,12 +501,12 @@ section[id] { scroll-margin-top: 4.5rem; }
 /* ---------- about ---------- */
 .about-narrow { max-width: 46rem; }
 .purpose {
-  font-size: 1.35rem; line-height: 1.6; color: var(--cream);
+  font-size: 1.1rem; line-height: 1.5; color: var(--cream);
   border-left: 3px solid var(--gold);
-  padding-left: 1.25rem;
+  padding-left: 1.1rem;
 }
 .about-narrow h3 {
-  color: var(--gold); margin-top: 2.25rem;
+  color: var(--gold); margin-top: 1.4rem;
   text-transform: uppercase; letter-spacing: 0.12em; font-size: 1rem;
 }
 .bio { color: var(--cream-dim); }
@@ -533,8 +534,8 @@ section[id] { scroll-margin-top: 4.5rem; }
   .hero-inner > * { opacity: 1; transform: none; }
 }
 
-/* ---------- hidden sections (e.g. Guest Artists pre-announcement) ---------- */
-section[hidden] { display: none !important; }
+/* ---------- hidden content (e.g. Guest Artists pre-announcement, unconfirmed logos) ---------- */
+[hidden] { display: none !important; }
 
 /* ---------- back to top ---------- */
 .back-to-top {
