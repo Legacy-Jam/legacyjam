@@ -321,6 +321,10 @@ section[id] { scroll-margin-top: 4.5rem; }
   font-size: 0.72rem; font-weight: 900; letter-spacing: 0.16em; text-transform: uppercase;
   border-radius: 1rem; padding: 0.2rem 0.85rem; margin: 0 0 0.6rem;
 }
+.badge-date {
+  background: none; color: var(--gold-bright);
+  border: 1px solid rgba(224,174,90,0.45);
+}
 
 .format-tag {
   display: inline-block;

@@ -31,7 +31,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | `https://forms.gle/REPLACE-ME` | "Register to Battle" button | real battle registration form URL |
 | `https://forms.gle/REPLACE-ME-PARTNER` | "Become a Generations Partner" button | real Generations Partner sign-up form URL |
 | `https://www.instagram.com/legacyjam` | hero, schedule, footer | confirmed Instagram handle |
-| `shuttle@legacyjam.com` / `info@legacyjam.com` | travel section, footer | confirmed email addresses |
+| `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
 | Crew bio | `#about` section | final copy from the crew bio file |
 | Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgbility, boobjester) |
@@ -46,7 +46,7 @@ matching `logo-row` list in `index.html`.
 
 - [ ] Check if **Mad Track** is still available Oct 24
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
-- [ ] Confirm airport shuttle logistics + who monitors the airport shuttle inbox
+- [ ] Confirm airport shuttle logistics + who monitors the info@legacyjam.com inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full weekend
 - [ ] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet)
 
@@ -58,6 +58,8 @@ matching `logo-row` list in `index.html`.
 - **Prizes** — Youth + Pro winners: flight & entry to Outbreak Europe 2027
 - **Judges** — Ronnie (Full Force), Logistx (Red Bull BC One All Star), MGability
 - **DJs** — Timber, B Bad; DJ Mensa for the Legacy Party
-- **Funders** — Toronto Arts Council, Sheridan College
+- **Funders** — Toronto Arts Council
+- **Academic partner** — Sheridan College
 - **Media partners** — Bboy Network, Outbreak Europe / The Legits
 - **Generations Partners** — schools/crews that register students for the Generations Battle
+- **MEC Crew** — produces Legacy Jam; organizing team includes Piecez, B Bad, Boobjester, Switch B

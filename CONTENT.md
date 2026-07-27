@@ -69,8 +69,9 @@ places if you change the message.
 **Sponsor outreach email:**
 > Write a 200-word sponsorship email for Legacy Jam 2026. Emphasize: intergenerational
 > mandate (Generations Battle, youth prizes), international reach (Outbreak Europe / The
-> Legits media partnership), existing funders (Toronto Arts Council, Sheridan College),
-> and audience (dancers + families + hip-hop community in Toronto). Ask for a 20-minute call.
+> Legits media partnership), existing funder (Toronto Arts Council) and academic partner
+> (Sheridan College), and audience (dancers + families + hip-hop community in Toronto).
+> Ask for a 20-minute call.
 
 **Hero/poster image (for a designer or image model):**
 > Elegant gold script wordmark "Legacy" with "— JAM —" in letter-spaced sans-serif beneath,
@@ -96,7 +97,24 @@ tournament rounds.*
 Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 3:30 Workshop 3
 → 4:30 Workshop 4
 
-## 6. Voice & style rules
+## 6. Crew & volunteering
+
+**MEC Crew bio (short):**
+> Legacy Jam is produced by MEC Crew, a Toronto breaking crew built inside the city's
+> cyphers over years of battling, teaching and throwing jams. MEC members have judged,
+> hosted, DJed and competed at events across Canada, and have put just as much work into
+> the next generation — through workshops, mentorship and organizations like Unity Charity
+> — as they have on the floor themselves.
+
+**Organizing team highlights:** Piecez (lead organizer — MEC Crew, Unity Charity Founder,
+EPIC Leadership Founder), B Bad (MEC Crew, DJ), Boobjester (MEC Crew, MC/host), Switch B
+(MEC Crew, MC).
+
+**Volunteer CTA:** "Want to volunteer for Legacy Jam? Click here" — mailto link to
+info@legacyjam.com, subject "I'd like to volunteer for Legacy Jam", body pre-filled with
+"Some areas I'd like to contribute:" and blank space to fill in.
+
+## 7. Voice & style rules
 
 - Simple words, short sentences. An excited 14-year-old and their parent should both get it.
 - Lead with what the reader gets (prizes, experience), then details.
