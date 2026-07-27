@@ -14,10 +14,10 @@ places if you change the message.
 **One-liner:** A two-day breaking festival connecting generations — battles, cyphers, workshops, talks and the Legacy Party.
 
 **Purpose statement (short):**
-> Breaking is rooted in cyphers, community and commitment — passed down each one teach
-> one, from teacher to student, generation to generation. Legacy Jam keeps that chain
-> alive: celebrating the people who built Canadian breaking, investing in the youth
-> who'll carry it forward, and putting Canadian breakers on the world stage.
+> Breaking is rooted in cyphers, community and culture — passed down generation to
+> generation. Legacy Jam keeps that chain alive: celebrating the people who built
+> Canadian breaking, investing in the youth who'll carry it forward, and putting
+> Canadian breakers on the world stage.
 
 **Elevator pitch (for Eventbrite / press):**
 > Legacy Jam is Toronto's intergenerational breaking festival. Over two days, teachers
@@ -84,12 +84,19 @@ international guests, built to inspire across generations.*
 
 ## 5. Schedule (canonical)
 
+Site displays a "⏱️ Battles run on time — don't be late!" callout right under the
+Schedule heading, above the day grid.
+
 **Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
 prelims (2 circles each) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
 → 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 → 5:45 Pro & Youth top 4 (3 rds) →
 6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals (5 rds) → 7:00 Generations final
-(2 rds) → 7:30 awards → **9:00 PM Legacy Party (19+)** (DJ Mensa × Cypher Playground)
+(2 rds) → 7:30 awards
+
+**Legacy Party (19+)** — 9:00 PM, a separate event at a different venue (TODO: confirm
+address before launch), one night to remember. Called out on the site as its own thing,
+not part of the Battle Day timeline/venue.
 
 *Flow rationale: youth battles finish early so families can leave before evening; the Pro
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
@@ -103,10 +110,13 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 ## 6. Crew & volunteering
 
 **MEC Crew bio (short):**
-> MEC Crew came up the way this culture always has — in cyphers, community centres
-> and school gyms, each one teach one. Breaking, DJing, hosting, teaching, visual
-> art: they've lived every element, and still show up for the cypher because they
-> love it, not because it's a job.
+> MEC Crew is led by experienced organizers, cultural leaders and internationally
+> recognized artists from Canada's breaking community, working for and with the
+> community — Olympic-level judges, national youth program leaders and performers
+> bringing decades of experience in competitive breaking, mentorship and event
+> production. Breaking, DJing, hosting, teaching, visual art: they've lived every
+> element, and still show up for the cypher because they love it, not because it's
+> a job.
 
 **Organizing team (on the site, collapsed behind a "Meet the organizing team"
 `<details>` dropdown so the About section stays short by default — street cred over

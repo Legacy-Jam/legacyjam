@@ -35,6 +35,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
 | Crew bio + milestones | `#about` section | ✅ done — real bios/milestones from confirmed source copy |
 | Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgbility, boobjester) |
+| Legacy Party venue address | `#schedule` section (Sat, Oct 24 card) | confirmed venue name/address — site currently says only "a separate event at a different venue" |
 
 ### Logos
 
@@ -52,7 +53,9 @@ matching `logo-row` list in `index.html`.
 
 ## Confirmed details baked into the site
 
-- **Oct 24 (Sat)** — Battle Day, 918 Bathurst St, Toronto, 12–7:30 PM; Legacy Party after (DJ Mensa × Cypher Playground)
+- **Oct 24 (Sat)** — Battle Day, 918 Bathurst St, Toronto, 12–7:30 PM; Legacy Party after
+  (DJ Mensa × Cypher Playground confirmed — public site copy keeps this to a general
+  "one night to remember" line, doesn't name the DJ/duo)
 - **Oct 25 (Sun)** — Workshops & Panels, Unity Studio, 1560 Yonge St Suite 204, Toronto — cyphers, 2 panel discussions (mentorship; breaking & parallel careers), 4 workshops
 - **Battles** — Generations (2v2 teacher×student, 10-yr age gap), Youth Cypher (Under 19), Pro Cypher (19+); Legacy Exchanges (Canada vs. international) is a showcase, not a competitive battle — lives in "The Festival" copy
 - **Prizes** — Youth + Pro winners: flight & entry to Outbreak Europe 2027
