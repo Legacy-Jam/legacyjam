@@ -49,7 +49,7 @@ places if you change the message.
 | 2 Workshops | $50 | Any two Sunday workshops |
 | 3 Workshops | $70 | Any three Sunday workshops |
 | 4 Workshops | $90 | All Sunday workshops |
-| **Full Weekend Pass** | **$75** | All 4 workshops + Battle Day + Legacy Party |
+| **Full Festival Pass** | **$75** | All 4 workshops + Battle Day + Legacy Party |
 
 ## 4. Reusable prompts
 
@@ -106,9 +106,10 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 > the next generation — through workshops, mentorship and organizations like Unity Charity
 > — as they have on the floor themselves.
 
-**Organizing team highlights:** Piecez (lead organizer — MEC Crew, Unity Charity Founder,
-EPIC Leadership Founder), B Bad (MEC Crew, DJ), Boobjester (MEC Crew, MC/host), Switch B
-(MEC Crew, MC).
+**Organizing team (prose, no headshots/links):** Piecez leads the team — founder of Unity
+Charity and EPIC Leadership, a career building youth programming across Toronto. B Bad has
+kept the city's cyphers moving as a DJ for over a decade. Boobjester is a Canadian b-boy
+legend turned MC and host. Switch B rounds out the crew as an MC and community builder.
 
 **Volunteer CTA:** "Want to volunteer for Legacy Jam? Click here" — mailto link to
 info@legacyjam.com, subject "I'd like to volunteer for Legacy Jam", body pre-filled with

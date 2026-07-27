@@ -47,7 +47,7 @@ matching `logo-row` list in `index.html`.
 - [ ] Check if **Mad Track** is still available Oct 24
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm airport shuttle logistics + who monitors the info@legacyjam.com inbox
-- [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full weekend
+- [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full festival pass
 - [ ] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet)
 
 ## Confirmed details baked into the site
