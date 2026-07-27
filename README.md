@@ -33,7 +33,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | `https://www.instagram.com/legacyjam` | hero, schedule, footer | confirmed Instagram handle |
 | `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
-| Crew bio + milestones | `#about` section | confirmed founding year/dates and real milestone figures (currently generic placeholders) |
+| Crew bio + milestones | `#about` section | ✅ done — real bios/milestones from confirmed source copy |
 | Artist Instagram handles | `#artists` section | verify every handle — several are best guesses (djbbad, djtimber, switchb, deadlymike, bgirltiff, bboymadtrack, bboystripes, mgbility, boobjester) |
 
 ### Logos
@@ -62,4 +62,4 @@ matching `logo-row` list in `index.html`.
 - **Academic partner** — Sheridan College
 - **Media partners** — Bboy Network, Outbreak Europe / The Legits
 - **Generations Partners** — schools/crews that register students for the Generations Battle
-- **MEC Crew** — produces Legacy Jam; co-led by Piecez and Boobjester, with B Bad and Switch B rounding out the organizing team
+- **MEC Crew** — produces Legacy Jam; organizing team is Piecez (Michael Prosserman), Boobjester (Roberto Veruela Jr.), B Bad (Andel James), Switch B (Adrian Bernard), and MEDÊIO (Rei Misiri)

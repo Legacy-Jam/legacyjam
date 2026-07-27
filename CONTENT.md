@@ -103,20 +103,26 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 ## 6. Crew & volunteering
 
 **MEC Crew bio (short):**
-> MEC Crew is a Toronto breaking collective built inside the city's cyphers, co-led by
-> Piecez and Boobjester. Legacy Jam is MEC's biggest undertaking yet — the festival the
-> crew wished existed when they were coming up.
+> MEC Crew brings together organizers, certified judges and internationally recognized
+> artists from Canada's breaking scene — decades of competitive breaking, youth
+> mentorship, event production and cultural exchange, in Canada and abroad.
 
-*Milestones (TODO: replace with confirmed dates/figures):* judged, hosted, DJed and
-competed at events across Canada; delivered breaking workshops and mentorship to youth
-across Toronto, including through Unity Charity; years building the city's cypher and
-jam scene.
+**Milestones:** certified breaking judges with the World DanceSport Federation; organized
+major battles including Red Bull BC One Canada and Red Bull Dance Your Style; delivered
+youth programming across Canada through Unity Charity and Blueprint for Life.
 
-**Organizing team (prose, no headshots/links):** Piecez and Boobjester co-lead Legacy
-Jam. Piecez founded Unity Charity and EPIC Leadership and has spent years building youth
-programming across Toronto. Boobjester is a Canadian b-boy legend turned MC and host, a
-fixture at events across the country. B Bad (DJ, over a decade behind the decks) and
-Switch B (MC and community builder) round out the crew.
+**Organizing team (prose, no headshots/links):** Piecez (Michael Prosserman) has broken
+since 1999, judged internationally for the World DanceSport Federation, and founded
+Unity Charity, which has reached 250,000+ youth across Canada. Boobjester (Roberto
+Veruela Jr.) has broken since 1994, co-organized Red Bull BC One Canada, and serves as
+Unity Charity's National Program Director. B Bad (Andel James) has DJed international
+battles like Red Bull BC One since 2010 and founded the 2U4U collective. Switch B
+(Adrian Bernard) has 50+ competition wins over 20+ years and called Olympic breaking for
+CBC in 2024. MEDÊIO (Rei Misiri) is a former competitive breaker turned calligraphy
+artist whose work has shown from New York to Barcelona.
+
+*Full source bios (much more detail available — judged events, discography, awards,
+exhibitions) are on file; the above is condensed to match the site's existing length.*
 
 **Volunteer CTA:** "Want to volunteer for Legacy Jam? Click here" — mailto link to
 info@legacyjam.com, subject "I'd like to volunteer for Legacy Jam", body pre-filled with
