@@ -30,7 +30,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | `https://www.eventbrite.ca/e/legacy-jam-2026` | every "Get Tickets" button | real Eventbrite event URL (search-and-replace) |
 | `https://forms.gle/REPLACE-ME` | "Register to Battle" button | real battle registration form URL |
 | `https://forms.gle/REPLACE-ME-PARTNER` | "Become a Generations Partner" button | real Generations Partner sign-up form URL |
-| `https://www.instagram.com/legacyjam` | hero, schedule, footer | confirmed Instagram handle |
+| ~~`https://www.instagram.com/legacyjam`~~ | hero, artists, schedule, footer | ✅ done — confirmed handle `@legacy.jam` |
 | `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
 | Crew bio + milestones | `#about` section | ✅ done — real bios/milestones from confirmed source copy |
