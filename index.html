@@ -95,32 +95,37 @@
 
       <ul class="cards ticket-grid">
         <li class="card ticket">
-          <p class="ticket-day">Sat</p>
-          <h3>Dancer Pass</h3>
-          <p class="price">$20 <span class="price-note">early bird</span></p>
-          <p>Battle Day entry for dancers.</p>
-          <a class="btn btn-outline" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Tickets</a>
+          <div class="ticket-row">
+            <h3><span class="ticket-day">Sat</span>Dancer Pass</h3>
+            <p class="price">$20 <span class="price-note">early bird</span></p>
+          </div>
+          <p class="ticket-desc">Battle Day entry for dancers.</p>
+          <a class="btn btn-outline btn-small" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Tickets</a>
         </li>
         <li class="card ticket">
-          <p class="ticket-day">Sat</p>
-          <h3>Audience</h3>
-          <p class="price">$30 <span class="price-note">early bird</span></p>
-          <p>Battle Day entry for spectators.</p>
-          <a class="btn btn-outline" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Tickets</a>
+          <div class="ticket-row">
+            <h3><span class="ticket-day">Sat</span>Audience</h3>
+            <p class="price">$30 <span class="price-note">early bird</span></p>
+          </div>
+          <p class="ticket-desc">Battle Day entry for spectators.</p>
+          <a class="btn btn-outline btn-small" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Tickets</a>
         </li>
         <li class="card ticket">
-          <p class="ticket-day">Sun</p>
-          <h3>Workshops</h3>
-          <p class="price">$25 <span class="price-note">each</span></p>
-          <p>Book 1–4 workshops. Bundle 2+ for a discount.</p>
-          <a class="btn btn-outline" href="https://www.eventbrite.ca/e/legacy-jam-2026">Book Workshops</a>
+          <div class="ticket-row">
+            <h3><span class="ticket-day">Sun</span>Workshops</h3>
+            <p class="price">$25 <span class="price-note">each</span></p>
+          </div>
+          <p class="ticket-desc">Book 1&ndash;4. Bundle 2+ for a discount.</p>
+          <a class="btn btn-outline btn-small" href="https://www.eventbrite.ca/e/legacy-jam-2026">Book Workshops</a>
         </li>
         <li class="card ticket ticket-featured">
           <p class="badge">Best value</p>
-          <h3>Full Festival Pass</h3>
-          <p class="price">$70 <span class="price-note">early bird</span></p>
-          <p>All 4 workshops + Battle Day + the Legacy Party.</p>
-          <a class="btn btn-gold" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Pass</a>
+          <div class="ticket-row">
+            <h3>Full Festival Pass</h3>
+            <p class="price">$70 <span class="price-note">early bird</span></p>
+          </div>
+          <p class="ticket-desc">All 4 workshops + Battle Day + the Legacy Party.</p>
+          <a class="btn btn-gold btn-small" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Pass</a>
         </li>
       </ul>
     </div>
@@ -141,22 +146,19 @@
       </p>
       <ul class="cards battle-grid">
         <li class="card">
-          <h3>Generations Battle <span class="format-tag">2v2</span></h3>
-          <p>Teacher and student battle side by side, minimum 10-year age gap per duo.</p>
-          <p class="prize">
-            🏆 <span class="prize-amount">$2,500 CASH</span>
-            <span class="prize-breakdown">$1,200 winner · $500 second · $200 top 4 · $100 top 8</span>
-          </p>
+          <h3>Generations Battle</h3>
+          <p class="battle-format">2v2 &middot; teacher &amp; student, min. 10-year age gap</p>
+          <p class="battle-prize">$2,500 cash<span class="battle-prize-sub">$1,200 winner &middot; $500 second &middot; $200 top 4 &middot; $100 top 8</span></p>
         </li>
         <li class="card">
-          <h3>Youth Cypher Battle <span class="format-tag">Under 19 · 1v1</span></h3>
-          <p>One hour of cyphers, cut to top 4.</p>
-          <p class="prize"><img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy"> <span class="prize-amount">Flight to Outbreak Europe 2027</span>: trip + entry, Slovakia</p>
+          <h3>Youth Cypher Battle</h3>
+          <p class="battle-format">Under 19 &middot; 1v1 &middot; one hour of cyphers, cut to top 4</p>
+          <p class="battle-prize"><img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy">Flight to Outbreak Europe 2027<span class="battle-prize-sub">Trip + entry, Slovakia</span></p>
         </li>
         <li class="card">
-          <h3>Pro Cypher Battle <span class="format-tag">19+ · 1v1</span></h3>
-          <p>One hour of cyphers, cut to top 4.</p>
-          <p class="prize"><img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy"> <span class="prize-amount">Flight to Outbreak Europe 2027</span>: trip + entry, Slovakia</p>
+          <h3>Pro Cypher Battle</h3>
+          <p class="battle-format">19+ &middot; 1v1 &middot; one hour of cyphers, cut to top 4</p>
+          <p class="battle-prize"><img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy">Flight to Outbreak Europe 2027<span class="battle-prize-sub">Trip + entry, Slovakia</span></p>
         </li>
       </ul>
     </div>
@@ -493,6 +495,12 @@
 <a href="#top" class="back-to-top" aria-label="Back to top">
   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5l-7 7h4v7h6v-7h4z"/></svg>
 </a>
+
+<div class="ig-popup" id="ig-popup" role="complementary" aria-label="Follow Legacy Jam on Instagram">
+  <button class="ig-popup-close" id="ig-popup-close" type="button" aria-label="Close">&times;</button>
+  <p>📣 Don&rsquo;t miss updates. Follow <a href="https://www.instagram.com/legacy.jam">@legacy.jam</a> on Instagram.</p>
+</div>
+
 <script>
   // Progressive enhancement only: the link above works with plain #top navigation
   // even if this never runs. It just toggles when the button is visible, and
@@ -510,6 +518,27 @@
       e.preventDefault();
       window.scrollTo(0, 0);
     });
+  })();
+
+  // Instagram follow nudge: shows once per session, auto-dismisses after 10s,
+  // and has its own close button for dismissing early. No JS = it never shows,
+  // which is fine since it's a bonus nudge, not page content.
+  (function () {
+    var popup = document.getElementById('ig-popup');
+    var closeBtn = document.getElementById('ig-popup-close');
+    if (!popup || !closeBtn) return;
+    try {
+      if (sessionStorage.getItem('igPopupDismissed')) return;
+    } catch (e) { /* private browsing may block storage; just show it once */ }
+    var hide = function () {
+      popup.classList.remove('is-visible');
+      try { sessionStorage.setItem('igPopupDismissed', '1'); } catch (e) {}
+    };
+    setTimeout(function () {
+      popup.classList.add('is-visible');
+      setTimeout(hide, 10000);
+    }, 1500);
+    closeBtn.addEventListener('click', hide);
   })();
 </script>
 
