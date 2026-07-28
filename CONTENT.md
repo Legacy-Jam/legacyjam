@@ -27,13 +27,16 @@ places if you change the message.
 
 ## 2. Battle formats (canonical descriptions)
 
-Site section is titled "Battles and Prizes". Each battle card follows the same
-info order, every time: **Format &rarr; Age &rarr; Prize &rarr; Register link.**
-Prize is the visual highlight of each card (bold, on a tinted background
-band); round counts and the "purpose" line are intentionally left out of the
-public copy to keep each card to a couple of lines.
+Site section is titled "Battles and Prizes". Each card leads with a one-line
+format/age description, then **Prize &rarr; Register link.** Prize is the
+visual highlight of each card (bold, on a tinted background band); round
+counts and the "purpose" line are intentionally left out of the public copy
+to keep each card to a couple of lines. Generations Battle uses a plain-language
+description instead of the Format/Age label pair, since "teacher and student
+battle side by side" reads clearer than "2v2 / 10+ yr gap" for that format.
 
-- **Generations Battle** — Format: 2v2. Age: 10+ yr gap, teacher &times; student.
+- **Generations Battle** — Teacher and student battle side by side (minimum
+  10-year age gap per duo).
   *Prize: $2,500 cash: $1,200 winner · $500 second · $200 top 4 · $100 top 8.*
 - **Youth Cypher Battle** — Format: 1v1. Age: Under 19.
   *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
