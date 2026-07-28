@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Volunteer Application — Legacy Jam 2026</title>
+<title>Volunteer Application: Legacy Jam 2026</title>
 <meta name="description" content="Apply to volunteer at Legacy Jam 2026, Toronto's intergenerational breaking festival, October 24–25.">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="index.html" aria-label="Legacy Jam — home">
+    <a class="brand" href="index.html" aria-label="Legacy Jam, home">
       <img class="brand-logo" src="assets/legacy-jam-logo.svg" alt="Legacy Jam">
     </a>
     <nav aria-label="Main navigation">
@@ -34,12 +34,12 @@
     <h1 id="app-title">Volunteer Application</h1>
     <p class="section-lede app-intro">
       Legacy Jam runs on volunteers. Tell us about yourself, what you&rsquo;re good at,
-      and how you&rsquo;d like to help — we&rsquo;ll follow up by email to confirm your
+      and how you&rsquo;d like to help. We&rsquo;ll follow up by email to confirm your
       role.
     </p>
 
     <form class="app-form" id="volunteer-form" action="https://formsubmit.co/info@legacyjam.com" method="POST">
-      <!-- FormSubmit config: https://formsubmit.co/ — no signup required, forwards
+      <!-- FormSubmit config: https://formsubmit.co/, no signup required, forwards
            this form straight to info@legacyjam.com. The first submission triggers a
            one-time confirmation email that must be clicked to activate delivery. -->
       <input type="hidden" name="_subject" value="New Legacy Jam Volunteer Application">
@@ -83,7 +83,7 @@
       <fieldset class="field">
         <legend>Where would you like to help? <span class="hint">(check all that apply)</span></legend>
         <ul class="check-list">
-          <li><label><input type="checkbox" name="Areas of interest" value="Out-of-town artist chaperone"> Out-of-town artist chaperone &mdash; take touring artists for food &amp; Toronto experiences while they&rsquo;re in town</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Out-of-town artist chaperone"> Out-of-town artist chaperone: take touring artists for food &amp; Toronto experiences while they&rsquo;re in town</label></li>
           <li><label><input type="checkbox" name="Areas of interest" value="Registration & check-in"> Registration &amp; check-in</label></li>
           <li><label><input type="checkbox" name="Areas of interest" value="Stage & production"> Stage &amp; production</label></li>
           <li><label><input type="checkbox" name="Areas of interest" value="Photography / videography"> Photography / videography</label></li>
@@ -114,16 +114,16 @@
         <ul class="radio-list">
           <li><label><input type="radio" name="Access to a car" value="Yes" required> Yes</label></li>
           <li><label><input type="radio" name="Access to a car" value="No" required> No</label></li>
-          <li><label><input type="radio" name="Access to a car" value="N/A - I don't drive" required> N/A &mdash; I don&rsquo;t drive</label></li>
+          <li><label><input type="radio" name="Access to a car" value="N/A - I don't drive" required> N/A, I don&rsquo;t drive</label></li>
         </ul>
       </fieldset>
 
       <fieldset class="field">
         <legend>Which shift(s) are you available for? <span class="hint">(check all that apply)</span></legend>
         <ul class="check-list">
-          <li><label><input type="checkbox" name="Availability" value="Sat Oct 24 - Battle Day, 9am-9pm (including setup)"> Sat, Oct 24 &mdash; Battle Day, 9am&ndash;9pm (including setup)</label></li>
-          <li><label><input type="checkbox" name="Availability" value="Sat Oct 24 - After Party, 9pm-2am"> Sat, Oct 24 &mdash; After Party, 9p&ndash;2a</label></li>
-          <li><label><input type="checkbox" name="Availability" value="Sun Oct 25 - Workshops & Panels, 9a-7p"> Sun, Oct 25 &mdash; Workshops &amp; Panels, 9a&ndash;7p</label></li>
+          <li><label><input type="checkbox" name="Availability" value="Sat Oct 24 - Battle Day, 9am-9pm (including setup)"> Sat, Oct 24, Battle Day, 9am&ndash;9pm (including setup)</label></li>
+          <li><label><input type="checkbox" name="Availability" value="Sat Oct 24 - After Party, 9pm-2am"> Sat, Oct 24, After Party, 9p&ndash;2a</label></li>
+          <li><label><input type="checkbox" name="Availability" value="Sun Oct 25 - Workshops & Panels, 9a-7p"> Sun, Oct 25, Workshops &amp; Panels, 9a&ndash;7p</label></li>
         </ul>
       </fieldset>
 
@@ -131,7 +131,7 @@
         <p class="note">
           <strong>Mandatory volunteer orientation:</strong> all volunteers are required
           to attend an orientation session before the event. Date &amp; time to be
-          confirmed &mdash; we&rsquo;ll email every applicant as soon as it&rsquo;s
+          confirmed, we&rsquo;ll email every applicant as soon as it&rsquo;s
           locked in.
         </p>
         <ul class="check-list">
@@ -262,7 +262,7 @@
         return res.json();
       }).then(function () {
         form.hidden = true;
-        status.textContent = "You're in! We've got your application and will follow up by email — including the orientation date once it's confirmed.";
+        status.textContent = "You're in! We've got your application and will follow up by email, including the orientation date once it's confirmed.";
         status.className = 'form-status is-success';
       }).catch(function () {
         status.textContent = 'Something went wrong sending that. Please try again, or email your application directly to info@legacyjam.com.';
