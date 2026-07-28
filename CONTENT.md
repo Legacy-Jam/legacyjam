@@ -117,9 +117,9 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 **MEC Crew bio (short):**
 > MEC Crew is breakers, DJs and organizers working for and with the community —
 > decades on the floor between them, battling, judging, teaching and building
-> events. Breaking, DJing, hosting, teaching, visual art: they've lived every
-> element, and still show up for the cypher because they love it, not because it's
-> a job.
+> events. Breaking, DJing, hosting, teaching, visual art: they live the elements,
+> and still show up for the cypher for the love of hip hop culture, breaking and
+> building future generations.
 
 **Organizing team (on the site, collapsed behind a "Meet the organizing team"
 `<details>` dropdown so the About section stays short by default — street cred over
