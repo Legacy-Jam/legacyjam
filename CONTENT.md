@@ -137,11 +137,17 @@ mentor.
 *Full source bios (much more detail available — judged events, discography, awards,
 exhibitions) are on file; the above is condensed to match the site's existing length.*
 
-**Volunteer CTA:** "Apply to volunteer for Legacy Jam" — links to `volunteer.html`, a
-full application form (contact info, 19+ confirmation, areas of interest, skills,
-driving/car access, availability, mandatory-orientation acknowledgement, emergency
+**Volunteer CTA:** "Apply to volunteer for Legacy Jam" — lives in its own
+"Volunteer With Us" section right after "Why Legacy Jam," next to the media
+pass request button. Links to `volunteer.html`, a full application form
+(contact info, 19+ confirmation, areas of interest, skills, driving/car
+access, availability, mandatory-orientation acknowledgement, emergency
 contact, and a waiver & release of liability). Submits by email to
 info@legacyjam.com via FormSubmit — see README for the one-time activation step.
+
+**Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
+in the same "Volunteer With Us" section, a plain `mailto:` link to
+info@legacyjam.com.
 
 **Generations Partner CTA:** "Become a Generations Partner" — links to
 `generations-partner.html`, a short application (contact info, attendee names,
