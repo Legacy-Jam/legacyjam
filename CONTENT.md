@@ -28,19 +28,16 @@ places if you change the message.
 ## 2. Battle formats (canonical descriptions)
 
 Site section is titled "Battles and Prizes". Each battle card follows the same
-info order, every time: **Format &rarr; Age &rarr; Purpose &rarr; Prize &rarr; Register
-link.** Prize is the visual highlight of each card (bold, on a tinted
-background band); round counts are intentionally left out of the public copy
-(too dense).
+info order, every time: **Format &rarr; Age &rarr; Prize &rarr; Register link.**
+Prize is the visual highlight of each card (bold, on a tinted background
+band); round counts and the "purpose" line are intentionally left out of the
+public copy to keep each card to a couple of lines.
 
 - **Generations Battle** — Format: 2v2. Age: 10+ yr gap, teacher &times; student.
-  Purpose: proving breaking is passed down.
   *Prize: $2,500 cash: $1,200 winner · $500 second · $200 top 4 · $100 top 8.*
 - **Youth Cypher Battle** — Format: 1v1. Age: Under 19.
-  Purpose: one hour of cyphers, cut to top 4.
   *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
 - **Pro Cypher Battle** — Format: 1v1. Age: 19+.
-  Purpose: one hour of cyphers, cut to top 4.
   *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
 
 Legacy Exchanges is a showcase, not a competitive battle format, it lives in "The Festival"
