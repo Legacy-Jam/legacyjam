@@ -127,15 +127,36 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 > building future generations.
 
 **Organizing team (on the site, collapsed behind a "Meet the organizing team"
-`<details>` dropdown so the About section stays short by default — street cred over
-résumé):** Piecez (Michael Prosserman) — on the floor since 1999, battling, judging
-and teaching from the Canadian Arctic to stages overseas; founder of Unity Charity.
-Boobjester (Roberto Veruela Jr.) — repping Winnipeg since 1994, came up through the
-cyphers before building scenes and running major battles. B Bad (Andel James) — a
-b-boy before he was ever a DJ, so every mix is built for the cypher, not the radio.
-Switch B (Adrian Bernard) — battling, hosting, DJing and mentoring for 20+ years.
-MEDÊIO (Rei Misiri) — came up as a breaker, now a calligraphy artist, judge and
-mentor.
+`<details>` dropdown so the About section stays short by default, one paragraph
+per person). Pulled from the Canada Council / OAC grant crew bios source doc for
+accuracy, condensed to 3–4 sentences each:**
+
+- **Piecez** (Michael Prosserman): breaking since 1999, judged battles and taught
+  workshops across Canada, Europe and Asia (Canadian Arctic to Japan and Hong
+  Kong). 26 international competition wins; certified Breaking Judge and Head
+  Judge with the World DanceSport Federation; judged the World Games and WDSF
+  World Breaking Championships. Founder of Unity Charity (reached 250,000+ youth
+  across Canada); bestselling author of *Building Unity*.
+- **Boobjester** (Roberto Veruela Jr.): repping Winnipeg since 1994, member of
+  Dangerous Goods Crew, Maximum Efficiency Crew and the Wintor Massiv Artist
+  Collective. Organized major events (Red Bull BC One Canada, Red Bull Dance
+  Your Style); Absolute Canadian B-boy Award, 2008; certified WDSF judge. Now
+  National Program Director at Unity Charity.
+- **B Bad** (Andel James): b-boy since 1999, DJing since 2010, blending hip hop,
+  R&B, funk, breaks and soul for battles and cyphers. Performed at Red Bull BC
+  One, Freestyle Session, Breaking Canada, The Notorious I.B.E. Youth work with
+  Unity Charity since 2007; founded the 2U4U collective in 2017.
+- **Switch B** (Adrian Bernard): repping Floor Assassins Militia and Maximum
+  Efficiency Crew, 20+ years competing, 50+ competition wins (Skillz-O-Meter 5,
+  2015). Represented Canada internationally (Seoul); Canadian Olympic breaking
+  color commentator with CBC, 2024 Summer Olympics. Co-created The Breaking
+  Draft, 2019 (Toronto and Vancouver).
+- **MEDÊIO** (Rei Misiri): originally from Tirana, Albania, came up as a breaker
+  in Canada (15+ first-place titles, Notorious IBE Netherlands) before moving
+  into calligraphy and visual art. Still active as a judge/panelist/mentor
+  (Yukon Cypher Fest, etc.). Visual art practice spans New York, Miami, Zurich,
+  Barcelona, Los Angeles, with clients including Bloomingdale's, Porsche and
+  Samsung.
 
 *Full source bios (much more detail available — judged events, discography, awards,
 exhibitions) are on file; the above is condensed to match the site's existing length.*
