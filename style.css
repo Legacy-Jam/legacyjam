@@ -238,22 +238,13 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-top: 1px solid rgba(224,174,90,0.35);
   border-bottom: 1px solid rgba(224,174,90,0.35);
 }
-.strip-inner {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  gap: 0.9rem 0; padding-top: 1.2rem; padding-bottom: 1.2rem;
-  text-align: center;
+.strip-line {
+  margin: 0; padding: 0.65rem 0; text-align: center;
+  font-size: 0.86rem; line-height: 1.6; color: #ecd9b8;
 }
-.strip-inner p {
-  margin: 0; font-size: 0.95rem; color: #ecd9b8;
-  padding: 0 1rem;
-}
-.strip-inner p + p { border-left: 1px solid rgba(244,233,207,0.25); }
-@media (max-width: 40rem) {
-  .strip-inner p + p { border-left: 0; }
-}
-.strip-inner strong {
-  color: #fff; font-size: 1.02rem;
-  text-transform: uppercase; letter-spacing: 0.08em;
+.strip-line strong {
+  color: #fff; text-transform: uppercase; letter-spacing: 0.06em;
+  margin-right: 0.25rem;
 }
 
 /* ---------- sections ---------- */
@@ -265,16 +256,52 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 .section-lede { color: var(--cream-dim); max-width: 42rem; margin-top: 0; font-size: 1.1rem; }
 .note { color: var(--cream-dim); font-size: 0.92rem; }
+#travel { padding-top: 1.75rem; }
 
-/* ---------- cards ---------- */
-.cards { list-style: none; margin: 1.25rem 0 0; padding: 0; display: grid; gap: 0.85rem; }
-.ticket-grid { grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); }
+/* ---------- ticket list (compact, single CTA) ---------- */
+.ticket-list {
+  margin: 1.25rem 0 0;
+  border: 1px solid rgba(224,174,90,0.18);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--navy-2), rgba(20,28,43,0.6));
+  box-shadow: var(--shadow-card);
+}
+.ticket-item {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid rgba(224,174,90,0.14);
+}
+.ticket-item:last-child { border-bottom: none; }
+.ticket-item.is-featured { background: rgba(224,174,90,0.09); }
+.t-label { display: flex; align-items: center; flex-wrap: wrap; gap: 0.45rem; font-weight: 700; }
+.t-price { font-weight: 900; font-size: 1.2rem; color: var(--gold-bright); white-space: nowrap; }
+.t-price .price-note {
+  display: inline-block; font-weight: 600; font-size: 0.68rem;
+  color: var(--cream-dim); text-transform: uppercase; letter-spacing: 0.04em;
+  margin-left: 0.3rem;
+}
+.ticket-day {
+  display: inline-block; min-width: 2.5rem;
+  color: var(--gold-bright); text-transform: uppercase;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em;
+}
+.ticket-note { color: var(--cream-dim); font-size: 0.88rem; margin: 0.7rem 0 0; }
+.badge {
+  display: inline-block;
+  background: var(--gold-grad); color: #14100a;
+  font-size: 0.63rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase;
+  border-radius: 1rem; padding: 0.1rem 0.55rem;
+}
+
+/* ---------- battle cards ---------- */
+.cards { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.65rem; }
 .battle-grid { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 .card {
   background: linear-gradient(180deg, var(--navy-2), rgba(20,28,43,0.6));
   border: 1px solid rgba(224,174,90,0.16);
   border-radius: 0.6rem;
-  padding: 1.1rem 1.25rem;
+  padding: 0.9rem 1.1rem;
   box-shadow: var(--shadow-card);
   transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
 }
@@ -283,54 +310,35 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-color: rgba(224,174,90,0.45);
   box-shadow: var(--shadow-lift);
 }
-.card h3 { color: var(--gold); font-size: 1.1rem; margin-bottom: 0.2rem; }
-.card p { margin: 0.3rem 0 0; }
-.card .btn { margin-top: 0.8rem; }
+.card h3 { color: var(--gold); font-size: 1.05rem; margin-bottom: 0.3rem; }
 
-.ticket { display: flex; flex-direction: column; }
-.ticket .btn { margin-top: 0.6rem; }
-.ticket-row {
-  display: flex; align-items: baseline; justify-content: space-between;
-  gap: 0.6rem; flex-wrap: wrap;
+.battle-meta {
+  color: var(--cream-dim); font-size: 0.82rem; line-height: 1.4;
+  margin: 0 0 0.55rem;
 }
-.ticket-row h3 { margin: 0; }
-.ticket-day {
-  color: var(--gold-bright); text-transform: uppercase;
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em;
-  margin-right: 0.35rem;
-}
-.price {
-  font-size: 1.5rem; font-weight: 900; line-height: 1;
-  margin: 0; white-space: nowrap;
-  background: var(--gold-grad);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-}
-.price-note { font-size: 0.75rem; font-weight: 600; color: var(--cream-dim); -webkit-text-fill-color: var(--cream-dim); }
-.ticket-desc { color: var(--cream-dim); font-size: 0.88rem; margin: 0.3rem 0 0; }
-.ticket-featured {
-  border: 2px solid var(--gold);
-  background:
-    radial-gradient(120% 90% at 50% 0%, rgba(224,174,90,0.14), transparent 60%),
-    linear-gradient(180deg, var(--navy-2), rgba(20,28,43,0.6));
-  box-shadow: 0 0 0 1px rgba(224,174,90,0.2), 0 14px 40px rgba(0,0,0,0.5);
-}
-.badge {
-  display: inline-block;
-  background: var(--gold-grad); color: #14100a;
-  font-size: 0.65rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase;
-  border-radius: 1rem; padding: 0.15rem 0.65rem; margin: 0 0 0.4rem;
-}
+.battle-meta strong { color: var(--gold); font-weight: 700; }
 
-.battle-format { color: var(--cream-dim); font-size: 0.85rem; margin: 0 0 0.55rem; }
+.battle-prize-wrap {
+  background: rgba(224,174,90,0.12);
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.65rem;
+  margin: 0 0 0.5rem;
+}
 .battle-prize {
   color: var(--gold-bright); font-weight: 900;
-  font-size: 1.25rem; line-height: 1.2; margin: 0;
+  font-size: 1.2rem; line-height: 1.2; margin: 0;
 }
 .battle-prize-sub {
   display: block; color: var(--cream-dim);
-  font-weight: 600; font-size: 0.8rem; margin-top: 0.15rem;
+  font-weight: 600; font-size: 0.78rem; margin-top: 0.15rem;
 }
-.battle-prize .outbreak-inline { height: 1.35em; margin-right: 0.2em; }
+.battle-prize .outbreak-inline { height: 1.3em; margin-right: 0.2em; }
+.battle-register {
+  display: inline-block;
+  color: var(--gold-bright); font-weight: 700; font-size: 0.85rem;
+  text-decoration: none;
+}
+.battle-register:hover, .battle-register:focus-visible { text-decoration: underline; }
 .sched-alert {
   display: inline-block;
   margin: 0.9rem 0 1.2rem;
@@ -466,6 +474,7 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 .partner-group:first-of-type { margin-top: 0; }
 .partner-note { color: var(--cream-dim); max-width: 42rem; margin: -0.3rem 0 0.6rem; }
+.logo-row + .partner-note { margin-top: 0.75rem; }
 .partner-group::after {
   content: ""; height: 1px; flex: 1; max-width: 12rem;
   background: var(--hairline);

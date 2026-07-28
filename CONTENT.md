@@ -27,35 +27,40 @@ places if you change the message.
 
 ## 2. Battle formats (canonical descriptions)
 
-Site section is titled "Battles and Prizes" — round counts are intentionally left
-out of the public copy (too dense); prize breakdown for Generations gets its own
-line via `.prize-breakdown`.
+Site section is titled "Battles and Prizes". Each battle card follows the same
+info order, every time: **Format &rarr; Age &rarr; Purpose &rarr; Prize &rarr; Register
+link.** Prize is the visual highlight of each card (bold, on a tinted
+background band); round counts are intentionally left out of the public copy
+(too dense).
 
-- **Generations Battle (2v2)** — Teacher and student battle side by side; every duo needs a
-  minimum 10-year age gap. Breaking is passed down — this battle proves it.
-  *Prizes: $2,500 cash — $1,200 winner · $500 second · $200 top 4 · $100 top 8.*
-- **Youth Cypher Battle (Under 19, 1v1)** — One hour of cyphers, cut to top 4.
-  *Prize: flight + entry to Outbreak Europe 2027.*
-- **Pro Cypher Battle (19+, 1v1)** — One hour of cyphers, cut to top 4.
-  *Prize: flight + entry to Outbreak Europe 2027.*
+- **Generations Battle** — Format: 2v2. Age: 10+ yr gap, teacher &times; student.
+  Purpose: proving breaking is passed down.
+  *Prize: $2,500 cash: $1,200 winner · $500 second · $200 top 4 · $100 top 8.*
+- **Youth Cypher Battle** — Format: 1v1. Age: Under 19.
+  Purpose: one hour of cyphers, cut to top 4.
+  *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
+- **Pro Cypher Battle** — Format: 1v1. Age: 19+.
+  Purpose: one hour of cyphers, cut to top 4.
+  *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
 
-Legacy Exchanges is a showcase, not a competitive battle format — it lives in "The Festival"
-copy, not the Battles section: *Curated battle conversations — Canadian breakers vs
+Legacy Exchanges is a showcase, not a competitive battle format, it lives in "The Festival"
+copy, not the Battles section: *Curated battle conversations, Canadian breakers vs
 international guests, built to inspire across generations.*
 
 ## 3. Ticket packages
 
-*Prices below are current early-bird rates — limited quantities.*
+*Prices below are current early-bird rates, limited quantities.*
+
+Site shows these as a single compact list (`.ticket-list`), not individual
+cards with their own buttons, one "Get Tickets" button at the bottom links to
+Eventbrite for everything.
 
 | Package | Price | Includes |
 |---|---|---|
 | Dancer Pass | $20 | Battle Day entry for dancers |
 | Audience | $30 | Battle Day entry for spectators |
-| 1 Workshop | $30 | Any single Sunday workshop |
-| 2 Workshops | $50 | Any two Sunday workshops |
-| 3 Workshops | $70 | Any three Sunday workshops |
-| 4 Workshops | $90 | All Sunday workshops |
-| **Full Festival Pass** | **$75** | All 4 workshops + Battle Day + Legacy Party |
+| Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
+| **Full Festival Pass** | **$70** | All 4 workshops + Battle Day + Legacy Party |
 
 ## 4. Reusable prompts
 
