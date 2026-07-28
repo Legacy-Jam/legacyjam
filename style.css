@@ -448,8 +448,8 @@ section[id] { scroll-margin-top: 4.5rem; }
   box-shadow: var(--shadow-card);
 }
 .travel-cols h3 { color: var(--gold); font-size: 1.3rem; margin-top: 0; }
-.shuttle-email { margin: 1.1rem 0; }
-.shuttle-email .btn { text-transform: none; letter-spacing: 0.02em; }
+.travel-email { margin: 1.1rem 0; }
+.travel-email .btn { text-transform: none; letter-spacing: 0.02em; }
 .hotel-list { padding-left: 1.2rem; margin: 0.9rem 0 0; }
 .hotel-list li { margin: 0.55rem 0; }
 .hotel-list strong { color: var(--gold-bright); }

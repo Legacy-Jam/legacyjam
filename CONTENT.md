@@ -70,7 +70,9 @@ international guests, built to inspire across generations.*
 > Write an Eventbrite event description for Legacy Jam 2026 using the elevator pitch,
 > ticket table, schedule and battle formats in this file. Structure: 2-sentence hook,
 > what's included per ticket tier, day-by-day schedule, battle formats with prizes,
-> accessibility note, and travel info (free airport shuttle pre-booking via email).
+> accessibility note, and travel info (out-of-town guests should email us and we'll
+> help welcome them to the city; Generations Partners get an optional pre-booked
+> airport shuttle).
 
 **Sponsor outreach email:**
 > Write a 200-word sponsorship email for Legacy Jam 2026. Emphasize: intergenerational
@@ -97,9 +99,9 @@ prelims (2 circles) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations 
 6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals (5 rds) → 7:00 Generations final
 (2 rds) → 7:30 awards
 
-**Legacy Party (19+)** — 9:00 PM, a separate event at a different venue (TODO: confirm
-address before launch), one night to remember. Called out on the site as its own thing,
-not part of the Battle Day timeline/venue.
+**Legacy Party (19+)** — 9:00 PM, separate event, different venue (TODO: confirm
+address before launch). Called out on the site as its own thing, not part of the
+Battle Day timeline/venue.
 
 *Flow rationale: youth battles finish early so families can leave before evening; the Pro
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between

@@ -70,7 +70,7 @@ covers both forms).
 
 - [ ] Check if **Mad Track** is still available Oct 24
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
-- [ ] Confirm airport shuttle logistics + who monitors the info@legacyjam.com inbox
+- [ ] Confirm airport shuttle logistics for Generations Partners (now the only guests offered a pre-booked shuttle) + who monitors the info@legacyjam.com inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full festival pass
 - [ ] Activate FormSubmit for info@legacyjam.com (see "Volunteer & Generations Partner applications" above)
 - [ ] Have the volunteer waiver text in `volunteer.html` reviewed — it's a reasonable starting template, not legal advice
