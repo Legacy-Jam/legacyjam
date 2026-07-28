@@ -29,7 +29,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 |---|---|---|
 | `https://www.eventbrite.ca/e/legacy-jam-2026` | every "Get Tickets" button | real Eventbrite event URL (search-and-replace) |
 | `https://forms.gle/REPLACE-ME` | "Register to Battle" button | real battle registration form URL |
-| `https://forms.gle/REPLACE-ME-PARTNER` | "Become a Generations Partner" button | real Generations Partner sign-up form URL |
+| ~~`https://forms.gle/REPLACE-ME-PARTNER`~~ | "Become a Generations Partner" button | ✅ done — built-in application at `generations-partner.html` |
 | ~~`https://www.instagram.com/legacyjam`~~ | hero, artists, schedule, footer | ✅ done — confirmed handle `@legacy.jam` |
 | `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
@@ -43,13 +43,38 @@ All partner and funder logos are real files in `assets/logos/` — nothing left 
 To add a new partner: drop the logo file in `assets/logos/` and add an `<li>` to the
 matching `logo-row` list in `index.html`.
 
+### Volunteer & Generations Partner applications
+
+`volunteer.html` and `generations-partner.html` are standalone, fully working
+application forms (linked from the "Apply to volunteer" and "Become a Generations
+Partner" buttons on the main page). Both submit via
+[FormSubmit](https://formsubmit.co/) straight to `info@legacyjam.com` — no signup,
+no server, no build step, matching the rest of the site:
+
+- **Volunteer form** — contact info, 19+ confirmation, areas of interest, skills,
+  whether they drive / have car access, availability, a note about the mandatory
+  orientation (date/time TBC), emergency contact, and a waiver & release of
+  liability (typed-name e-signature + agreement checkbox).
+- **Generations Partner form** — contact info, attendee names, high-res logo
+  upload, arrival/departure flight details, accommodation, airport pickup/drop-off
+  requests, and checkboxes for which optional benefits they want (VIP meet &
+  greet, event table, Sunday organizers' conversation).
+
+**⚠️ Before launch:** submit one test entry on each form. The *first* submission
+ever made to `info@legacyjam.com` through FormSubmit triggers a one-time
+confirmation email — someone monitoring that inbox needs to click "Activate Form"
+in it, or submissions won't be delivered. This only needs to happen once (it
+covers both forms).
+
 ## 📋 Internal production notes (keep off the public site)
 
 - [ ] Check if **Mad Track** is still available Oct 24
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm airport shuttle logistics + who monitors the info@legacyjam.com inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full festival pass
-- [ ] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet)
+- [ ] Activate FormSubmit for info@legacyjam.com (see "Volunteer & Generations Partner applications" above)
+- [ ] Have the volunteer waiver text in `volunteer.html` reviewed — it's a reasonable starting template, not legal advice
+- [x] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet)
 
 ## Confirmed details baked into the site
 

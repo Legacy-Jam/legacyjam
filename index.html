@@ -23,7 +23,12 @@
      2. Battle registration: https://forms.gle/REPLACE-ME                 (all "Register to Battle" buttons)
      3. Instagram:           https://www.instagram.com/legacy.jam         ✅ confirmed — @legacy.jam
      4. Contact email:       info@legacyjam.com                            (confirm address)
-     5. Generations Partner form: https://forms.gle/REPLACE-ME-PARTNER    ("Become a Generations Partner" button)
+     5. Generations Partner form: generations-partner.html                ✅ done — built-in application, submits via FormSubmit
+     6. Volunteer application:    volunteer.html                          ✅ done — built-in application, submits via FormSubmit
+     ============================================================
+     NOTE: both new forms POST to https://formsubmit.co/info@legacyjam.com.
+     The very first submission to that address triggers a one-time FormSubmit
+     confirmation email that must be clicked to activate delivery — see README.
      ============================================================ -->
 
 <header class="site-header">
@@ -125,7 +130,7 @@
   <section id="battles" class="section section-alt" aria-labelledby="battles-title">
     <div class="wrap">
       <p class="eyebrow">Compete · Sat Oct 24</p>
-      <h2 id="battles-title">The Battles</h2>
+      <h2 id="battles-title">Battles and Prizes</h2>
       <p class="section-lede">
         Saturday, October 24 · 918 Bathurst St, Toronto · 12–7:30 PM.
         Spots are limited — register early.
@@ -137,17 +142,20 @@
       <ul class="cards battle-grid">
         <li class="card">
           <h3>Generations Battle <span class="format-tag">2v2</span></h3>
-          <p>Teacher and student battle side by side — minimum 10-year age gap per duo. Prelims to top 8: 1 round each; top 4 and final: 2 rounds each.</p>
-          <p class="prize">🏆 <span class="prize-amount">$2,500 CASH</span> $1,200 winning team · $500 second place · $200 top 4 · $100 top 8</p>
+          <p>Teacher and student battle side by side — minimum 10-year age gap per duo.</p>
+          <p class="prize">
+            🏆 <span class="prize-amount">$2,500 CASH</span>
+            <span class="prize-breakdown">$1,200 winner · $500 second · $200 top 4 · $100 top 8</span>
+          </p>
         </li>
         <li class="card">
           <h3>Youth Cypher Battle <span class="format-tag">Under 19 · 1v1</span></h3>
-          <p>1-hour open cypher &rarr; top 4 (3 rounds each) &rarr; final (5 rounds each).</p>
+          <p>One hour of cyphers, cut to top 4.</p>
           <p class="prize"><img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy"> <span class="prize-amount">Flight to Outbreak Europe 2027</span> — trip + entry, Slovakia</p>
         </li>
         <li class="card">
           <h3>Pro Cypher Battle <span class="format-tag">19+ · 1v1</span></h3>
-          <p>1-hour open cypher &rarr; top 4 (3 rounds each) &rarr; final (5 rounds each).</p>
+          <p>One hour of cyphers, cut to top 4.</p>
           <p class="prize"><img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy"> <span class="prize-amount">Flight to Outbreak Europe 2027</span> — trip + entry, Slovakia</p>
         </li>
       </ul>
@@ -265,16 +273,16 @@
           <p class="venue">918 Bathurst Centre — 918 Bathurst St, Toronto</p>
           <ul class="sched-list">
             <li><span class="time">12:00 PM</span> Arrive · register · open cyphers</li>
-            <li><span class="time">1:00 PM</span> Generations prelims — 1 round each</li>
-            <li><span class="time">2:30 PM</span> Pro &amp; Youth cypher prelims — 2 circles each</li>
-            <li><span class="time">3:30 PM</span> Exhibition battles 1 &amp; 2 — 4–5 rounds each</li>
-            <li><span class="time">4:00 PM</span> Generations top 16 — 1 round each</li>
-            <li><span class="time">5:00 PM</span> Generations top 8 — 1 round each</li>
+            <li><span class="time">1:00 PM</span> Generations prelims — 1 round</li>
+            <li><span class="time">2:30 PM</span> Pro &amp; Youth cypher prelims — 2 circles</li>
+            <li><span class="time">3:30 PM</span> Exhibition battles 1 &amp; 2 — 4–5 rounds</li>
+            <li><span class="time">4:00 PM</span> Generations top 16 — 1 round</li>
+            <li><span class="time">5:00 PM</span> Generations top 8 — 1 round</li>
             <li><span class="time">5:30 PM</span> Exhibition battle 3</li>
-            <li><span class="time">5:45 PM</span> Pro &amp; Youth top 4 — 3 rounds each</li>
-            <li><span class="time">6:15 PM</span> Generations top 4 — 2 rounds each</li>
-            <li><span class="time">6:30 PM</span> Pro &amp; Youth finals — 5 rounds each</li>
-            <li><span class="time">7:00 PM</span> Generations final — 2 rounds each</li>
+            <li><span class="time">5:45 PM</span> Pro &amp; Youth top 4 — 3 rounds</li>
+            <li><span class="time">6:15 PM</span> Generations top 4 — 2 rounds</li>
+            <li><span class="time">6:30 PM</span> Pro &amp; Youth finals — 5 rounds</li>
+            <li><span class="time">7:00 PM</span> Generations final — 2 rounds</li>
             <li><span class="time">7:30 PM</span> Awards + closing circle</li>
           </ul>
           <p class="note">
@@ -399,7 +407,7 @@
       </p>
       <p class="cta-row">
         <!-- TODO: point this at the real Generations Partner registration form -->
-        <a class="btn btn-outline" href="https://forms.gle/REPLACE-ME-PARTNER">Become a Generations Partner</a>
+        <a class="btn btn-outline" href="generations-partner.html">Become a Generations Partner</a>
       </p>
       <!-- HIDDEN until these Generations Partners reconfirm for 2026: remove the
            `hidden` attribute below to show the logos again. Placeholder SVGs below —
@@ -421,13 +429,11 @@
       <p class="eyebrow">Who&rsquo;s behind it</p>
       <h2 id="about-title">MEC Crew</h2>
       <p class="bio">
-        MEC Crew is led by experienced organizers, cultural leaders and internationally
-        recognized artists from Canada&rsquo;s breaking community, working for and with
-        the community — Olympic-level judges, national youth program leaders and
-        performers bringing decades of experience in competitive breaking, mentorship
-        and event production. Breaking, DJing, hosting, teaching, visual art:
-        they&rsquo;ve lived every element, and still show up for the cypher because
-        they love it, not because it&rsquo;s a job.
+        MEC Crew is breakers, DJs and organizers working for and with the community —
+        decades on the floor between them, battling, judging, teaching and building
+        events. Breaking, DJing, hosting, teaching, visual art: they&rsquo;ve lived
+        every element, and still show up for the cypher because they love it, not
+        because it&rsquo;s a job.
       </p>
 
       <details class="crew-details">
@@ -446,7 +452,7 @@
       </details>
 
       <p class="cta-row">
-        <a class="btn btn-outline" href="mailto:info@legacyjam.com?subject=I%27d%20like%20to%20volunteer%20for%20Legacy%20Jam&amp;body=Some%20areas%20I%27d%20like%20to%20contribute%3A%0A%0A">Want to volunteer for Legacy Jam? Click here</a>
+        <a class="btn btn-outline" href="volunteer.html">Apply to volunteer for Legacy Jam</a>
       </p>
     </div>
   </section>
@@ -473,7 +479,6 @@
     <ul class="footer-links">
       <li><a class="footer-ig" href="https://www.instagram.com/legacy.jam">📣 Follow @legacy.jam</a></li>
       <li><a href="https://www.eventbrite.ca/e/legacy-jam-2026">Tickets</a></li>
-      <li><a href="mailto:info@legacyjam.com">Airport pickup pre-booking</a></li>
     </ul>
     <p class="note">
       Questions? <a href="mailto:info@legacyjam.com">info@legacyjam.com</a>

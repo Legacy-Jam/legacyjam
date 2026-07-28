@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volunteer Application — Legacy Jam 2026</title>
+<meta name="description" content="Apply to volunteer at Legacy Jam 2026, Toronto's intergenerational breaking festival, October 24–25.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Archivo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Legacy Jam — home">
+      <img class="brand-logo" src="assets/legacy-jam-logo.svg" alt="Legacy Jam">
+    </a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html#about">&larr; Back to Legacy Jam</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="app-main">
+  <div class="wrap about-narrow">
+    <p class="eyebrow">Join the crew</p>
+    <h1 id="app-title">Volunteer Application</h1>
+    <p class="section-lede app-intro">
+      Legacy Jam runs on volunteers. Tell us about yourself, what you&rsquo;re good at,
+      and how you&rsquo;d like to help — we&rsquo;ll follow up by email to confirm your
+      role.
+    </p>
+
+    <form class="app-form" id="volunteer-form" action="https://formsubmit.co/info@legacyjam.com" method="POST">
+      <!-- FormSubmit config: https://formsubmit.co/ — no signup required, forwards
+           this form straight to info@legacyjam.com. The first submission triggers a
+           one-time confirmation email that must be clicked to activate delivery. -->
+      <input type="hidden" name="_subject" value="New Legacy Jam Volunteer Application">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" class="honeypot-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="field">
+        <label for="v-name">Full name <span class="required-mark">*</span></label>
+        <input type="text" id="v-name" name="Full name" required autocomplete="name">
+      </div>
+
+      <div class="two-col">
+        <div class="field">
+          <label for="v-email">Email <span class="required-mark">*</span></label>
+          <input type="email" id="v-email" name="Email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="v-phone">Phone number <span class="required-mark">*</span></label>
+          <input type="tel" id="v-phone" name="Phone" required autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="v-instagram">Instagram handle <span class="hint">(optional)</span></label>
+        <input type="text" id="v-instagram" name="Instagram handle" autocomplete="off" placeholder="@yourhandle">
+      </div>
+
+      <fieldset class="field">
+        <legend>Age confirmation <span class="required-mark">*</span></legend>
+        <ul class="check-list">
+          <li>
+            <label>
+              <input type="checkbox" name="Confirms 19+" value="Yes, I am 19 or older" required>
+              I confirm that I am 19 years of age or older.
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Where would you like to help? <span class="hint">(check all that apply)</span></legend>
+        <ul class="check-list">
+          <li><label><input type="checkbox" name="Areas of interest" value="Registration & check-in"> Registration &amp; check-in</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Stage & production"> Stage &amp; production</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Photography / videography"> Photography / videography</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Hospitality & guest services"> Hospitality &amp; guest services (artists, judges, out-of-town guests)</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Setup & teardown"> Setup &amp; teardown</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="DJ / sound support"> DJ / sound support</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="First aid / safety"> First aid / safety</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Merch / vendor support"> Merch &amp; vendor support</label></li>
+          <li><label><input type="checkbox" name="Areas of interest" value="Other"> Other</label></li>
+        </ul>
+      </fieldset>
+
+      <div class="field">
+        <label for="v-skills">Specific skills or strengths you can bring <span class="hint">(optional)</span></label>
+        <textarea id="v-skills" name="Skills / strengths" rows="4" placeholder="e.g. first aid certified, fluent in French, photography, MC experience, event production..."></textarea>
+      </div>
+
+      <fieldset class="field">
+        <legend>Do you drive? <span class="required-mark">*</span></legend>
+        <ul class="radio-list">
+          <li><label><input type="radio" name="Drives" value="Yes" required> Yes</label></li>
+          <li><label><input type="radio" name="Drives" value="No" required> No</label></li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Do you have access to a car you&rsquo;d be able to use for the event? <span class="required-mark">*</span></legend>
+        <ul class="radio-list">
+          <li><label><input type="radio" name="Access to a car" value="Yes" required> Yes</label></li>
+          <li><label><input type="radio" name="Access to a car" value="No" required> No</label></li>
+          <li><label><input type="radio" name="Access to a car" value="N/A - I don't drive" required> N/A &mdash; I don&rsquo;t drive</label></li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Which day(s) are you available? <span class="required-mark">*</span></legend>
+        <ul class="check-list">
+          <li><label><input type="checkbox" name="Availability" value="Sat Oct 24 - Battle Day" required> Sat, Oct 24 &mdash; Battle Day</label></li>
+          <li><label><input type="checkbox" name="Availability" value="Sun Oct 25 - Workshops & Panels"> Sun, Oct 25 &mdash; Workshops &amp; Panels</label></li>
+        </ul>
+      </fieldset>
+
+      <div class="field">
+        <p class="note">
+          <strong>Mandatory volunteer orientation:</strong> all volunteers are required
+          to attend an orientation session before the event. Date &amp; time to be
+          confirmed &mdash; we&rsquo;ll email every applicant as soon as it&rsquo;s
+          locked in.
+        </p>
+        <ul class="check-list">
+          <li>
+            <label>
+              <input type="checkbox" name="Agrees to orientation" value="Yes, I will attend" required>
+              I understand and agree to attend the mandatory volunteer orientation
+              (date/time TBC).
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="two-col">
+        <div class="field">
+          <label for="v-ec-name">Emergency contact name <span class="required-mark">*</span></label>
+          <input type="text" id="v-ec-name" name="Emergency contact name" required>
+        </div>
+        <div class="field">
+          <label for="v-ec-phone">Emergency contact phone <span class="required-mark">*</span></label>
+          <input type="tel" id="v-ec-phone" name="Emergency contact phone" required>
+        </div>
+      </div>
+
+      <fieldset class="field">
+        <legend>Waiver &amp; release of liability <span class="required-mark">*</span></legend>
+        <div class="waiver-box" tabindex="0">
+          <p>
+            In consideration of being permitted to volunteer at Legacy Jam 2026 (the
+            &ldquo;Event&rdquo;), taking place October 24&ndash;25, 2026 in Toronto,
+            Ontario, I acknowledge and agree to the following:
+          </p>
+          <p>
+            <strong>Assumption of risk.</strong> I understand that volunteering at a
+            live dance and cultural event involves inherent risks, including but not
+            limited to physical injury, property damage, and exposure to crowds,
+            equipment and travel between venues. I voluntarily assume all such risks.
+          </p>
+          <p>
+            <strong>Release of liability.</strong> I release and forever discharge
+            Legacy Jam, MEC Crew, its organizers, staff, contractors and venue partners
+            from any and all claims, demands, or causes of action arising out of my
+            participation as a volunteer, except where caused by gross negligence or
+            wilful misconduct.
+          </p>
+          <p>
+            <strong>Media consent.</strong> I understand that photos and video may be
+            taken during the Event and grant Legacy Jam permission to use my likeness
+            in photos or video for promotional purposes, without compensation.
+          </p>
+          <p>
+            <strong>Code of conduct.</strong> I agree to conduct myself professionally,
+            follow the direction of event organizers and leads, and represent Legacy
+            Jam and the breaking community with respect.
+          </p>
+          <p>
+            I have read this waiver in full, understand its terms, and sign it
+            voluntarily below.
+          </p>
+        </div>
+        <div class="field">
+          <label for="v-signature">Type your full legal name as your electronic signature <span class="required-mark">*</span></label>
+          <input type="text" id="v-signature" name="Signature (typed name)" required autocomplete="name">
+        </div>
+        <ul class="check-list">
+          <li>
+            <label>
+              <input type="checkbox" name="Agrees to waiver" value="Yes, I have read and agree" required>
+              I have read, understood, and agree to the waiver and release of
+              liability above.
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <div class="field">
+        <label for="v-notes">Anything else we should know? <span class="hint">(optional)</span></label>
+        <textarea id="v-notes" name="Additional notes" rows="3"></textarea>
+      </div>
+
+      <div class="field">
+        <button class="btn btn-gold btn-big" type="submit">Submit Application</button>
+      </div>
+    </form>
+    <p class="form-status" id="volunteer-status" role="status" aria-live="polite"></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <img class="footer-logo" src="assets/legacy-jam-logo.svg" alt="" loading="lazy">
+    <p><strong>Legacy Jam 2026</strong> · October 24&ndash;25 · Toronto</p>
+    <ul class="footer-links">
+      <li><a class="footer-ig" href="https://www.instagram.com/legacy.jam">📣 Follow @legacy.jam</a></li>
+      <li><a href="index.html">Back to Legacy Jam</a></li>
+    </ul>
+    <p class="note">
+      Questions? <a href="mailto:info@legacyjam.com">info@legacyjam.com</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  // Progressive enhancement: the form works with a plain POST to FormSubmit even if
+  // this never runs (falls through to FormSubmit's own confirmation page). When JS is
+  // available, submit via FormSubmit's AJAX endpoint instead so we can show a styled
+  // confirmation without leaving the site.
+  (function () {
+    var form = document.getElementById('volunteer-form');
+    var status = document.getElementById('volunteer-status');
+    if (!form || !status) return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      status.textContent = 'Submitting...';
+      status.className = 'form-status';
+      fetch('https://formsubmit.co/ajax/info@legacyjam.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      }).then(function (res) {
+        if (!res.ok) throw new Error('Submission failed');
+        return res.json();
+      }).then(function () {
+        form.hidden = true;
+        status.textContent = "You're in! We've got your application and will follow up by email — including the orientation date once it's confirmed.";
+        status.className = 'form-status is-success';
+      }).catch(function () {
+        status.textContent = 'Something went wrong sending that. Please try again, or email your application directly to info@legacyjam.com.';
+        status.className = 'form-status is-error';
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

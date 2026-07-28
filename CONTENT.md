@@ -27,14 +27,17 @@ places if you change the message.
 
 ## 2. Battle formats (canonical descriptions)
 
+Site section is titled "Battles and Prizes" — round counts are intentionally left
+out of the public copy (too dense); prize breakdown for Generations gets its own
+line via `.prize-breakdown`.
+
 - **Generations Battle (2v2)** — Teacher and student battle side by side; every duo needs a
   minimum 10-year age gap. Breaking is passed down — this battle proves it.
-  Prelims to top 8: 1 round each; top 4 and final: 2 rounds each.
-  *Prizes: $2,500 cash — $1,200 winning team · $500 second place · $200 top 4 · $100 top 8.*
-- **Youth Cypher Battle (Under 19, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds
-  each), final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
-- **Pro Cypher Battle (19+, 1v1)** — 1-hour open cypher, top 4 battle (3 rounds each),
-  final (5 rounds each). *Prize: flight + entry to Outbreak Europe 2027.*
+  *Prizes: $2,500 cash — $1,200 winner · $500 second · $200 top 4 · $100 top 8.*
+- **Youth Cypher Battle (Under 19, 1v1)** — One hour of cyphers, cut to top 4.
+  *Prize: flight + entry to Outbreak Europe 2027.*
+- **Pro Cypher Battle (19+, 1v1)** — One hour of cyphers, cut to top 4.
+  *Prize: flight + entry to Outbreak Europe 2027.*
 
 Legacy Exchanges is a showcase, not a competitive battle format — it lives in "The Festival"
 copy, not the Battles section: *Curated battle conversations — Canadian breakers vs
@@ -89,7 +92,7 @@ Schedule heading, above the day grid.
 
 **Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
-prelims (2 circles each) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
+prelims (2 circles) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
 → 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 → 5:45 Pro & Youth top 4 (3 rds) →
 6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals (5 rds) → 7:00 Generations final
 (2 rds) → 7:30 awards
@@ -110,11 +113,9 @@ Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 
 ## 6. Crew & volunteering
 
 **MEC Crew bio (short):**
-> MEC Crew is led by experienced organizers, cultural leaders and internationally
-> recognized artists from Canada's breaking community, working for and with the
-> community — Olympic-level judges, national youth program leaders and performers
-> bringing decades of experience in competitive breaking, mentorship and event
-> production. Breaking, DJing, hosting, teaching, visual art: they've lived every
+> MEC Crew is breakers, DJs and organizers working for and with the community —
+> decades on the floor between them, battling, judging, teaching and building
+> events. Breaking, DJing, hosting, teaching, visual art: they've lived every
 > element, and still show up for the cypher because they love it, not because it's
 > a job.
 
@@ -132,9 +133,17 @@ mentor.
 *Full source bios (much more detail available — judged events, discography, awards,
 exhibitions) are on file; the above is condensed to match the site's existing length.*
 
-**Volunteer CTA:** "Want to volunteer for Legacy Jam? Click here" — mailto link to
-info@legacyjam.com, subject "I'd like to volunteer for Legacy Jam", body pre-filled with
-"Some areas I'd like to contribute:" and blank space to fill in.
+**Volunteer CTA:** "Apply to volunteer for Legacy Jam" — links to `volunteer.html`, a
+full application form (contact info, 19+ confirmation, areas of interest, skills,
+driving/car access, availability, mandatory-orientation acknowledgement, emergency
+contact, and a waiver & release of liability). Submits by email to
+info@legacyjam.com via FormSubmit — see README for the one-time activation step.
+
+**Generations Partner CTA:** "Become a Generations Partner" — links to
+`generations-partner.html`, a short application (contact info, attendee names,
+logo upload, flight/accommodation details, airport pickup/drop-off requests, and
+which optional benefits they want). Also submits to info@legacyjam.com via
+FormSubmit.
 
 ## 7. Voice & style rules
 

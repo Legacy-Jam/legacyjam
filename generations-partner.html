@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generations Partner Application — Legacy Jam 2026</title>
+<meta name="description" content="Sign up as a Generations Partner for Legacy Jam 2026 — five minutes for schools and crews sending a Generations Battle duo.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Archivo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Legacy Jam — home">
+      <img class="brand-logo" src="assets/legacy-jam-logo.svg" alt="Legacy Jam">
+    </a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html#partners">&larr; Back to Legacy Jam</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="app-main">
+  <div class="wrap about-narrow">
+    <p class="eyebrow">Bringing a duo out of town?</p>
+    <h1 id="app-title">Generations Partner Application</h1>
+    <p class="section-lede app-intro">
+      A short form for schools and crews sending a Generations Battle duo &mdash;
+      takes about five minutes. We&rsquo;ll follow up by email within 48 hours.
+    </p>
+
+    <form class="app-form" id="gp-form" action="https://formsubmit.co/info@legacyjam.com" method="POST" enctype="multipart/form-data">
+      <!-- FormSubmit config: https://formsubmit.co/ — no signup required, forwards
+           this form straight to info@legacyjam.com. The first submission triggers a
+           one-time confirmation email that must be clicked to activate delivery. -->
+      <input type="hidden" name="_subject" value="New Legacy Jam Generations Partner Application">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" class="honeypot-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="field">
+        <label for="gp-org">School / crew / organization name <span class="hint">(optional — repping one is optional for out-of-town duos)</span></label>
+        <input type="text" id="gp-org" name="School / organization name" autocomplete="organization">
+      </div>
+
+      <div class="two-col">
+        <div class="field">
+          <label for="gp-contact">Contact name <span class="required-mark">*</span></label>
+          <input type="text" id="gp-contact" name="Contact name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="gp-email">Contact email <span class="required-mark">*</span></label>
+          <input type="email" id="gp-email" name="Contact email" required autocomplete="email">
+        </div>
+      </div>
+      <div class="field">
+        <label for="gp-phone">Contact phone <span class="required-mark">*</span></label>
+        <input type="tel" id="gp-phone" name="Contact phone" required autocomplete="tel">
+      </div>
+
+      <div class="field">
+        <label for="gp-names">Names of everyone attending <span class="hint">(teacher, student, and any staff/chaperones)</span> <span class="required-mark">*</span></label>
+        <textarea id="gp-names" name="Attendee names" rows="3" required placeholder="e.g. Jane Doe (teacher), John Smith (student), ..."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="gp-logo">High-res logo upload <span class="hint">(PNG or SVG, transparent background if possible — skip if not repping an org)</span></label>
+        <input type="file" id="gp-logo" name="Logo" accept="image/png,image/svg+xml,image/jpeg">
+      </div>
+
+      <fieldset class="field">
+        <legend>Flying in?</legend>
+        <div class="two-col">
+          <div class="field">
+            <label for="gp-arr-date">Arrival date</label>
+            <input type="date" id="gp-arr-date" name="Arrival date">
+          </div>
+          <div class="field">
+            <label for="gp-arr-time">Arrival time</label>
+            <input type="time" id="gp-arr-time" name="Arrival time">
+          </div>
+        </div>
+        <div class="field">
+          <label for="gp-arr-flight">Arrival flight number <span class="hint">(optional)</span></label>
+          <input type="text" id="gp-arr-flight" name="Arrival flight number">
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Flying out?</legend>
+        <div class="two-col">
+          <div class="field">
+            <label for="gp-dep-date">Departure date</label>
+            <input type="date" id="gp-dep-date" name="Departure date">
+          </div>
+          <div class="field">
+            <label for="gp-dep-time">Departure time</label>
+            <input type="time" id="gp-dep-time" name="Departure time">
+          </div>
+        </div>
+        <div class="field">
+          <label for="gp-dep-flight">Departure flight number <span class="hint">(optional)</span></label>
+          <input type="text" id="gp-dep-flight" name="Departure flight number">
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label for="gp-stay">Where are you planning to stay?</label>
+        <input type="text" id="gp-stay" name="Accommodation" placeholder="Hotel name or area">
+      </div>
+
+      <fieldset class="field">
+        <legend>Would you like to request an airport pickup on arrival?</legend>
+        <ul class="radio-list">
+          <li><label><input type="radio" name="Requests airport pickup" value="Yes, please" required> Yes, please</label></li>
+          <li><label><input type="radio" name="Requests airport pickup" value="No thanks" required> No thanks</label></li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Would you like to request an airport drop-off for departure?</legend>
+        <ul class="radio-list">
+          <li><label><input type="radio" name="Requests airport dropoff" value="Yes, please" required> Yes, please</label></li>
+          <li><label><input type="radio" name="Requests airport dropoff" value="No thanks" required> No thanks</label></li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Which benefits would you like to take advantage of? <span class="hint">(check all that interest you — optional ones are subject to availability)</span></legend>
+        <ul class="check-list">
+          <li><label><input type="checkbox" name="Benefits interested in" value="Discount promo code for students & staff"> Discount promo code for every student and staff member</label></li>
+          <li><label><input type="checkbox" name="Benefits interested in" value="VIP meet & greet"> VIP meet &amp; greet with our out-of-town guests <span class="hint">(optional, limited spots)</span></label></li>
+          <li><label><input type="checkbox" name="Benefits interested in" value="Event table"> A table at the event to promote our classes or sell merch <span class="hint">(optional, limited spots)</span></label></li>
+          <li><label><input type="checkbox" name="Benefits interested in" value="Organizers conversation Sunday"> Invite to the organizers&rsquo; conversation, Sunday afternoon at Unity Studio <span class="hint">(optional, limited spots)</span></label></li>
+        </ul>
+      </fieldset>
+
+      <div class="field">
+        <button class="btn btn-gold btn-big" type="submit">Submit Application</button>
+      </div>
+    </form>
+    <p class="form-status" id="gp-status" role="status" aria-live="polite"></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <img class="footer-logo" src="assets/legacy-jam-logo.svg" alt="" loading="lazy">
+    <p><strong>Legacy Jam 2026</strong> · October 24&ndash;25 · Toronto</p>
+    <ul class="footer-links">
+      <li><a class="footer-ig" href="https://www.instagram.com/legacy.jam">📣 Follow @legacy.jam</a></li>
+      <li><a href="index.html">Back to Legacy Jam</a></li>
+    </ul>
+    <p class="note">
+      Questions? <a href="mailto:info@legacyjam.com">info@legacyjam.com</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  // Progressive enhancement: the form works with a plain POST to FormSubmit even if
+  // this never runs (falls through to FormSubmit's own confirmation page). When JS is
+  // available, submit via FormSubmit's AJAX endpoint instead so we can show a styled
+  // confirmation without leaving the site.
+  (function () {
+    var form = document.getElementById('gp-form');
+    var status = document.getElementById('gp-status');
+    if (!form || !status) return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      status.textContent = 'Submitting...';
+      status.className = 'form-status';
+      fetch('https://formsubmit.co/ajax/info@legacyjam.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      }).then(function (res) {
+        if (!res.ok) throw new Error('Submission failed');
+        return res.json();
+      }).then(function () {
+        form.hidden = true;
+        status.textContent = "Thanks! We've got your Generations Partner application and will follow up by email within 48 hours.";
+        status.className = 'form-status is-success';
+      }).catch(function () {
+        status.textContent = 'Something went wrong sending that. Please try again, or email your application directly to info@legacyjam.com.';
+        status.className = 'form-status is-error';
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

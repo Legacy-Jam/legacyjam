@@ -336,6 +336,7 @@ section[id] { scroll-margin-top: 4.5rem; }
   color: var(--gold-bright); font-weight: 900;
   font-size: 1.05rem; letter-spacing: 0.02em;
 }
+.prize-breakdown { display: block; margin-top: 0.3rem; }
 .sched-alert {
   display: inline-block;
   margin: 0.9rem 0 1.2rem;
@@ -589,6 +590,66 @@ section[id] { scroll-margin-top: 4.5rem; }
   50% { box-shadow: 0 8px 30px rgba(224,174,90,0.6); }
 }
 .footer-ig { color: var(--gold-bright) !important; font-weight: 900 !important; }
+
+/* ---------- application forms (volunteer / generations partner) ---------- */
+.app-main { padding: 2.5rem 0 4rem; }
+.app-intro { margin-bottom: 0; }
+.app-form { max-width: 40rem; margin-top: 2rem; }
+.field { margin: 0 0 1.4rem; }
+.field > label, fieldset.field > legend {
+  display: block; font-weight: 700; color: var(--gold-bright);
+  margin-bottom: 0.45rem; font-size: 0.97rem;
+}
+.hint { font-weight: 400; color: var(--cream-dim); font-size: 0.85rem; }
+.required-mark { color: var(--gold-bright); }
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="tel"],
+.field input[type="date"],
+.field input[type="time"],
+.field input[type="file"],
+.field select,
+.field textarea {
+  width: 100%; padding: 0.65rem 0.8rem;
+  background: var(--navy-2); border: 1px solid rgba(224,174,90,0.3);
+  border-radius: 0.45rem; color: var(--cream); font-family: inherit; font-size: 1rem;
+}
+.field input:focus-visible, .field select:focus-visible, .field textarea:focus-visible {
+  outline: 2px solid var(--gold-bright); outline-offset: 1px; border-color: var(--gold-bright);
+}
+.field textarea { resize: vertical; min-height: 5rem; }
+.field input[type="file"] { padding: 0.5rem; }
+fieldset.field {
+  border: 1px solid rgba(224,174,90,0.22); border-radius: 0.6rem;
+  padding: 1.1rem 1.3rem 1.3rem; margin: 0 0 1.4rem;
+}
+fieldset.field legend { padding: 0 0.4rem; }
+fieldset.field .field:last-child { margin-bottom: 0; }
+.check-list, .radio-list {
+  list-style: none; margin: 0.4rem 0 0; padding: 0;
+  display: flex; flex-direction: column; gap: 0.6rem;
+}
+.check-list label, .radio-list label {
+  display: flex; align-items: flex-start; gap: 0.65rem;
+  font-weight: 400; color: var(--cream); font-size: 0.97rem; cursor: pointer;
+}
+.check-list input, .radio-list input {
+  margin-top: 0.2rem; flex: none; width: 1.15rem; height: 1.15rem; accent-color: var(--gold);
+}
+.waiver-box {
+  max-height: 14rem; overflow-y: auto;
+  background: var(--navy-2); border: 1px solid rgba(224,174,90,0.28);
+  border-radius: 0.6rem; padding: 1rem 1.2rem;
+  color: var(--cream-dim); font-size: 0.9rem; line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+.waiver-box p { margin: 0 0 0.8rem; }
+.waiver-box p:last-child { margin-bottom: 0; }
+.form-status { margin-top: 1.2rem; font-weight: 700; font-size: 1.02rem; }
+.form-status.is-success { color: var(--gold-bright); }
+.form-status.is-error { color: #e69a86; }
+.honeypot-field { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.two-col { display: grid; gap: 0 1.2rem; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); }
 
 /* ---------- final call-to-action band ---------- */
 .cta-final { text-align: center; }
