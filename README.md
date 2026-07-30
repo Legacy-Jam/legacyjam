@@ -87,7 +87,7 @@ covers both forms).
 - **Judges** — Ronnie (Full Force), Logistx (Red Bull BC One All Star), MGability
 - **DJs** — Timber, B Bad; DJ Mensa for the Legacy Party
 - **Funders** — Toronto Arts Council
-- **Academic partner** — Sheridan College
+- **Academic partner** — Sheridan College (not yet confirmed for 2026: logo hidden on site until they confirm)
 - **Media partners** — Bboy Network, Outbreak Europe / The Legits
 - **Generations Partners** — schools/crews that register students for the Generations Battle
 - **MEC Crew** — produces Legacy Jam; organizing team is Piecez (Michael Prosserman), Boobjester (Roberto Veruela Jr.), B Bad (Andel James), Switch B (Adrian Bernard), and MEDÊIO (Rei Misiri)
