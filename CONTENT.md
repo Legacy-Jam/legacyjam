@@ -39,9 +39,11 @@ battle side by side" reads clearer than "2v2 / 10+ yr gap" for that format.
   10-year age gap per duo).
   *Prize: $2,500 cash: $1,200 winner · $500 second · $200 top 4 · $100 top 8.*
 - **Youth Cypher Battle** — Format: 1v1. Age: Under 19.
-  *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
+  *Prize: flight to Outbreak Europe, July 2027 (trip, entry &amp; accommodation,
+  Slovakia), plus entry into the Youth is the Future camp at Outbreak.*
 - **Pro Cypher Battle** — Format: 1v1. Age: 19+.
-  *Prize: flight + entry to Outbreak Europe 2027 (trip + entry, Slovakia).*
+  *Prize: flight to Outbreak Europe, July 2027 (trip, entry &amp; accommodation,
+  Slovakia).*
 
 Legacy Exchanges is a showcase, not a competitive battle format, it lives in "The Festival"
 copy, not the Battles section: *Curated battle conversations, Canadian breakers vs
