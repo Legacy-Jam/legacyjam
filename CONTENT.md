@@ -114,10 +114,10 @@ Battle Day timeline/venue.
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
 tournament rounds.*
 
-**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204
-11:00 cyphers (community) → 12:00 Panel 1 — Mentorship → 12:45 Panel 2 —
-Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 3:30 Workshop 3
-→ 4:30 Workshop 4
+**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 · 11 AM–5 PM
+11:00 cyphers (community) → 12:00 Panel Discussions: Mentorship, and Breaking careers &
+parallel careers → 1:00 Workshop 1 → 2:00 Workshop 2 → 3:00 Workshop 3 → 4:00 Workshop 4
+(ends 5:00)
 
 ## 6. Crew & volunteering
 

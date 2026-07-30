@@ -132,6 +132,19 @@ section[id] { scroll-margin-top: 4.5rem; }
 .nav-list a:hover { color: var(--gold-bright); border-bottom-color: var(--gold); }
 .header-cta { display: flex; align-items: center; gap: 0.6rem; margin-left: auto; }
 
+/* tighter header on phones: smaller logo, nav and buttons, less wrapped height */
+@media (max-width: 30rem) {
+  .header-inner { gap: 0.35rem 0.7rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .brand-logo { height: 24px; }
+  .nav-list { gap: 0.15rem 0.65rem; }
+  .nav-list a { font-size: 0.76rem; padding: 0.1rem 0; }
+  .header-cta { gap: 0.4rem; width: 100%; }
+  .header-cta .btn-small {
+    flex: 1 1 0; font-size: 0.66rem; padding: 0.32rem 0.4rem;
+    white-space: nowrap;
+  }
+}
+
 /* ---------- buttons ---------- */
 .btn {
   display: inline-block; text-decoration: none; font-weight: 800;
