@@ -130,7 +130,7 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-bottom: 2px solid transparent;
 }
 .nav-list a:hover { color: var(--gold-bright); border-bottom-color: var(--gold); }
-.site-header .btn-small { margin-left: auto; }
+.header-cta { display: flex; align-items: center; gap: 0.6rem; margin-left: auto; }
 
 /* ---------- buttons ---------- */
 .btn {

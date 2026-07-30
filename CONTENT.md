@@ -115,7 +115,7 @@ final closes the day at peak energy; Exchanges are spread out as palate-cleanser
 tournament rounds.*
 
 **Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204
-11:00 cyphers (community) → 12:00 Panel 1 — Mentorship (light lunch) → 12:45 Panel 2 —
+11:00 cyphers (community) → 12:00 Panel 1 — Mentorship → 12:45 Panel 2 —
 Breaking careers & parallel careers → 1:30 Workshop 1 → 2:30 Workshop 2 → 3:30 Workshop 3
 → 4:30 Workshop 4
 
