@@ -105,11 +105,11 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-bottom: 1px solid rgba(224,174,90,0.25);
 }
 .header-inner {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1.5rem;
-  padding-top: 0.4rem; padding-bottom: 0.4rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.5rem;
+  padding-top: 0.25rem; padding-bottom: 0.25rem;
 }
 .brand { text-decoration: none; display: flex; align-items: center; }
-.brand-logo { height: 34px; width: auto; display: block; }
+.brand-logo { height: 26px; width: auto; display: block; }
 .brand-script {
   font-family: var(--font-script);
   color: var(--gold);
@@ -125,8 +125,8 @@ section[id] { scroll-margin-top: 4.5rem; }
   list-style: none; margin: 0; padding: 0;
 }
 .nav-list a {
-  color: var(--cream); text-decoration: none; font-weight: 600; font-size: 0.95rem;
-  padding: 0.2rem 0;
+  color: var(--cream); text-decoration: none; font-weight: 600; font-size: 0.88rem;
+  padding: 0.15rem 0;
   border-bottom: 2px solid transparent;
 }
 .nav-list a:hover { color: var(--gold-bright); border-bottom-color: var(--gold); }
@@ -134,13 +134,13 @@ section[id] { scroll-margin-top: 4.5rem; }
 
 /* tighter header on phones: smaller logo, nav and buttons, less wrapped height */
 @media (max-width: 30rem) {
-  .header-inner { gap: 0.35rem 0.7rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
-  .brand-logo { height: 24px; }
-  .nav-list { gap: 0.15rem 0.65rem; }
-  .nav-list a { font-size: 0.76rem; padding: 0.1rem 0; }
+  .header-inner { gap: 0.25rem 0.7rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .brand-logo { height: 20px; }
+  .nav-list { gap: 0.1rem 0.65rem; }
+  .nav-list a { font-size: 0.72rem; padding: 0.08rem 0; }
   .header-cta { gap: 0.4rem; width: 100%; }
   .header-cta .btn-small {
-    flex: 1 1 0; font-size: 0.66rem; padding: 0.32rem 0.4rem;
+    flex: 1 1 0; font-size: 0.63rem; padding: 0.26rem 0.4rem;
     white-space: nowrap;
   }
 }
@@ -171,7 +171,7 @@ section[id] { scroll-margin-top: 4.5rem; }
   box-shadow: 0 8px 22px rgba(0,0,0,0.35);
 }
 .btn-big { font-size: 1.05rem; padding: 1rem 2rem; }
-.btn-small { font-size: 0.78rem; padding: 0.4rem 0.9rem; }
+.btn-small { font-size: 0.74rem; padding: 0.32rem 0.8rem; }
 
 /* ---------- hero ---------- */
 /* visually hidden but read by screen readers */
