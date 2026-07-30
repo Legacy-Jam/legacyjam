@@ -627,6 +627,11 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 .footer-ig { color: var(--gold-bright) !important; font-weight: 900 !important; }
 
+.ig-icon {
+  height: 1em; width: 1em; vertical-align: -0.15em; margin: 0 0.15em;
+  fill: currentColor; display: inline-block; flex-shrink: 0;
+}
+
 /* ---------- application forms (volunteer / generations partner) ---------- */
 .app-main { padding: 2.5rem 0 4rem; }
 .app-intro { margin-bottom: 0; }
