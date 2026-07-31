@@ -240,8 +240,12 @@ section[id] { scroll-margin-top: 4.5rem; }
   margin: 1.5rem 0 0.75rem;
 }
 .tagline span { color: var(--maroon-2); margin: 0 0.15em; }
-.hero-meta { max-width: 34rem; margin: 0 auto 2rem; color: var(--cream-dim); }
+.hero-meta { max-width: 34rem; margin: 0 auto 1rem; color: var(--cream-dim); }
 .hero-meta strong { color: var(--cream); font-size: 1.2rem; letter-spacing: 0.04em; }
+.family-note {
+  display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+  margin: 0 0 1.75rem; color: var(--cream-dim); font-size: 0.95rem;
+}
 .cta-row { display: flex; flex-wrap: wrap; gap: 0.9rem; justify-content: center; margin: 0 0 1.75rem; }
 .follow-cta-row { margin-bottom: 0.5rem; }
 .hero-follow-note { color: var(--cream-dim); font-size: 0.88rem; margin: 0.35rem 0 0; }
