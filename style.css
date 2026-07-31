@@ -105,11 +105,11 @@ section[id] { scroll-margin-top: 4.5rem; }
   border-bottom: 1px solid rgba(224,174,90,0.25);
 }
 .header-inner {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.5rem;
-  padding-top: 0.25rem; padding-bottom: 0.25rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1.5rem;
+  padding-top: 0.55rem; padding-bottom: 0.55rem;
 }
 .brand { text-decoration: none; display: flex; align-items: center; }
-.brand-logo { height: 26px; width: auto; display: block; }
+.brand-logo { height: 40px; width: auto; display: block; }
 .brand-script {
   font-family: var(--font-script);
   color: var(--gold);
@@ -125,22 +125,22 @@ section[id] { scroll-margin-top: 4.5rem; }
   list-style: none; margin: 0; padding: 0;
 }
 .nav-list a {
-  color: var(--cream); text-decoration: none; font-weight: 600; font-size: 0.88rem;
-  padding: 0.15rem 0;
+  color: var(--cream); text-decoration: none; font-weight: 600; font-size: 0.95rem;
+  padding: 0.2rem 0;
   border-bottom: 2px solid transparent;
 }
 .nav-list a:hover { color: var(--gold-bright); border-bottom-color: var(--gold); }
 .header-cta { display: flex; align-items: center; gap: 0.6rem; margin-left: auto; }
 
-/* tighter header on phones: smaller logo, nav and buttons, less wrapped height */
+/* slightly thinner header on phones: still fully legible, just tighter than desktop */
 @media (max-width: 30rem) {
-  .header-inner { gap: 0.25rem 0.7rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
-  .brand-logo { height: 20px; }
-  .nav-list { gap: 0.1rem 0.65rem; }
-  .nav-list a { font-size: 0.72rem; padding: 0.08rem 0; }
+  .header-inner { gap: 0.4rem 0.8rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .brand-logo { height: 30px; }
+  .nav-list { gap: 0.2rem 0.7rem; }
+  .nav-list a { font-size: 0.84rem; padding: 0.12rem 0; }
   .header-cta { gap: 0.4rem; width: 100%; }
   .header-cta .btn-small {
-    flex: 1 1 0; font-size: 0.63rem; padding: 0.26rem 0.4rem;
+    flex: 1 1 0; font-size: 0.7rem; padding: 0.36rem 0.5rem;
     white-space: nowrap;
   }
 }
@@ -171,7 +171,7 @@ section[id] { scroll-margin-top: 4.5rem; }
   box-shadow: 0 8px 22px rgba(0,0,0,0.35);
 }
 .btn-big { font-size: 1.05rem; padding: 1rem 2rem; }
-.btn-small { font-size: 0.74rem; padding: 0.32rem 0.8rem; }
+.btn-small { font-size: 0.82rem; padding: 0.5rem 1.05rem; }
 
 /* ---------- hero ---------- */
 /* visually hidden but read by screen readers */
@@ -340,8 +340,8 @@ section[id] { scroll-margin-top: 4.5rem; }
   padding: 0.5rem 0.65rem;
   margin: 0 0 0.35rem;
 }
-.battle-prize-wrap--icon { display: flex; align-items: center; gap: 0.6rem; }
-.battle-prize-wrap--icon .outbreak-inline { flex: 0 0 auto; height: 1.9rem; width: auto; }
+.battle-prize-wrap--icon { display: flex; align-items: flex-start; gap: 0.6rem; }
+.battle-prize-wrap--icon .outbreak-inline { flex: 0 0 auto; height: 1.9rem; width: auto; margin-top: 0.1rem; }
 .battle-prize {
   color: var(--gold-bright); font-weight: 900;
   font-size: 1.1rem; line-height: 1.25; margin: 0;
