@@ -292,10 +292,6 @@ section[id] { scroll-margin-top: 4.5rem; }
   gap: 1rem; padding: 0.85rem 1.1rem;
   border-bottom: 1px solid rgba(224,174,90,0.14);
 }
-@media (max-width: 26rem) {
-  .ticket-item { flex-direction: column; gap: 0.35rem; }
-  .t-price { padding-top: 0; }
-}
 .ticket-item:last-child { border-bottom: none; }
 .ticket-item.is-featured { background: rgba(224,174,90,0.09); }
 .t-label { display: flex; align-items: center; flex-wrap: wrap; gap: 0.45rem; font-weight: 700; }
@@ -304,6 +300,10 @@ section[id] { scroll-margin-top: 4.5rem; }
   display: inline-block; font-weight: 600; font-size: 0.68rem;
   color: var(--cream-dim); text-transform: uppercase; letter-spacing: 0.04em;
   margin-left: 0.3rem;
+}
+@media (max-width: 26rem) {
+  .t-price { white-space: normal; text-align: right; }
+  .t-price .price-note { display: block; margin-left: 0; margin-top: 0.15rem; }
 }
 .ticket-day {
   display: inline-block; min-width: 2.5rem;
@@ -386,17 +386,17 @@ section[id] { scroll-margin-top: 4.5rem; }
 .inner-list li { margin: 0.25rem 0; }
 
 .kids-zone {
-  margin: 0 0 1.2rem;
-  padding: 0.85rem 1.1rem;
+  margin: 0.9rem 0 0;
+  padding: 0.75rem 0.9rem;
   background: rgba(100,37,30,0.14);
   border: 1px solid rgba(100,37,30,0.4);
   border-radius: 0.6rem;
 }
-.kids-zone h3 {
-  display: flex; align-items: center; gap: 0.6rem;
-  font-size: 1.05rem; margin: 0 0 0.4rem;
+.kids-zone h4 {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  font-size: 0.95rem; margin: 0 0 0.35rem;
 }
-.kids-zone p { margin: 0.25rem 0 0; color: var(--cream-dim); }
+.kids-zone p { margin: 0.25rem 0 0; color: var(--cream-dim); font-size: 0.92rem; }
 .kids-zone .hint { display: block; margin-top: 0.3rem; }
 
 /* ---------- guest artists (compact people grid) ---------- */
