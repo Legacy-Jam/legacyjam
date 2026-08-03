@@ -78,10 +78,10 @@ covers both forms).
 
 ## Confirmed details baked into the site
 
-- **Oct 24 (Sat)** — Battle Day, 918 Bathurst St, Toronto, 12–7:30 PM; Legacy Party after
-  (DJ Mensa × Cypher Playground confirmed — public site copy keeps this to a general
-  "one night to remember" line, doesn't name the DJ/duo)
-- **Oct 25 (Sun)** — Workshops & Panels, Unity Studio, 1560 Yonge St Suite 204, Toronto — cyphers, 2 panel discussions (mentorship; breaking & parallel careers), 4 workshops
+- **Oct 24 (Sat)** — Battle Day, 918 Bathurst St, Toronto (not wheelchair accessible,
+  unfortunately), 12–7:30 PM; Legacy Party after (DJ Mensa × Cypher Playground confirmed —
+  public site copy keeps this to a general "one night to remember" line, doesn't name the DJ/duo)
+- **Oct 25 (Sun)** — Workshops & Panels, Unity Studio, 1560 Yonge St Suite 204, Toronto (wheelchair accessible) — cyphers, 2 panel discussions (mentorship; breaking & parallel careers), 4 workshops
 - **Battles** — Generations (2v2 teacher×student, 10-yr age gap), Youth Cypher (Under 19), Pro Cypher (19+); Legacy Exchanges (Canada vs. international) is a showcase, not a competitive battle — lives in "The Festival" copy
 - **Prizes** — Youth + Pro winners: flight & entry to Outbreak Europe 2027
 - **Judges** — Ronnie (Full Force), Logistx (Red Bull BC One All Star), MGability

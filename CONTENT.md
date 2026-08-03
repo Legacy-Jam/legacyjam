@@ -99,7 +99,7 @@ Eventbrite for everything.
 Site displays a "⏱️ Battles run on time — don't be late!" callout right under the
 Schedule heading, above the day grid.
 
-**Sat Oct 24 — Battle Day** · 918 Bathurst St · 12–7:30 PM
+**Sat Oct 24 — Battle Day** · 918 Bathurst St (not wheelchair accessible, unfortunately) · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
 prelims (2 circles) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
 → 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 → 5:45 Pro & Youth top 4 (3 rds) →
@@ -114,7 +114,7 @@ Battle Day timeline/venue.
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
 tournament rounds.*
 
-**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 · 11 AM–5 PM
+**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 11 AM–5 PM
 11:00 cyphers (community) → 12:00 Panel Discussions: Mentorship, and Breaking careers &
 parallel careers → 1:00 Workshop 1 → 2:00 Workshop 2 → 3:00 Workshop 3 → 4:00 Workshop 4
 (ends 5:00)
