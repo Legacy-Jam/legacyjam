@@ -51,8 +51,9 @@ international guests, built to inspire across generations.*
 
 ## 3. Ticket packages
 
-*Prices below are regular price. Early bird discounts are only available on the
-tickets page (Eventbrite), not shown on the site itself.*
+*Prices below are regular price. Early bird discounts are limited (site copy:
+"Prices below are regular price. Early bird discounts are limited — get
+tickets now."), only available on the tickets page (Eventbrite).*
 
 Site shows these as a single compact list (`.ticket-list`), not individual
 cards with their own buttons, one "Get Tickets" button at the bottom links to
