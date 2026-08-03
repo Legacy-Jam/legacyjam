@@ -312,6 +312,10 @@ section[id] { scroll-margin-top: 4.5rem; }
   font-size: 0.63rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase;
   border-radius: 1rem; padding: 0.1rem 0.55rem;
 }
+.badge-maroon {
+  background: var(--maroon-2); color: var(--cream);
+  border: 1px solid rgba(244,233,207,0.3);
+}
 
 /* ---------- battle cards ---------- */
 .cards { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.65rem; }
