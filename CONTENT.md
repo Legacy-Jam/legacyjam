@@ -79,7 +79,7 @@ Eventbrite for everything.
 > what's included per ticket tier, day-by-day schedule, battle formats with prizes,
 > accessibility note, and travel info (out-of-town guests should email us and we'll
 > help welcome them to the city; Generations Partners get an optional pre-booked
-> airport shuttle).
+> airport shuttle — limited spots, book soon).
 
 **Sponsor outreach email:**
 > Write a 200-word sponsorship email for Legacy Jam 2026. Emphasize: intergenerational
