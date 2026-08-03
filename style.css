@@ -662,7 +662,7 @@ section[id] { scroll-margin-top: 4.5rem; }
   background: transparent;
   border: 2px solid var(--gold);
   color: var(--gold-bright);
-  animation: ig-shine 2.2s ease-in-out infinite;
+  animation: ig-shine 1.6s ease-in-out infinite;
 }
 .btn-ig:hover {
   transform: translateY(-2px);
@@ -671,7 +671,7 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 @keyframes ig-shine {
   0%, 100% { box-shadow: 0 0 0 rgba(224,174,90,0); }
-  50% { box-shadow: 0 0 16px 3px rgba(224,174,90,0.55); }
+  50% { box-shadow: 0 0 24px 6px rgba(224,174,90,0.75); }
 }
 
 /* ---------- hero Instagram CTA ---------- */
