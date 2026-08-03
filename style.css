@@ -381,6 +381,20 @@ section[id] { scroll-margin-top: 4.5rem; }
 .inner-list { margin: 0.6rem 0 0; padding-left: 1.2rem; }
 .inner-list li { margin: 0.25rem 0; }
 
+.kids-zone {
+  margin: 0 0 1.2rem;
+  padding: 0.85rem 1.1rem;
+  background: rgba(100,37,30,0.14);
+  border: 1px solid rgba(100,37,30,0.4);
+  border-radius: 0.6rem;
+}
+.kids-zone h3 {
+  display: flex; align-items: center; gap: 0.6rem;
+  font-size: 1.05rem; margin: 0 0 0.4rem;
+}
+.kids-zone p { margin: 0.25rem 0 0; color: var(--cream-dim); }
+.kids-zone .hint { display: block; margin-top: 0.3rem; }
+
 /* ---------- guest artists (compact people grid) ---------- */
 .people {
   list-style: none; margin: 0.4rem 0 0; padding: 0;
