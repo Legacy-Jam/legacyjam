@@ -60,11 +60,15 @@ no server, no build step, matching the rest of the site:
   requests, and checkboxes for which optional benefits they want (VIP meet &
   greet, event table, Sunday organizers' conversation).
 
-**⚠️ Before launch:** submit one test entry on each form. The *first* submission
+**⚠️ URGENT — likely already affecting real submissions:** the *first* submission
 ever made to `info@legacyjam.com` through FormSubmit triggers a one-time
 confirmation email — someone monitoring that inbox needs to click "Activate Form"
-in it, or submissions won't be delivered. This only needs to happen once (it
-covers both forms).
+in it, or submissions are silently accepted by FormSubmit but never delivered
+(visitors still see a success message on the site, so this can go unnoticed).
+This only needs to happen once and covers both forms. Check the inbox's spam/junk
+folder too — search for an email from FormSubmit. Until this is confirmed done,
+assume any volunteer or Generations Partner applications submitted so far were
+lost and may need to be re-requested from applicants.
 
 ## 📋 Internal production notes (keep off the public site)
 
@@ -72,7 +76,7 @@ covers both forms).
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm airport shuttle logistics for Generations Partners (now the only guests offered a pre-booked shuttle) + who monitors the info@legacyjam.com inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full festival pass
-- [ ] Activate FormSubmit for info@legacyjam.com (see "Volunteer & Generations Partner applications" above)
+- [ ] **URGENT:** Activate FormSubmit for info@legacyjam.com — confirmed not delivering submissions yet (see "Volunteer & Generations Partner applications" above)
 - [ ] Have the volunteer waiver text in `volunteer.html` reviewed — it's a reasonable starting template, not legal advice
 - [x] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet)
 
