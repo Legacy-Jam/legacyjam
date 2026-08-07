@@ -93,7 +93,7 @@ Eventbrite for everything.
 **Hero/poster image (for a designer or image model):**
 > Elegant gold script wordmark "Legacy" with "— JAM —" in letter-spaced sans-serif beneath,
 > on deep navy background, vintage-classy hip-hop aesthetic, subtle warm glow, palette:
-> navy #0e1420, cream #f4e9cf, antique gold #e6c941, deep maroon #6e2c24. No photos of
+> navy #0e1420, cream #f4e9cf, antique gold #e4c73d, deep maroon #6e2c24. No photos of
 > people; typography-led; leave lower third clear for date and CTA text.
 
 ## 5. Schedule (canonical)

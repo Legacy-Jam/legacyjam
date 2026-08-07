@@ -6,7 +6,7 @@ No build step — just `index.html` + `style.css` + `assets/`. The only JavaScri
 `href="#top"` link works with plain CSS scrolling even if it never runs.
 
 **Design:** gold-on-navy palette pulled from the Legacy Jam logo set (deep navy `#0c111c`,
-cream `#f4e9cf`, gold `#e6c941`, maroon `#64251e`), with a script typeface (Yellowtail) echoing
+cream `#f4e9cf`, gold `#e4c73d`, maroon `#64251e`), with a script typeface (Yellowtail) echoing
 the brand wordmark, gold-gradient headings, subtle film grain, hairline gold rules echoing the
 "— JAM —" mark, and a timeline-styled schedule. All decorative; content order and reading
 clarity come first, and `prefers-reduced-motion` disables the entrance animation.

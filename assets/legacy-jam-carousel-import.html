@@ -6,9 +6,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Yellowtail&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#0c111c;--cream:#f4e9cf;--cream-dim:#cfc3a4;--gold:#e0ae5a;--gold-bright:#efc77e;--maroon:#64251e;
---gold-grad:linear-gradient(100deg,#f2d391 0%,#e0ae5a 45%,#d09a43 100%);
---hairline:linear-gradient(90deg,transparent,rgba(224,174,90,.55),transparent);
+:root{--navy:#0c111c;--cream:#f4e9cf;--cream-dim:#cfc3a4;--gold:#e4c73d;--gold-bright:#edd97c;--maroon:#64251e;
+--gold-grad:linear-gradient(100deg,#f2e39f 0%,#e4c73d 45%,#d5b61e 100%);
+--hairline:linear-gradient(90deg,transparent,rgba(228,199,61,.55),transparent);
 --font:"Archivo",system-ui,sans-serif;--script:"Yellowtail",cursive;}
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{background:#05070c;font-family:var(--font);-webkit-font-smoothing:antialiased;}
@@ -17,8 +17,8 @@ body{display:flex;flex-direction:column;align-items:center;gap:26px;padding:32px
 .lead b{color:var(--gold);}
 .frame{width:1080px;height:1080px;margin:0 auto;overflow:hidden;}
 .slide{width:1080px;height:1080px;position:relative;color:var(--cream);overflow:hidden;
-background:radial-gradient(120% 90% at 50% -10%,rgba(224,174,90,.10),transparent 55%),radial-gradient(90% 70% at 50% 115%,rgba(100,37,30,.28),transparent 60%),var(--navy);}
-.slide.peak{background:radial-gradient(120% 90% at 50% -5%,rgba(224,174,90,.22),transparent 55%),radial-gradient(90% 80% at 50% 120%,rgba(100,37,30,.42),transparent 60%),var(--navy);}
+background:radial-gradient(120% 90% at 50% -10%,rgba(228,199,61,.10),transparent 55%),radial-gradient(90% 70% at 50% 115%,rgba(100,37,30,.28),transparent 60%),var(--navy);}
+.slide.peak{background:radial-gradient(120% 90% at 50% -5%,rgba(228,199,61,.22),transparent 55%),radial-gradient(90% 80% at 50% 120%,rgba(100,37,30,.42),transparent 60%),var(--navy);}
 .slide::after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 240px rgba(0,0,0,.55);}
 .pad{position:absolute;inset:0;padding:92px;display:flex;flex-direction:column;z-index:1;}
 .center{align-items:center;text-align:center;justify-content:center;}
@@ -36,12 +36,12 @@ background:radial-gradient(120% 90% at 50% -10%,rgba(224,174,90,.10),transparent
 .s1 .ev-det .v{color:var(--cream-dim);font-weight:600;}
 .s1 .sub{font-size:23px;letter-spacing:.24em;text-transform:uppercase;color:var(--cream-dim);font-weight:600;margin-top:34px;}
 .s1 .save{font-size:26px;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);font-weight:800;margin-top:18px;}
-.s1 .followtag{display:inline-block;font-size:20px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:2px solid rgba(224,174,90,.55);border-radius:999px;padding:13px 28px;margin-top:26px;}
+.s1 .followtag{display:inline-block;font-size:20px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:2px solid rgba(228,199,61,.55);border-radius:999px;padding:13px 28px;margin-top:26px;}
 
 /* battles-with-purpose slide */
 .bp .head{font-size:88px;font-weight:900;line-height:.88;text-transform:uppercase;letter-spacing:-.02em;margin:2px 0 12px;}
 .bp .state{font-size:26px;font-weight:700;letter-spacing:.02em;color:var(--gold);margin-bottom:32px;}
-.bt{padding:26px 0;border-bottom:2px solid rgba(224,174,90,.18);}
+.bt{padding:26px 0;border-bottom:2px solid rgba(228,199,61,.18);}
 .bt:last-of-type{border-bottom:none;}
 .bt .n{font-size:46px;font-weight:800;text-transform:uppercase;line-height:1;}
 .bt .m{font-size:23px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--gold);margin-top:12px;}
@@ -52,7 +52,7 @@ background:radial-gradient(120% 90% at 50% -10%,rgba(224,174,90,.10),transparent
 .plabel{font-size:27px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--cream);}
 .pcash{font-size:104px;font-weight:900;line-height:.9;text-transform:uppercase;letter-spacing:-.01em;margin:6px 0 20px;}
 .tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
-.tier{background:rgba(224,174,90,.09);border:1px solid rgba(224,174,90,.28);border-radius:14px;padding:22px 8px;text-align:center;}
+.tier{background:rgba(228,199,61,.09);border:1px solid rgba(228,199,61,.28);border-radius:14px;padding:22px 8px;text-align:center;}
 .tier .lv{font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--cream-dim);}
 .tier .amt{font-size:46px;font-weight:900;color:var(--gold);margin-top:6px;}
 .rule{height:2px;background:var(--hairline);margin:40px 0;}
