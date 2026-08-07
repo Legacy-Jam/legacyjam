@@ -6,7 +6,7 @@ No build step — just `index.html` + `style.css` + `assets/`. The only JavaScri
 `href="#top"` link works with plain CSS scrolling even if it never runs.
 
 **Design:** gold-on-navy palette pulled from the Legacy Jam logo set (deep navy `#0c111c`,
-cream `#f4e9cf`, gold `#e0ae5a`, maroon `#64251e`), with a script typeface (Yellowtail) echoing
+cream `#f4e9cf`, gold `#e6c941`, maroon `#64251e`), with a script typeface (Yellowtail) echoing
 the brand wordmark, gold-gradient headings, subtle film grain, hairline gold rules echoing the
 "— JAM —" mark, and a timeline-styled schedule. All decorative; content order and reading
 clarity come first, and `prefers-reduced-motion` disables the entrance animation.
@@ -29,7 +29,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 |---|---|---|
 | ~~`https://www.eventbrite.ca/e/legacy-jam-2026`~~ | every "Get Tickets" button | ✅ done — links to `https://legacyjam2026.eventbrite.ca` |
 | ~~`https://forms.gle/REPLACE-ME`~~ | "Register to Battle" buttons | ✅ done — links to `https://breakkonnect.com/event/4898` |
-| ~~`https://forms.gle/REPLACE-ME-PARTNER`~~ | "Become a Generations Partner" button | ✅ done — mailto: link to info@legacyjam.com |
+| ~~`https://forms.gle/REPLACE-ME-PARTNER`~~ | "Become a Generations Partner" button | ✅ done — links to `generations-partner.html` |
 | ~~`https://www.instagram.com/legacyjam`~~ | hero, artists, schedule, footer | ✅ done — confirmed handle `@legacy.jam` |
 | `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
@@ -45,19 +45,17 @@ matching `logo-row` list in `index.html`.
 
 ### Volunteer, Media Pass & Generations Partner applications
 
-All three ("Apply to volunteer for Legacy Jam", "Request a Media Pass", "Become
-a Generations Partner") are plain `mailto:info@legacyjam.com` links with a
-pre-filled subject and a short body of yes/no-style questions — no forms, no
-FormSubmit, no third-party dependency. The applicant fills in their answers
-under each question and hits send from their own email client.
+"Apply to volunteer for Legacy Jam" and "Become a Generations Partner" are
+built-in application forms (`volunteer.html`, `generations-partner.html`)
+that submit via [FormSubmit](https://formsubmit.co/) to info@legacyjam.com,
+no backend required. "Request a Media Pass" is a plain `mailto:` link.
 
-**Note:** the old `volunteer.html` and `generations-partner.html` FormSubmit-based
-forms (including the volunteer waiver & release of liability with a typed-name
-e-signature) were removed because FormSubmit submissions to info@legacyjam.com
-were never being delivered (the account was never activated) and real
-applications were likely lost. The mailto: approach trades that legal-signature
-capture for reliability — if a proper signed waiver is needed again later,
-that's a deliberate follow-up, not an oversight.
+**Important — activate FormSubmit before launch:** the very first submission
+to `formsubmit.co/info@legacyjam.com` triggers a one-time confirmation email
+that must be clicked before FormSubmit will deliver any submissions. Until
+that's confirmed, submissions are silently accepted but never arrive — send
+a test submission through each form and confirm the activation email lands
+(check spam) before relying on these forms for real applications.
 
 ## 📋 Internal production notes (keep off the public site)
 
@@ -65,7 +63,7 @@ that's a deliberate follow-up, not an oversight.
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm airport shuttle logistics for Generations Partners (now the only guests offered a pre-booked shuttle) + who monitors the info@legacyjam.com inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full festival pass
-- [ ] Decide whether volunteers need a real signed waiver (see note above) — if so, that needs a proper e-signature tool, not a mailto: link
+- [ ] **Activate FormSubmit for info@legacyjam.com** — click the one-time confirmation link (see note above) or submissions will keep going nowhere
 - [x] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet) — later replaced with a mailto: link, see note above
 
 ## Confirmed details baked into the site

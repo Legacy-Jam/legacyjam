@@ -32,10 +32,12 @@
      2. Battle registration: https://breakkonnect.com/event/4898          ✅ done, all "Register to Battle" buttons
      3. Instagram:           https://www.instagram.com/legacy.jam         ✅ confirmed: @legacy.jam
      4. Contact email:       info@legacyjam.com                            (confirm address)
+     5. Generations Partner form: generations-partner.html                ✅ done, built-in application, submits via FormSubmit
+     6. Volunteer application:    volunteer.html                          ✅ done, built-in application, submits via FormSubmit
      ============================================================
-     NOTE: Volunteer, Media Pass, and Generations Partner are all plain
-     mailto: links with pre-filled subject/body (short yes/no questions),
-     not forms. No FormSubmit/backend dependency.
+     NOTE: both forms POST to https://formsubmit.co/info@legacyjam.com.
+     The very first submission to that address triggers a one-time FormSubmit
+     confirmation email that must be clicked to activate delivery, see README.
      ============================================================ -->
 
 <header class="site-header">
@@ -290,7 +292,7 @@
         to make this event possible for the community.
       </p>
       <p class="cta-row">
-        <a class="btn btn-gold" href="mailto:info@legacyjam.com?subject=Volunteer%20Application&amp;body=Name%3A%0D%0AEmail%3A%0D%0AAre%20you%2019%20or%20older%3F%20%28Yes/No%29%3A%0D%0ADo%20you%20drive%3F%20%28Yes/No%29%3A%0D%0ADo%20you%20have%20access%20to%20a%20car%20you%20could%20use%20for%20the%20weekend%3F%20%28Yes/No%29%3A%0D%0AWhich%20roles%20could%20you%20help%20with%3F%20%28e.g.%20drivers%2C%20tech/production%2C%20photography/videography%2C%20registration%20%26%20check-in%2C%20hospitality%2C%20setup%20%26%20teardown%2C%20DJ/sound%20support%29%3A%0D%0AWhen%20are%20you%20available%3F%20%28Sat%20Oct%2024%20Battle%20Day%2012-7%3A30%20PM%20/%20Sat%20Oct%2024%20after%20party%209%20PM%2B%20/%20Sun%20Oct%2025%20Workshops%20%26%20Panels%2011%20AM-5%20PM%29%3A">Apply to volunteer for Legacy Jam</a>
+        <a class="btn btn-gold" href="volunteer.html">Apply to volunteer for Legacy Jam</a>
         <a class="btn btn-outline" href="mailto:info@legacyjam.com?subject=Media%20Pass%20Request&amp;body=Name%3A%0D%0AOutlet%20/%20Instagram%20handle%3A%0D%0APhoto%2C%20video%2C%20or%20both%3F%3A%0D%0AWhich%20day%28s%29%3F%20%28Sat/Sun/Both%29%3A">Request a Media Pass</a>
       </p>
       <p class="note">Shooting photo or video at the event? The media pass link is for you.</p>
@@ -383,10 +385,10 @@
         we&rsquo;ll confirm availability.
       </p>
       <p class="partner-note">
-        Email us and we&rsquo;ll follow up within 48 hours.
+        Five-minute sign-up. We&rsquo;ll follow up within 48 hours.
       </p>
       <p class="cta-row">
-        <a class="btn btn-outline" href="mailto:info@legacyjam.com?subject=Generations%20Partner%20Application&amp;body=Organization%20name%3A%0D%0AContact%20name%20%26%20email%3A%0D%0AAre%20you%20entering%20the%20Generations%20Battle%3F%20%28Yes/No%29%3A%0D%0ANumber%20of%20attendees%3A%0D%0AInterested%20in%20optional%20benefits%20%28airport%20shuttle%2C%20VIP%20meet%20%26%20greet%2C%20event%20table%29%3F%20%28Yes/No%29%3A">Become a Generations Partner</a>
+        <a class="btn btn-outline" href="generations-partner.html">Become a Generations Partner</a>
       </p>
       <!-- HIDDEN until these Generations Partners reconfirm for 2026: remove the
            `hidden` attribute below to show the logos again. Placeholder SVGs below,

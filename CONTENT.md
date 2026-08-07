@@ -93,7 +93,7 @@ Eventbrite for everything.
 **Hero/poster image (for a designer or image model):**
 > Elegant gold script wordmark "Legacy" with "— JAM —" in letter-spaced sans-serif beneath,
 > on deep navy background, vintage-classy hip-hop aesthetic, subtle warm glow, palette:
-> navy #0e1420, cream #f4e9cf, antique gold #e0ae5a, deep maroon #6e2c24. No photos of
+> navy #0e1420, cream #f4e9cf, antique gold #e6c941, deep maroon #6e2c24. No photos of
 > people; typography-led; leave lower third clear for date and CTA text.
 
 ## 5. Schedule (canonical)
@@ -167,23 +167,24 @@ exhibitions) are on file; the above is condensed to match the site's existing le
 
 **Volunteer CTA:** "Apply to volunteer for Legacy Jam" — lives in its own
 "Volunteer With Us" section right after "Why Legacy Jam," next to the media
-pass request button. Plain `mailto:info@legacyjam.com` link, pre-filled subject
-and a short body of questions (name, email, 19+, do you drive, car access for
-the weekend, which volunteer roles — drivers, tech/production,
-photography/videography, registration & check-in, hospitality, setup &
-teardown, DJ/sound support — and availability across Sat Battle Day 12–7:30 PM,
-Sat after party 9 PM+, and Sun Workshops & Panels 11 AM–5 PM) for the applicant
-to answer directly in their reply. No form, no backend dependency, no waiver
-capture (see README for why).
+pass request button. Links to `volunteer.html`, a built-in application form
+that submits via FormSubmit to info@legacyjam.com (name, email, 19+, do you
+drive, car access for the weekend, which volunteer roles — drivers,
+tech/production, photography/videography, registration & check-in,
+hospitality, setup & teardown, DJ/sound support — availability across Sat
+Battle Day 12–7:30 PM, Sat after party 9 PM+, and Sun Workshops & Panels
+11 AM–5 PM, plus a waiver & release of liability agreement).
 
 **Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
 in the same "Volunteer With Us" section, a plain `mailto:` link to
 info@legacyjam.com with a short pre-filled body (name, outlet/handle, photo or
 video, which day(s)).
 
-**Generations Partner CTA:** "Become a Generations Partner" — plain `mailto:`
-link with a short pre-filled body (organization name, contact info, entering
-the Generations Battle?, number of attendees, interested in optional benefits?).
+**Generations Partner CTA:** "Become a Generations Partner" — links to
+`generations-partner.html`, a built-in application form that submits via
+FormSubmit to info@legacyjam.com (organization name, contact info, entering
+the Generations Battle?, number of attendees, interested in optional
+benefits?).
 
 ## 7. Voice & style rules
 
