@@ -168,9 +168,13 @@ exhibitions) are on file; the above is condensed to match the site's existing le
 **Volunteer CTA:** "Apply to volunteer for Legacy Jam" — lives in its own
 "Volunteer With Us" section right after "Why Legacy Jam," next to the media
 pass request button. Plain `mailto:info@legacyjam.com` link, pre-filled subject
-and a short body of yes/no questions (name, email, 19+, car access, which
-day(s), waiver agreement) for the applicant to answer directly in their reply.
-No form, no backend dependency.
+and a short body of questions (name, email, 19+, do you drive, car access for
+the weekend, which volunteer roles — drivers, tech/production,
+photography/videography, registration & check-in, hospitality, setup &
+teardown, DJ/sound support — and availability across Sat Battle Day 12–7:30 PM,
+Sat after party 9 PM+, and Sun Workshops & Panels 11 AM–5 PM) for the applicant
+to answer directly in their reply. No form, no backend dependency, no waiver
+capture (see README for why).
 
 **Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
 in the same "Volunteer With Us" section, a plain `mailto:` link to
