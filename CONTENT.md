@@ -51,9 +51,10 @@ international guests, built to inspire across generations.*
 
 ## 3. Ticket packages
 
-*Prices below are regular price. Early bird discounts are limited (site copy:
-"Prices below are regular price. Early bird discounts are limited — get
-tickets now."), only available on the tickets page (Eventbrite).*
+*Prices below are regular price. Super early bird and early bird discounts are
+running low (site copy: "Prices below are regular price. Super early bird and
+early bird tickets are running low — grab them now for extra savings."), only
+available on the tickets page (Eventbrite).*
 
 Site shows these as a single compact list (`.ticket-list`), not individual
 cards with their own buttons, one "Get Tickets" button at the bottom links to
@@ -61,7 +62,7 @@ Eventbrite for everything.
 
 | Package | Price | Includes |
 |---|---|---|
-| Dancer Pass | $20 | Battle Day entry for dancers |
+| Competitors | $25 | Battle Day entry for competitors |
 | Audience | $30 | Battle Day entry for spectators |
 | Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
 | **Full Festival Pass** | **$70** | All 4 workshops + Battle Day + Legacy Party |
@@ -99,7 +100,8 @@ Eventbrite for everything.
 ## 5. Schedule (canonical)
 
 Site displays a "⏱️ Battles run on time — don't be late!" callout right under the
-Schedule heading, above the day grid.
+Schedule heading, above the day grid, followed by a short "Times may change —
+check back for updates" hint.
 
 **Sat Oct 24 — Battle Day** · 918 Bathurst St (not wheelchair accessible) · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
