@@ -29,7 +29,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 |---|---|---|
 | ~~`https://www.eventbrite.ca/e/legacy-jam-2026`~~ | every "Get Tickets" button | ✅ done — links to `https://legacyjam2026.eventbrite.ca` |
 | ~~`https://forms.gle/REPLACE-ME`~~ | "Register to Battle" buttons | ✅ done — links to `https://breakkonnect.com/event/4898` |
-| ~~`https://forms.gle/REPLACE-ME-PARTNER`~~ | "Become a Generations Partner" button | ✅ done — built-in application at `generations-partner.html` |
+| ~~`https://forms.gle/REPLACE-ME-PARTNER`~~ | "Become a Generations Partner" button | ✅ done — mailto: link to info@legacyjam.com |
 | ~~`https://www.instagram.com/legacyjam`~~ | hero, artists, schedule, footer | ✅ done — confirmed handle `@legacy.jam` |
 | `info@legacyjam.com` | travel, footer, volunteer button | confirmed email address |
 | ~~`assets/legacy-jam-logo.svg`~~ | header, hero, footer | ✅ done — official logo (vector, transparent background) |
@@ -43,32 +43,21 @@ All partner and funder logos are real files in `assets/logos/` — nothing left 
 To add a new partner: drop the logo file in `assets/logos/` and add an `<li>` to the
 matching `logo-row` list in `index.html`.
 
-### Volunteer & Generations Partner applications
+### Volunteer, Media Pass & Generations Partner applications
 
-`volunteer.html` and `generations-partner.html` are standalone, fully working
-application forms (linked from the "Apply to volunteer" and "Become a Generations
-Partner" buttons on the main page). Both submit via
-[FormSubmit](https://formsubmit.co/) straight to `info@legacyjam.com` — no signup,
-no server, no build step, matching the rest of the site:
+All three ("Apply to volunteer for Legacy Jam", "Request a Media Pass", "Become
+a Generations Partner") are plain `mailto:info@legacyjam.com` links with a
+pre-filled subject and a short body of yes/no-style questions — no forms, no
+FormSubmit, no third-party dependency. The applicant fills in their answers
+under each question and hits send from their own email client.
 
-- **Volunteer form** — contact info, 19+ confirmation, areas of interest, skills,
-  whether they drive / have car access, availability, a note about the mandatory
-  orientation (date/time TBC), emergency contact, and a waiver & release of
-  liability (typed-name e-signature + agreement checkbox).
-- **Generations Partner form** — contact info, attendee names, high-res logo
-  upload, arrival/departure flight details, accommodation, airport pickup/drop-off
-  requests, and checkboxes for which optional benefits they want (VIP meet &
-  greet, event table, Sunday organizers' conversation).
-
-**⚠️ URGENT — likely already affecting real submissions:** the *first* submission
-ever made to `info@legacyjam.com` through FormSubmit triggers a one-time
-confirmation email — someone monitoring that inbox needs to click "Activate Form"
-in it, or submissions are silently accepted by FormSubmit but never delivered
-(visitors still see a success message on the site, so this can go unnoticed).
-This only needs to happen once and covers both forms. Check the inbox's spam/junk
-folder too — search for an email from FormSubmit. Until this is confirmed done,
-assume any volunteer or Generations Partner applications submitted so far were
-lost and may need to be re-requested from applicants.
+**Note:** the old `volunteer.html` and `generations-partner.html` FormSubmit-based
+forms (including the volunteer waiver & release of liability with a typed-name
+e-signature) were removed because FormSubmit submissions to info@legacyjam.com
+were never being delivered (the account was never activated) and real
+applications were likely lost. The mailto: approach trades that legal-signature
+capture for reliability — if a proper signed waiver is needed again later,
+that's a deliberate follow-up, not an oversight.
 
 ## 📋 Internal production notes (keep off the public site)
 
@@ -76,9 +65,8 @@ lost and may need to be re-requested from applicants.
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm airport shuttle logistics for Generations Partners (now the only guests offered a pre-booked shuttle) + who monitors the info@legacyjam.com inbox
 - [ ] Confirm Eventbrite ticket tiers match: $20 dancer / $30 audience / $30–$90 workshops / $75 full festival pass
-- [ ] **URGENT:** Activate FormSubmit for info@legacyjam.com — confirmed not delivering submissions yet (see "Volunteer & Generations Partner applications" above)
-- [ ] Have the volunteer waiver text in `volunteer.html` reviewed — it's a reasonable starting template, not legal advice
-- [x] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet)
+- [ ] Decide whether volunteers need a real signed waiver (see note above) — if so, that needs a proper e-signature tool, not a mailto: link
+- [x] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet) — later replaced with a mailto: link, see note above
 
 ## Confirmed details baked into the site
 

@@ -167,21 +167,19 @@ exhibitions) are on file; the above is condensed to match the site's existing le
 
 **Volunteer CTA:** "Apply to volunteer for Legacy Jam" — lives in its own
 "Volunteer With Us" section right after "Why Legacy Jam," next to the media
-pass request button. Links to `volunteer.html`, a full application form
-(contact info, 19+ confirmation, areas of interest, skills, driving/car
-access, availability, mandatory-orientation acknowledgement, emergency
-contact, and a waiver & release of liability). Submits by email to
-info@legacyjam.com via FormSubmit — see README for the one-time activation step.
+pass request button. Plain `mailto:info@legacyjam.com` link, pre-filled subject
+and a short body of yes/no questions (name, email, 19+, car access, which
+day(s), waiver agreement) for the applicant to answer directly in their reply.
+No form, no backend dependency.
 
 **Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
 in the same "Volunteer With Us" section, a plain `mailto:` link to
-info@legacyjam.com.
+info@legacyjam.com with a short pre-filled body (name, outlet/handle, photo or
+video, which day(s)).
 
-**Generations Partner CTA:** "Become a Generations Partner" — links to
-`generations-partner.html`, a short application (contact info, attendee names,
-logo upload, flight/accommodation details, airport pickup/drop-off requests, and
-which optional benefits they want). Also submits to info@legacyjam.com via
-FormSubmit.
+**Generations Partner CTA:** "Become a Generations Partner" — plain `mailto:`
+link with a short pre-filled body (organization name, contact info, entering
+the Generations Battle?, number of attendees, interested in optional benefits?).
 
 ## 7. Voice & style rules
 
