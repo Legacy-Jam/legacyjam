@@ -106,9 +106,9 @@ check back for updates" hint.
 **Sat Oct 24 — Battle Day** · 918 Bathurst St (not wheelchair accessible) · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
 prelims (2 circles) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
-→ 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 → 5:45 Pro & Youth top 4 (3 rds) →
-6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals (5 rds) → 7:00 Generations final
-(2 rds) → 7:30 awards
+→ 4:30 Pro & Youth top 8 (2 rds) → 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 →
+5:45 Pro & Youth top 4 (3 rds) → 6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals
+(5 rds) → 7:00 Generations final (2 rds) → 7:30 awards
 
 **Legacy Party (19+)** — 9:00 PM, separate event, different venue (TODO: confirm
 address before launch). Called out on the site as its own thing, not part of the
