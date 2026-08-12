@@ -103,12 +103,16 @@ Site displays a "⏱️ Battles run on time — don't be late!" callout right un
 Schedule heading, above the day grid, followed by a short "Times may change —
 check back for updates" hint.
 
+**Fri Oct 23 — Welcome Night** · location TBC · 5–9 PM
+Free, all welcome: cyphers and a shared meal. No competitive battles, just a
+low-key kickoff to meet people before Battle Day.
+
 **Sat Oct 24 — Battle Day** · 918 Bathurst St (not wheelchair accessible) · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
 prelims (2 circles) → 3:30 Exhibitions 1 & 2 (4–5 rds) → 4:00 Generations top 16 (1 rd)
 → 4:30 Pro & Youth top 8 (2 rds) → 5:00 Generations top 8 (1 rd) → 5:30 Exhibition 3 →
 5:45 Pro & Youth top 4 (3 rds) → 6:15 Generations top 4 (2 rds) → 6:30 Pro & Youth finals
-(5 rds) → 7:00 Generations final (2 rds) → 7:30 awards
+(5 rds) → 6:45 OG Cypher (20 min) → 7:00 Generations final (2 rds) → 7:30 awards
 
 **Legacy Party (19+)** — 9:00 PM, separate event, different venue (TODO: confirm
 address before launch). Called out on the site as its own thing, not part of the
