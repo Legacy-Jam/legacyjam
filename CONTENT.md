@@ -103,8 +103,8 @@ Site displays a "⏱️ Battles run on time — don't be late!" callout right un
 Schedule heading, above the day grid, followed by a short "Times may change —
 check back for updates" hint.
 
-**Fri Oct 23 — Cypher Jam** · location TBC · 5–8 PM
-Free, all welcome: talks and raw cyphers. No competitive battles, just a
+**Fri Oct 23 — Welcome Jam** · location TBC · 5–8 PM
+Free, all welcome: cyphers and talks. No competitive battles, just a
 low-key kickoff to meet people before Battle Day.
 
 **Sat Oct 24 — Battle Day** · 918 Bathurst St (not wheelchair accessible) · 12–7:30 PM
