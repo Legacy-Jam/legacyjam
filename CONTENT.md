@@ -62,10 +62,12 @@ Eventbrite for everything.
 
 | Package | Price | Includes |
 |---|---|---|
-| Competitors | $25 | Battle Day entry for competitors |
+| Competitors | $25 at the door | Battle Day entry for competitors |
 | Audience | $30 | Battle Day entry for spectators |
 | Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
 | **Full Festival Pass** | **$70** | All 4 workshops + Battle Day + Legacy Party |
+
+Site copy also notes: "Early bird tickets available on Eventbrite (limited)."
 
 ## 4. Reusable prompts
 
