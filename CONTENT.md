@@ -51,10 +51,15 @@ international guests, built to inspire across generations.*
 
 ## 3. Ticket packages
 
-*Prices below are regular price. Super early bird and early bird discounts are
-running low (site copy: "Prices below are regular price. Super early bird and
-early bird tickets are running low — grab them now for extra savings."), only
-available on the tickets page (Eventbrite).*
+*Competitors and Audience are door prices (walk-up, day-of); Workshops and the
+Full Festival Pass are regular (advance, Eventbrite-only) prices. Super early
+bird and early bird tickets are on Eventbrite now, in limited quantities for a
+limited time — site copy calls this out with a "Limited time" badge in the
+tickets section lede, again as a bold gold-highlighted line under the ticket
+list ("⏳ Early bird tickets are limited and going fast — get yours on
+Eventbrite now."), and once more in the closing CTA section ("Early bird
+tickets are limited and going fast — grab yours on Eventbrite now and claim
+your battle spot.").*
 
 Site shows these as a single compact list (`.ticket-list`), not individual
 cards with their own buttons, one "Get Tickets" button at the bottom links to
@@ -63,11 +68,13 @@ Eventbrite for everything.
 | Package | Price | Includes |
 |---|---|---|
 | Competitors | $25 at the door | Battle Day entry for competitors |
-| Audience | $30 | Battle Day entry for spectators |
-| Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
-| **Full Festival Pass** | **$70** | All 4 workshops + Battle Day + Legacy Party |
+| Audience | $30 at the door | Battle Day entry for spectators |
+| Workshops | $25 each, regular | Book 1–4, bundle 2+ for a discount |
+| **Full Festival Pass** | **$70, regular** | All 4 workshops + entry to every event (Battle Day, Legacy Party & Sunday's panels) |
 
-Site copy also notes: "Early bird tickets available on Eventbrite (limited)."
+Site copy spells out the Full Pass contents explicitly: "Full Festival Pass
+includes all 4 workshops plus entry to every event — Battle Day, the Legacy
+Party and Sunday's panels."
 
 ## 4. Reusable prompts
 
