@@ -69,8 +69,8 @@ Eventbrite for everything.
 
 | Package | Price | Includes |
 |---|---|---|
-| Competitors | $25 at the door | Battle Day entry for competitors |
-| Audience | $30 at the door | Battle Day entry for spectators |
+| Competitors | $25, door price | Battle Day entry for competitors |
+| Audience | $30, door price | Battle Day entry for spectators |
 | Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
 | **Full Festival Pass** | **$70** | 4 workshops + all events (Battle Day, Legacy Party & Sunday's panels) |
 
