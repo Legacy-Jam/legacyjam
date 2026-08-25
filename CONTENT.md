@@ -52,14 +52,16 @@ international guests, built to inspire across generations.*
 ## 3. Ticket packages
 
 *Competitors and Audience are door prices (walk-up, day-of); Workshops and the
-Full Festival Pass are regular (advance, Eventbrite-only) prices. Super early
-bird and early bird tickets are on Eventbrite now, in limited quantities for a
-limited time — site copy calls this out with a "Limited time" badge in the
-tickets section lede, again as a bold gold-highlighted line under the ticket
-list ("⏳ Early bird tickets are limited and going fast — get yours on
-Eventbrite now."), and once more in the closing CTA section ("Early bird
-tickets are limited and going fast — grab yours on Eventbrite now and claim
-your battle spot.").*
+Full Festival Pass are advance, Eventbrite-only prices. Early bird tickets
+(no "super early bird" tier — just early bird) are on Eventbrite now, in
+limited quantities for a limited time — site copy calls this out with a
+"Limited time" badge in the tickets section lede, again as a bold
+gold-highlighted line under the ticket list ("⏳ Early bird tickets are
+limited and going fast — get yours on Eventbrite now."), once more in the
+closing CTA section ("Early bird tickets are limited and going fast — grab
+yours on Eventbrite now and claim your battle spot."), and now also as a small
+"Early Bird" badge directly on every "Get Tickets" button site-wide (header,
+hero, tickets section, schedule section, closing CTA).*
 
 Site shows these as a single compact list (`.ticket-list`), not individual
 cards with their own buttons, one "Get Tickets" button at the bottom links to
@@ -69,11 +71,12 @@ Eventbrite for everything.
 |---|---|---|
 | Competitors | $25 at the door | Battle Day entry for competitors |
 | Audience | $30 at the door | Battle Day entry for spectators |
-| Workshops | $25 each, regular | Book 1–4, bundle 2+ for a discount |
-| **Full Festival Pass** | **$70, regular** | All 4 workshops + entry to every event (Battle Day, Legacy Party & Sunday's panels) |
+| Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
+| **Full Festival Pass** | **$70** | 4 workshops + all events (Battle Day, Legacy Party & Sunday's panels) |
 
-Site copy spells out the Full Pass contents explicitly: "Full Festival Pass
-includes all 4 workshops plus entry to every event — Battle Day, the Legacy
+Site copy spells out the Full Pass contents in the ticket row itself ("4
+workshops + all events") and again in full below the list: "Full Festival
+Pass includes all 4 workshops plus entry to every event — Battle Day, the Legacy
 Party and Sunday's panels."
 
 ## 4. Reusable prompts

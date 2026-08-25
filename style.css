@@ -172,6 +172,19 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 .btn-big { font-size: 1.05rem; padding: 1rem 2rem; }
 .btn-small { font-size: 0.82rem; padding: 0.5rem 1.05rem; }
+.btn-badge {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0.1em 0.5em;
+  border-radius: 1rem;
+  font-size: 0.6em;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  vertical-align: 0.1em;
+  background: var(--maroon-2);
+  color: var(--cream);
+  white-space: nowrap;
+}
 
 /* ---------- hero ---------- */
 /* visually hidden but read by screen readers */
