@@ -131,10 +131,13 @@ Battle Day timeline/venue.
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
 tournament rounds.*
 
-**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 11 AM–5 PM
-11:00 cyphers (community) → 12:00 Panel Discussions: Mentorship, and Breaking careers &
-parallel careers → 1:00 Workshop 1 → 2:00 Workshop 2 → 3:00 Workshop 3 → 4:00 Workshop 4
-(ends 5:00)
+**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–5 PM
+10:00 cyphers (community) → 11:00 Panel Discussion: Mentorship (1 hr) → 12:00 Workshop 1 →
+1:00 Workshop 2 → 2:00 Panel Discussion: Breaking careers & parallel careers (1 hr) →
+3:00 Workshop 3 → 4:00 Workshop 4 (ends 5:00)
+
+*Each panel now gets its own full hour instead of sharing one slot, spaced between the
+workshops rather than stacked back-to-back at the top of the day.*
 
 ## 6. Crew & volunteering
 
@@ -188,7 +191,7 @@ drive, car access for the weekend, which volunteer roles — drivers,
 tech/production, photography/videography, registration & check-in,
 hospitality, setup & teardown, DJ/sound support — availability across Sat
 Battle Day 12–7:30 PM, Sat after party 9 PM+, and Sun Workshops & Panels
-11 AM–5 PM, plus a waiver & release of liability agreement).
+10 AM–5 PM, plus a waiver & release of liability agreement).
 
 **Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
 in the same "Volunteer With Us" section, a plain `mailto:` link to
