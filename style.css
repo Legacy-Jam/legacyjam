@@ -370,6 +370,8 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 .battle-prize-wrap--icon { display: flex; align-items: flex-start; gap: 0.6rem; }
 .battle-prize-wrap--icon .outbreak-inline { flex: 0 0 auto; height: 1.9rem; width: auto; margin-top: 0.1rem; }
+.battle-icons { display: flex; align-items: center; gap: 0.4rem; flex: 0 0 auto; }
+.battle-icons .outbreak-inline { margin-top: 0; }
 .battle-prize {
   color: var(--gold-bright); font-weight: 900;
   font-size: 1.1rem; line-height: 1.25; margin: 0;
