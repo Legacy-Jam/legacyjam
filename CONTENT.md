@@ -73,7 +73,7 @@ Eventbrite for everything.
 |---|---|---|
 | Competitors | $25, door price | Battle Day entry for competitors |
 | Audience | $30, door price | Battle Day entry for spectators |
-| Workshops | $25 each | Book 1–4, bundle 2+ for a discount |
+| Workshops | $25 each | Book 1–4, or all 4 for $60 |
 | **Full Festival Pass** | **$70** | 4 workshops + all events (Battle Day, Legacy Party & Sunday's panels) |
 
 Site copy spells out the Full Pass contents in the ticket row itself ("4
@@ -137,12 +137,20 @@ final closes the day at peak energy; Exchanges are spread out as palate-cleanser
 tournament rounds.*
 
 **Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–5 PM
-10:00 cyphers (community) → 11:00 Panel Discussion: Mentorship (1 hr) → 12:00 Workshop 1 →
-1:00 Workshop 2 → 2:00 Panel Discussion: Breaking careers & parallel careers (1 hr) →
-3:00 Workshop 3 → 4:00 Workshop 4 (ends 5:00)
+Free block, 10 AM–1 PM: 10:00 cyphers (community) → 11:00–11:50 Panel Discussion: Mentorship
+→ 12:00–12:50 Panel Discussion: Breaking careers & parallel careers.
+Paid workshops, 1–5 PM: 1:00–1:15 Workshop 1 → 1:15–2:30 Workshop 2 → 2:30–3:45 Workshop 3
+→ 3:45–5:00 Workshop 4. $25 each workshop, or all 4 for $60.
 
-*Each panel now gets its own full hour instead of sharing one slot, spaced between the
-workshops rather than stacked back-to-back at the top of the day.*
+*Cyphers and both panels are free and open to everyone; only the 4 workshops require a
+ticket. Site copy calls out "(free)" next to each Sunday-morning schedule item and adds a
+note under the list: "Cyphers & panels (10 AM–1 PM) are free. Workshops: $25 each, or all
+4 for $60." Same pricing repeated in the Tickets & Passes section (both the Workshops row
+hint "or all 4 for $60" and the paragraph below the ticket list).*
+
+*Note: Workshop 1 is scheduled for only 15 minutes (1:00–1:15 PM) while Workshops 2–4 are
+each 75 minutes — this matches the exact times given, but is worth double-checking with
+the user in case it's a typo for a longer slot.*
 
 ## 6. Crew & volunteering
 
