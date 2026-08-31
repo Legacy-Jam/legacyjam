@@ -136,21 +136,17 @@ Battle Day timeline/venue.
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
 tournament rounds.*
 
-**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–5 PM
+**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–6 PM
 Free block, 10 AM–1 PM: 10:00 cyphers (community) → 11:00–11:50 Panel Discussion: Mentorship
 → 12:00–12:50 Panel Discussion: Breaking careers & parallel careers.
-Paid workshops, 1–5 PM: 1:00–1:15 Workshop 1 → 1:15–2:30 Workshop 2 → 2:30–3:45 Workshop 3
-→ 3:45–5:00 Workshop 4. $25 each workshop, or all 4 for $60.
+Paid workshops, 1–6 PM: 1:00–2:15 Workshop 1 (1 hr 15 min) → 2:15–3:30 Workshop 2 →
+3:30–4:45 Workshop 3 → 4:45–6:00 Workshop 4. $25 each workshop, or all 4 for $60.
 
 *Cyphers and both panels are free and open to everyone; only the 4 workshops require a
 ticket. Site copy calls out "(free)" next to each Sunday-morning schedule item and adds a
 note under the list: "Cyphers & panels (10 AM–1 PM) are free. Workshops: $25 each, or all
 4 for $60." Same pricing repeated in the Tickets & Passes section (both the Workshops row
 hint "or all 4 for $60" and the paragraph below the ticket list).*
-
-*Note: Workshop 1 is scheduled for only 15 minutes (1:00–1:15 PM) while Workshops 2–4 are
-each 75 minutes — this matches the exact times given, but is worth double-checking with
-the user in case it's a typo for a longer slot.*
 
 ## 6. Crew & volunteering
 
@@ -204,7 +200,7 @@ drive, car access for the weekend, which volunteer roles — drivers,
 tech/production, photography/videography, registration & check-in,
 hospitality, setup & teardown, DJ/sound support — availability across Sat
 Battle Day 12–7:30 PM, Sat after party 9 PM+, and Sun Workshops & Panels
-10 AM–5 PM, plus a waiver & release of liability agreement).
+10 AM–6 PM, plus a waiver & release of liability agreement).
 
 **Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
 in the same "Volunteer With Us" section, a plain `mailto:` link to
