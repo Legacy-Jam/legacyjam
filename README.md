@@ -28,6 +28,7 @@ These placeholders are marked with `TODO` comments in `index.html`:
 | Placeholder | Where | Replace with |
 |---|---|---|
 | ~~`https://www.eventbrite.ca/e/legacy-jam-2026`~~ | every "Get Tickets" button | ✅ done — links to `https://legacyjam2026.eventbrite.ca` |
+| `https://www.eventbrite.ca/e/REPLACE-ME-WORKSHOPS` | "Get Workshop Tickets" button, `#tickets` section | create a separate Eventbrite event for Sunday workshops and link it here |
 | ~~`https://forms.gle/REPLACE-ME`~~ | "Register to Battle" buttons | ✅ done — links to `https://breakkonnect.com/event/4898` |
 | ~~`https://forms.gle/REPLACE-ME-PARTNER`~~ | "Become a Generations Partner" button | ✅ done — links to `generations-partner.html` |
 | ~~`https://www.instagram.com/legacyjam`~~ | hero, artists, schedule, footer | ✅ done — confirmed handle `@legacy.jam` |

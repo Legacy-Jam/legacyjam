@@ -67,20 +67,30 @@ hero, tickets section, schedule section, closing CTA).*
 
 Site shows these as a single compact list (`.ticket-list`), not individual
 cards with their own buttons, one "Get Tickets" button at the bottom links to
-Eventbrite for everything.
+Eventbrite for everything (except Workshops, see below).
 
 | Package | Price | Includes |
 |---|---|---|
 | Competitors | $25, door price | Battle Day entry for competitors |
 | Audience | $30, door price | Battle Day entry for spectators |
 | Kids (under 10) | $5, door price | Battle Day entry for kids under 10 |
-| Workshops | $25 each | Book 1–4, or all 4 for $60 |
+| Workshops | $25 each | Separate ticket. Book 1–4, or all 4 for $60 |
 | **Full Festival Pass** | **$70** | 4 workshops + all events (Battle Day, Legacy Party & Sunday's panels) |
 
 Site copy spells out the Full Pass contents in the ticket row itself ("4
 workshops + all events") and again in full below the list: "Full Festival
 Pass includes all 4 workshops plus entry to every event — Battle Day, the Legacy
 Party and Sunday's panels."
+
+**Workshops are on a separate Eventbrite page from the main Festival
+ticket** — only the Full Festival Pass includes them on the main ticket.
+Below the main ticket list/button, a dedicated "Sunday Workshops" callout
+(`.workshop-callout`) makes this explicit: its own heading with a "Separate
+ticket" badge, a one-line explainer, the four workshop time slots (1:00–2:15,
+2:15–3:30, 3:30–4:45, 4:45–6:00 PM), the $25-each/$60-bundle price, and its
+own "Get Workshop Tickets" button linking to the separate workshops
+Eventbrite page (placeholder URL until that page exists, see README
+checklist).
 
 ## 4. Reusable prompts
 
