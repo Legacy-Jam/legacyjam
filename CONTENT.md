@@ -157,7 +157,7 @@ tournament rounds.*
 
 **Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–5 PM
 Free block, 10 AM–1 PM: 10:00 cyphers (community) → 11:00–12:00 Panel Discussion: Mentorship
-("How experienced breakers guide the next generation.") → 12:00–1:00 Panel Discussion:
+("Why mentorship matters to breaking's next generation.") → 12:00–1:00 Panel Discussion:
 Breaking careers & parallel careers ("Building a career in and beyond breaking."). Both
 panels are now a full hour each (not 50 min) and list "Panelists to be announced soon."
 until confirmed.
