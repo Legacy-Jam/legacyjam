@@ -10,8 +10,8 @@ places if you change the message.
 
 **Event name:** Legacy Jam 2026
 **Tagline:** Cyphers / Culture / Community
-**Dates:** October 24–25, 2026 · Toronto
-**One-liner:** A two-day breaking festival connecting generations — battles, cyphers, workshops, talks and the after party.
+**Dates:** October 23–25, 2026 · Toronto
+**One-liner:** A three-day breaking festival connecting generations — battles, cyphers, workshops, talks and the after party.
 
 **Purpose statement (short):**
 > Breaking is rooted in cyphers, community and culture — passed down generation to
@@ -20,7 +20,7 @@ places if you change the message.
 > Canadian breakers on the world stage.
 
 **Elevator pitch (for Eventbrite / press):**
-> Legacy Jam is Toronto's intergenerational breaking festival. Over two days, teachers
+> Legacy Jam is Toronto's intergenerational breaking festival. Over three days, teachers
 > battle beside their students, youth winners earn flights to Outbreak Europe 2027, and
 > Canadian breakers face international guests in curated Legacy Exchanges — plus workshops,
 > talks, and a party that brings the whole community together.
