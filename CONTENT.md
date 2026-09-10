@@ -158,7 +158,9 @@ tournament rounds.*
 
 **Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–6 PM
 Free block, 10 AM–1 PM: 10:00 cyphers (community) → 11:00–11:50 Panel Discussion: Mentorship
-→ 12:00–12:50 Panel Discussion: Breaking careers & parallel careers.
+("How experienced breakers guide the next generation.") → 12:00–12:50 Panel Discussion:
+Breaking careers & parallel careers ("Building a career in and beyond breaking."). Both
+panels list "Panelists to be announced soon." until confirmed.
 Paid workshops, 1–6 PM: 1:00–2:15 Workshop 1 (1 hr 15 min) → 2:15–3:30 Workshop 2 →
 3:30–4:45 Workshop 3 → 4:45–6:00 Workshop 4. $25 each workshop, or all 4 for $60.
 
@@ -166,7 +168,9 @@ Paid workshops, 1–6 PM: 1:00–2:15 Workshop 1 (1 hr 15 min) → 2:15–3:30 W
 ticket. Site copy calls out "(free)" next to each Sunday-morning schedule item and adds a
 note under the list: "Cyphers & panels (10 AM–1 PM) are free. Workshops: $25 each, or all
 4 for $60." Same pricing repeated in the Tickets & Passes section (both the Workshops row
-hint "or all 4 for $60" and the paragraph below the ticket list).*
+hint "or all 4 for $60" and the paragraph below the ticket list). Each panel gets a short
+6–8 word one-line description under its title (`.sched-desc`), plus a "Panelists to be
+announced soon" placeholder — replace once panelists are confirmed.*
 
 ## 6. Crew & volunteering
 
