@@ -86,7 +86,10 @@ Party and Sunday's panels."
 ticket** — only the Full Festival Pass includes them on the main ticket.
 Below the main ticket list/button, a dedicated "Sunday Workshops" callout
 (`.workshop-callout`) makes this explicit: its own heading with a "Separate
-ticket" badge, a one-line explainer, the four workshop time slots (1:00–2:15,
+ticket" badge, a short two-sentence explainer ("Sunday starts free: cyphers
+& 2 panels, 10 AM–1 PM. Workshops need their own ticket, unless you have the
+Full Festival Pass."), the venue (Unity Studio, 1560 Yonge St Suite 204,
+Toronto, wheelchair accessible), the four workshop time slots (1:00–2:15,
 2:15–3:30, 3:30–4:45, 4:45–6:00 PM), the $25-each/$60-bundle price, and its
 own "Get Workshop Tickets" button linking to the separate workshops
 Eventbrite page (placeholder URL until that page exists, see README

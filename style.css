@@ -279,6 +279,23 @@ section[id] { scroll-margin-top: 4.5rem; }
   color: #fff; text-transform: uppercase; letter-spacing: 0.06em;
   margin-right: 0.25rem;
 }
+.strip-dates {
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline;
+  gap: 0.2rem 0;
+}
+.strip-item { white-space: nowrap; }
+.strip-item + .strip-item::before {
+  content: "\00b7"; display: inline-block; margin: 0 0.6rem;
+  color: rgba(236,217,184,0.5);
+}
+@media (max-width: 26rem) {
+  .strip-dates { flex-direction: column; align-items: center; gap: 0.15rem; }
+  .strip-item + .strip-item::before { content: none; }
+  .strip-prize { font-size: 0.76rem; letter-spacing: -0.01em; }
+}
+@media (max-width: 21.5rem) {
+  .strip-prize { font-size: 0.68rem; letter-spacing: -0.015em; }
+}
 
 /* ---------- sections ---------- */
 .section { padding: 3.25rem 0; }
