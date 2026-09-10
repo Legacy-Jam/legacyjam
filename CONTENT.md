@@ -74,12 +74,12 @@ Eventbrite for everything (except Workshops, see below).
 | Competitors | $25, door price | Battle Day entry for competitors |
 | Audience | $30, door price | Battle Day entry for spectators |
 | Kids (under 10) | $5, door price | Battle Day entry for kids under 10 |
-| Workshops | $25 each | Separate ticket. Book 1–4, or all 4 for $60 |
-| **Full Festival Pass** | **$70** | 4 workshops + all events (Battle Day, Legacy Party & Sunday's panels) |
+| Workshops | $25 each | Separate ticket. Book 1–3, or all 3 for $50 |
+| **Full Festival Pass** | **$70** | 3 workshops + all events (Battle Day, Legacy Party & Sunday's panels) |
 
-Site copy spells out the Full Pass contents in the ticket row itself ("4
+Site copy spells out the Full Pass contents in the ticket row itself ("3
 workshops + all events") and again in full below the list: "Full Festival
-Pass includes all 4 workshops plus entry to every event — Battle Day, the Legacy
+Pass includes all 3 workshops plus entry to every event — Battle Day, the Legacy
 Party and Sunday's panels."
 
 **Workshops are on a separate Eventbrite page from the main Festival
@@ -89,11 +89,10 @@ Below the main ticket list/button, a dedicated "Sunday Workshops" callout
 ticket" badge, a short two-sentence explainer ("Sunday starts free: cyphers
 & 2 panels, 10 AM–1 PM. Workshops need their own ticket, unless you have the
 Full Festival Pass."), the venue (Unity Studio, 1560 Yonge St Suite 204,
-Toronto, wheelchair accessible), the four workshop time slots (1:00–2:15,
-2:15–3:30, 3:30–4:45, 4:45–6:00 PM), the $25-each/$60-bundle price, and its
-own "Get Workshop Tickets" button linking to the separate workshops
-Eventbrite page (placeholder URL until that page exists, see README
-checklist).
+Toronto, wheelchair accessible), the three workshop time slots (1:00–2:20,
+2:20–3:40, 3:40–5:00 PM, each 1 hr 20 min), the $25-each/$50-bundle price,
+and its own "Get Workshop Tickets" button linking to the separate workshops
+Eventbrite page (placeholder URL until that page exists, see README checklist).
 
 ## 4. Reusable prompts
 
@@ -132,9 +131,9 @@ Schedule heading, above the day grid, followed by a short "Times may change —
 check back for updates" hint.
 
 **Fri Oct 23 — Welcome Jam** · Collective, 389 Spadina Ave, Toronto · 5–10 PM
-Free, all welcome, no tickets needed: cyphers and talks, plus graffiti workshops
-for kids. No competitive battles, just a low-key kickoff to meet people before
-Battle Day.
+Free, all welcome, no tickets needed: cyphers, graffiti workshop, music and
+good vibes. No competitive battles, just a low-key kickoff to meet people
+before Battle Day.
 
 **Sat Oct 24 — Battle Day** · 918 Bathurst St (not wheelchair accessible) · 12–7:30 PM
 12:00 arrive/register/cyphers → 1:00 Generations prelims (1 rd) → 2:30 Pro & Youth cypher
@@ -156,19 +155,20 @@ Battle Day timeline/venue.
 final closes the day at peak energy; Exchanges are spread out as palate-cleansers between
 tournament rounds.*
 
-**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–6 PM
-Free block, 10 AM–1 PM: 10:00 cyphers (community) → 11:00–11:50 Panel Discussion: Mentorship
-("How experienced breakers guide the next generation.") → 12:00–12:50 Panel Discussion:
+**Sun Oct 25 — Workshops & Panels** · Unity Studio, 1560 Yonge St Suite 204 (wheelchair accessible) · 10 AM–5 PM
+Free block, 10 AM–1 PM: 10:00 cyphers (community) → 11:00–12:00 Panel Discussion: Mentorship
+("How experienced breakers guide the next generation.") → 12:00–1:00 Panel Discussion:
 Breaking careers & parallel careers ("Building a career in and beyond breaking."). Both
-panels list "Panelists to be announced soon." until confirmed.
-Paid workshops, 1–6 PM: 1:00–2:15 Workshop 1 (1 hr 15 min) → 2:15–3:30 Workshop 2 →
-3:30–4:45 Workshop 3 → 4:45–6:00 Workshop 4. $25 each workshop, or all 4 for $60.
+panels are now a full hour each (not 50 min) and list "Panelists to be announced soon."
+until confirmed.
+Paid workshops, 1–5 PM: 1:00–2:20 Workshop 1 → 2:20–3:40 Workshop 2 →
+3:40–5:00 Workshop 3. Each workshop is 1 hr 20 min. $25 each workshop, or all 3 for $50.
 
-*Cyphers and both panels are free and open to everyone; only the 4 workshops require a
+*Cyphers and both panels are free and open to everyone; only the 3 workshops require a
 ticket. Site copy calls out "(free)" next to each Sunday-morning schedule item and adds a
 note under the list: "Cyphers & panels (10 AM–1 PM) are free. Workshops: $25 each, or all
-4 for $60." Same pricing repeated in the Tickets & Passes section (both the Workshops row
-hint "or all 4 for $60" and the paragraph below the ticket list). Each panel gets a short
+3 for $50." Same pricing repeated in the Tickets & Passes section (both the Workshops row
+hint "or all 3 for $50" and the paragraph below the ticket list). Each panel gets a short
 6–8 word one-line description under its title (`.sched-desc`), plus a "Panelists to be
 announced soon" placeholder — replace once panelists are confirmed.*
 
@@ -224,7 +224,7 @@ drive, car access for the weekend, which volunteer roles — drivers,
 tech/production, photography/videography, registration & check-in,
 hospitality, setup & teardown, DJ/sound support — availability across Sat
 Battle Day 12–7:30 PM, Sat after party 9 PM+, and Sun Workshops & Panels
-10 AM–6 PM, plus a waiver & release of liability agreement).
+10 AM–5 PM, plus a waiver & release of liability agreement).
 
 **Media pass CTA:** "Request a Media Pass" — sits beside the volunteer button
 in the same "Volunteer With Us" section, a plain `mailto:` link to
