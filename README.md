@@ -1,6 +1,6 @@
 # Legacy Jam 2026 — Website
 
-A simple, accessible, single-page website for **Legacy Jam** (October 24–25, 2026, Toronto).
+A simple, accessible, single-page website for **Legacy Jam** (October 23–25, 2026, Toronto).
 No build step — just `index.html` + `style.css` + `assets/`. The only JavaScript is a
 ~10-line progressive enhancement that shows/hides the back-to-top button; the button's
 `href="#top"` link works with plain CSS scrolling even if it never runs.
