@@ -63,7 +63,7 @@ a test submission through each form and confirm the activation email lands
 - [ ] Check if **Mad Track** is still available Oct 24
 - [ ] Look into Exchanges opponents — **Stripes? Luigi?**
 - [ ] Confirm airport shuttle logistics for Generations Partners (now the only guests offered a pre-booked shuttle) + who monitors the info@legacyjam.com inbox
-- [ ] Confirm Eventbrite ticket tiers match: $25 competitors / $30 audience / $30–$90 workshops / $75 full festival pass
+- [ ] Confirm Eventbrite ticket tiers match: $20 competitors / $25 audience / $5 kids under 10 / $25 each workshop (or $50 for 3) / $70 full festival pass
 - [ ] **Activate FormSubmit for info@legacyjam.com** — click the one-time confirmation link (see note above) or submissions will keep going nowhere
 - [x] Set up the Generations Partner sign-up form (school registration, promo code, VIP meet & greet) — later replaced with a mailto: link, see note above
 
