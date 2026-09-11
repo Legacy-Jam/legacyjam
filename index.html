@@ -3,14 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Legacy Jam 2026 — Cyphers / Culture / Community — Toronto, Oct 23–25</title>
-<meta name="description" content="Legacy Jam is a three-day breaking festival in Toronto, October 23–25, 2026. Battles, cyphers, workshops, talks and the Legacy Party. Register to battle or get tickets on Eventbrite.">
-<meta property="og:title" content="Legacy Jam 2026 — Toronto, Oct 23–25">
-<meta property="og:description" content="Cyphers / Culture / Community. Three days of breaking: battles, workshops, talks and the Legacy Party.">
+<title>Legacy Jam 2026: Cyphers / Culture / Community, Toronto, Oct 23–25</title>
+<meta name="description" content="Legacy Jam is a three-day breaking festival in Toronto, October 23–25, 2026. Battles, cyphers, workshops, talks and the after party. Register to battle or get your tickets now.">
+<meta property="og:title" content="Legacy Jam 2026: Toronto, Oct 23–25">
+<meta property="og:description" content="Cyphers / Culture / Community. Three days of breaking: battles, workshops, talks and the after party.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://legacyjam.com/">
+<meta property="og:image" content="https://legacyjam.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Legacy Jam: October 23–25, 2026, Toronto">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Legacy Jam 2026: Toronto, Oct 23–25">
+<meta name="twitter:description" content="Cyphers / Culture / Community. Three days of breaking: battles, workshops, talks and the after party.">
+<meta name="twitter:image" content="https://legacyjam.com/assets/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Archivo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,31 +29,39 @@
 
 <!-- ============================================================
      REPLACE-BEFORE-LAUNCH LINKS (see README.md checklist):
-     1. Eventbrite tickets:  https://www.eventbrite.ca/e/legacy-jam-2026  (all "Get Tickets" buttons)
-     2. Battle registration: https://forms.gle/REPLACE-ME                 (all "Register to Battle" buttons)
-     3. Instagram:           https://www.instagram.com/legacyjam          (confirm handle)
-     4. Shuttle email:       shuttle@legacyjam.ca                         (confirm address)
+     1. Ticketing link:       https://legacyjam2026.eventbrite.ca  (all "Get Tickets" buttons)
+     2. Battle registration: https://breakkonnect.com/event/4898          ✅ done, all "Register to Battle" buttons
+     3. Instagram:           https://www.instagram.com/legacy.jam         ✅ confirmed: @legacy.jam
+     4. Contact email:       info@legacyjam.com                            (confirm address)
+     5. Generations Partner form: generations-partner.html                ✅ done, built-in application, submits via FormSubmit
+     6. Volunteer application:    volunteer.html                          ✅ done, built-in application, submits via FormSubmit
+     7. Workshops ticketing link: https://www.eventbrite.ca/e/REPLACE-ME-WORKSHOPS  (separate Eventbrite page, "Get Workshop Tickets" button in #tickets)
+     ============================================================
+     NOTE: both forms POST to https://formsubmit.co/info@legacyjam.com.
+     The very first submission to that address triggers a one-time FormSubmit
+     confirmation email that must be clicked to activate delivery, see README.
      ============================================================ -->
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="#top" aria-label="Legacy Jam — back to top">
-      <span class="brand-script">Legacy</span>
-      <span class="brand-sub">— JAM —</span>
+    <a class="brand" href="#top" aria-label="Legacy Jam, back to top">
+      <img class="brand-logo" src="assets/legacy-jam-logo-script.png" alt="Legacy Jam">
     </a>
     <nav aria-label="Main navigation">
       <ul class="nav-list">
         <li><a href="#tickets">Tickets</a></li>
         <li><a href="#battles">Battles</a></li>
-        <li><a href="#artists">Artists</a></li>
+        <!-- re-enable when Guest Artists goes live: <li><a href="#artists">Artists</a></li> -->
         <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#festival">Festival</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#partners">Partners</a></li>
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
-    <a class="btn btn-gold btn-small" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Tickets</a>
+    <div class="header-cta">
+      <a class="btn btn-outline btn-small" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to Battle</a>
+      <a class="btn btn-gold btn-small" href="https://legacyjam2026.eventbrite.ca" target="_blank" rel="noopener noreferrer">Get Tickets <span class="btn-badge">Early Bird</span></a>
+    </div>
   </div>
 </header>
 
@@ -52,33 +70,37 @@
   <!-- ================= HERO ================= -->
   <section id="top" class="hero" aria-labelledby="hero-title">
     <div class="wrap hero-inner">
-      <!-- TODO: replace the text wordmark below with the official logo:
-           <img src="assets/legacy-jam-logo.png" alt="Legacy Jam" class="hero-logo"> -->
-      <p class="hero-script" aria-hidden="true">Legacy</p>
-      <h1 id="hero-title" class="hero-title">LEGACY JAM <span class="year">2026</span></h1>
+      <h1 id="hero-title" class="hero-logo-h1">
+        <img class="hero-logo" src="assets/legacy-jam-logo-gradient.png" alt="Legacy Jam">
+      </h1>
       <p class="tagline">Cyphers <span aria-hidden="true">/</span> Culture <span aria-hidden="true">/</span> Community</p>
       <p class="hero-meta">
         <strong>October 23–25, 2026 · Toronto</strong><br>
-        Three days of breaking: battles, cyphers, workshops, talks &amp; the Legacy Party.
+        Three days of breaking, generation to generation: battles, cyphers, workshops, talks &amp; the after party.
       </p>
-      <div class="cta-row">
-        <a class="btn btn-gold btn-big" href="#battles">Register to Battle</a>
-        <a class="btn btn-outline btn-big" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get Tickets on Eventbrite</a>
+      <p class="family-note"><span class="badge badge-maroon">Family friendly</span> Kids &amp; parents encouraged to attend.</p>
+      <div class="cta-row cta-row-equal">
+        <a class="btn btn-outline btn-big" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to Battle</a>
+        <a class="btn btn-gold btn-big" href="https://legacyjam2026.eventbrite.ca" target="_blank" rel="noopener noreferrer">Get Tickets <span class="btn-badge">Early Bird</span></a>
+        <a class="btn btn-big btn-ig" href="https://www.instagram.com/legacy.jam" target="_blank" rel="noopener noreferrer">
+          Follow <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="ig-grad-hero" x1="0" y1="24" x2="24" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FEDA75"/><stop offset="0.25" stop-color="#FA7E1E"/><stop offset="0.5" stop-color="#D62976"/><stop offset="0.75" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><path fill="url(#ig-grad-hero)" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .2 2.4.4.6.2 1 .5 1.4 1 .4.4.7.8 1 1.4.2.5.3 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 2-.4 2.4-.2.6-.5 1-1 1.4-.4.4-.8.7-1.4 1-.5.2-1.2.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.2-2.4-.4-.6-.2-1-.5-1.4-1-.4-.4-.7-.8-1-1.4-.2-.5-.3-1.2-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-2 .4-2.4.2-.6.5-1 1-1.4.4-.4.8-.7 1.4-1 .5-.2 1.2-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1 .1-1.6.2-2 .3-.5.2-.8.4-1.2.7-.4.4-.6.7-.7 1.2-.1.4-.3 1-.3 2C3 9.5 3 9.9 3 13s0 3.5.1 4.7c.1 1 .2 1.6.3 2 .2.5.4.8.7 1.2.4.4.7.6 1.2.7.4.1 1 .3 2 .3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.6-.2 2-.3.5-.2.8-.4 1.2-.7.4-.4.6-.7.7-1.2.1-.4.3-1 .3-2 .1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.6-.3-2-.2-.5-.4-.8-.7-1.2-.4-.4-.7-.6-1.2-.7-.4-.1-1-.3-2-.3-1.2-.1-1.6-.1-4.7-.1z"/><path fill="url(#ig-grad-hero)" d="M12 7.4a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2zm0 7.6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/><circle fill="url(#ig-grad-hero)" cx="17.3" cy="6.7" r="1.1"/></svg> @legacy.jam
+        </a>
       </div>
-      <p class="hero-follow">
-        Lineups, early-bird drops and updates land on Instagram first —
-        <a href="https://www.instagram.com/legacyjam">follow @legacyjam</a>
-      </p>
+      <p class="hero-follow-note">Exciting announcements &amp; surprise guests dropping soon.</p>
     </div>
   </section>
 
   <!-- ================= QUICK FACTS STRIP ================= -->
   <section class="strip" aria-label="Key event facts">
-    <div class="wrap strip-inner">
-      <p><strong>Fri Oct 23</strong><br>Opening Sessions</p>
-      <p><strong>Sat Oct 24</strong><br>Battle Day · 918 Bathurst St · 12–7 PM</p>
-      <p><strong>Sun Oct 25</strong><br>Workshops &amp; Talks · Unity Studio, 1560 Yonge St</p>
-      <p><strong>Winners fly to</strong><br>Outbreak Europe 2027 🇸🇰</p>
+    <div class="wrap">
+      <p class="strip-line strip-dates">
+        <span class="strip-item"><strong>Oct 23</strong> Free Welcome Jam</span>
+        <span class="strip-item"><strong>Oct 24</strong> Battle Day</span>
+        <span class="strip-item"><strong>Oct 25</strong> Workshops</span>
+      </p>
+      <p class="strip-line strip-prize">
+        <strong>Prizes</strong> $2,500 cash + flights to Outbreak Europe
+      </p>
     </div>
   </section>
 
@@ -87,34 +109,50 @@
     <div class="wrap">
       <p class="eyebrow">Lock it in early</p>
       <h2 id="tickets-title">Tickets &amp; Passes</h2>
-      <p class="section-lede">Early-bird pricing while it lasts. All tickets are sold through Eventbrite.</p>
-      <ul class="cards ticket-grid">
-        <li class="card ticket">
-          <h3>Dancer Pass</h3>
-          <p class="price">$20</p>
-          <p>Battle Day entry for dancers. Compete, cypher, connect.</p>
-          <a class="btn btn-outline" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get on Eventbrite</a>
-        </li>
-        <li class="card ticket">
-          <h3>Audience</h3>
-          <p class="price">$30</p>
-          <p>Battle Day entry for spectators. Bring the whole family.</p>
-          <a class="btn btn-outline" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get on Eventbrite</a>
-        </li>
-        <li class="card ticket">
-          <h3>Workshops</h3>
-          <p class="price">$30 <span class="price-note">/ one</span></p>
-          <p>1 workshop $30 · 2 workshops $50 · all 3 workshops $70.</p>
-          <a class="btn btn-outline" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get on Eventbrite</a>
-        </li>
-        <li class="card ticket ticket-featured">
-          <p class="badge">Best value</p>
-          <h3>Full Weekend Pass</h3>
-          <p class="price">$75</p>
-          <p>All 3 workshops + Battle Day + the Legacy Party. The whole festival, one pass.</p>
-          <a class="btn btn-gold" href="https://www.eventbrite.ca/e/legacy-jam-2026">Get on Eventbrite</a>
-        </li>
-      </ul>
+      <p class="section-lede"><span class="badge badge-maroon">Limited time</span> Early bird tickets are on Eventbrite now, in limited quantities for a limited time only &mdash; grab yours before they&rsquo;re gone. Prices below are shown at door/regular rates.</p>
+
+      <div class="ticket-list">
+        <div class="ticket-item">
+          <span class="t-label"><span class="ticket-day">Sat</span>Competitors</span>
+          <span class="t-price">$20 <span class="price-note">Door price</span></span>
+        </div>
+        <div class="ticket-item">
+          <span class="t-label"><span class="ticket-day">Sat</span>Audience</span>
+          <span class="t-price">$25 <span class="price-note">Door price</span></span>
+        </div>
+        <div class="ticket-item">
+          <span class="t-label"><span class="ticket-day">Sat</span>Kids <span class="hint">under 10</span></span>
+          <span class="t-price">$5 <span class="price-note">Door price</span></span>
+        </div>
+        <div class="ticket-item">
+          <span class="t-label"><span class="ticket-day">Sun</span>Workshops <span class="hint">separate ticket, or all 3 for $50</span></span>
+          <span class="t-price">$25 <span class="price-note">each</span></span>
+        </div>
+        <div class="ticket-item is-featured">
+          <span class="t-label"><span class="ticket-day" aria-hidden="true"></span>Full Festival Pass <span class="badge">Best value</span> <span class="hint">3 workshops + all events</span></span>
+          <span class="t-price">$70</span>
+        </div>
+      </div>
+      <p class="ticket-note">Full Festival Pass includes all 3 workshops plus entry to every event &mdash; Battle Day, the Legacy Party and Sunday&rsquo;s panels. Sunday cyphers &amp; panels are free. Kids under 10 get into Battle Day for $5. Workshops are booked on a separate ticket unless you get the Full Festival Pass &mdash; see below.</p>
+      <p class="ticket-note ticket-urgency">&#9203; Early bird tickets are limited and going fast &mdash; get yours on Eventbrite now.</p>
+      <p class="cta-row">
+        <a class="btn btn-gold btn-big" href="https://legacyjam2026.eventbrite.ca" target="_blank" rel="noopener noreferrer">Get Tickets <span class="btn-badge">Early Bird</span></a>
+      </p>
+
+      <div class="workshop-callout">
+        <h3 class="workshop-callout-title">Sunday Workshops <span class="badge badge-maroon">Separate ticket</span></h3>
+        <p class="workshop-callout-copy">Sunday starts free: cyphers &amp; 2 panels, 10 AM&ndash;1 PM. Workshops need their own ticket, unless you have the Full Festival Pass.</p>
+        <p class="venue">Unity Studio: 1560 Yonge St, Suite 204, Toronto <span class="hint">(wheelchair accessible)</span></p>
+        <ul class="workshop-slots">
+          <li><span class="time">1:00&ndash;2:20 PM</span> Workshop 1</li>
+          <li><span class="time">2:20&ndash;3:40 PM</span> Workshop 2</li>
+          <li><span class="time">3:40&ndash;5:00 PM</span> Workshop 3</li>
+        </ul>
+        <p class="workshop-callout-price">$25 each, or all 3 for $50</p>
+        <p class="cta-row">
+          <a class="btn btn-outline btn-big" href="https://www.eventbrite.ca/e/REPLACE-ME-WORKSHOPS" target="_blank" rel="noopener noreferrer">Get Workshop Tickets</a>
+        </p>
+      </div>
     </div>
   </section>
 
@@ -122,33 +160,50 @@
   <section id="battles" class="section section-alt" aria-labelledby="battles-title">
     <div class="wrap">
       <p class="eyebrow">Compete · Sat Oct 24</p>
-      <h2 id="battles-title">The Battles</h2>
+      <h2 id="battles-title">Battles and Prizes</h2>
       <p class="section-lede">
-        Saturday, October 24 · 918 Bathurst St, Toronto · 12–7 PM.
-        Spots are limited — register early.
+        Saturday, October 24 · 918 Bathurst St, Toronto · 12–7:30 PM.
+        Spots are limited. Register early.
       </p>
       <p class="cta-row">
-        <!-- TODO: point this at the real registration form -->
-        <a class="btn btn-gold btn-big" href="https://forms.gle/REPLACE-ME">Register to Battle — Free with Dancer Pass</a>
+        <a class="btn btn-gold btn-big" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to Battle</a>
       </p>
       <ul class="cards battle-grid">
         <li class="card">
-          <h3>Generations Battle <span class="format-tag">2v2</span></h3>
-          <p>Teacher and student battle side by side — every duo needs a minimum 10-year age gap. Breaking is passed down; this battle proves it.</p>
+          <h3>Generations Battle</h3>
+          <p class="battle-meta">Teacher and student battle side by side (minimum 10-year age gap per duo).</p>
+          <div class="battle-prize-wrap">
+            <p class="battle-prize">$2,500 cash</p>
+            <p class="battle-prize-sub">$1,200 winner &middot; $500 second &middot; $200 top 4 &middot; $100 top 8</p>
+          </div>
+          <a class="battle-register" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to battle &rarr;</a>
         </li>
         <li class="card">
-          <h3>Youth Cypher Battle <span class="format-tag">Under 18 · 1v1</span></h3>
-          <p>The next generation goes head to head.</p>
-          <p class="prize">🏆 Prize: flight + entry to Outbreak Europe 2027 in Slovakia.</p>
+          <h3>Youth Cypher Battle</h3>
+          <p class="battle-meta"><strong>Format:</strong> 1v1 &middot; <strong>Age:</strong> Under 19</p>
+          <div class="battle-prize-wrap battle-prize-wrap--icon">
+            <div class="battle-icons">
+              <img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy">
+              <img class="outbreak-inline" src="assets/logos/youth-future-camp.png" alt="" loading="lazy">
+            </div>
+            <div>
+              <p class="battle-prize">Youth is the Future Camp + Outbreak Europe</p>
+              <p class="battle-prize-sub">Flight, accommodation &amp; entry fully covered, Slovakia, July 2027</p>
+            </div>
+          </div>
+          <a class="battle-register" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to battle &rarr;</a>
         </li>
         <li class="card">
-          <h3>Pro Cypher Battle <span class="format-tag">1v1</span></h3>
-          <p>Open to all — Canada's top breakers battle for the biggest stage in the culture.</p>
-          <p class="prize">🏆 Prize: flight + entry to Outbreak Europe 2027 in Slovakia.</p>
-        </li>
-        <li class="card">
-          <h3>Legacy Exchanges <span class="format-tag">Showcase battles</span></h3>
-          <p>Battle conversations curated to push the art form of breaking to new heights. Each Exchange matches a Canadian breaker against an international guest — bringing Canadian breaking to the world stage.</p>
+          <h3>Pro Cypher Battle</h3>
+          <p class="battle-meta"><strong>Format:</strong> 1v1 &middot; <strong>Age:</strong> 19+</p>
+          <div class="battle-prize-wrap battle-prize-wrap--icon">
+            <img class="outbreak-inline" src="assets/logos/outbreak-europe.png" alt="" loading="lazy">
+            <div>
+              <p class="battle-prize">Flight to Outbreak Europe</p>
+              <p class="battle-prize-sub">Trip, entry &amp; accommodation, Slovakia, July 2027</p>
+            </div>
+          </div>
+          <a class="battle-register" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to battle &rarr;</a>
         </li>
       </ul>
     </div>
@@ -159,63 +214,66 @@
        in assets/artists/ (square photo, any format) and update src, bio and
        Instagram link. Placeholder SVGs render initials until a photo replaces
        the file. TODO: verify every Instagram handle before launch. -->
-  <section id="artists" class="section" aria-labelledby="artists-title">
+  <!-- HIDDEN until the Instagram announcement: remove the `hidden` attribute below
+       and restore the "Artists" nav link at the top of the page to re-introduce. -->
+  <section id="artists" class="section" aria-labelledby="artists-title" hidden>
     <div class="wrap">
       <p class="eyebrow">The lineup</p>
       <h2 id="artists-title">Guest Artists</h2>
-      <p class="section-lede">Tap any artist for their Instagram. More names announced on <a href="https://www.instagram.com/legacyjam">Instagram</a> as they confirm.</p>
+      <p class="section-lede">Tap any artist for their Instagram. More names announced on <a href="https://www.instagram.com/legacy.jam" target="_blank" rel="noopener noreferrer">@legacy.jam</a> as they confirm.</p>
 
-      <h3 class="partner-group">Legacy Exchanges — Exhibition Battles</h3>
+      <h3 class="partner-group">Legacy Exchanges: Exhibition Battles</h3>
+      <p class="group-note">Battle conversations and curated matchups built to inspire across generations.</p>
       <ul class="people">
         <li class="person matchup">
-          <span class="avatar-duo"><img class="avatar" src="assets/artists/madtrack.svg" alt="" width="48" height="48" loading="lazy"><img class="avatar" src="assets/artists/stripes.svg" alt="" width="48" height="48" loading="lazy"></span>
+          <span class="avatar-duo"><img class="avatar" src="assets/artists/madtrack.jpeg" alt="" width="48" height="48" loading="lazy"><img class="avatar" src="assets/artists/stripes.svg" alt="" width="48" height="48" loading="lazy"></span>
           <div><strong><a href="https://www.instagram.com/bboymadtrack">Madtrack</a> <span class="vs">vs</span> <a href="https://www.instagram.com/bboystripes">Stripes</a></strong><span>5 rounds · no maximum</span></div>
         </li>
         <li class="person matchup">
-          <span class="avatar-duo"><img class="avatar" src="assets/artists/tiff.svg" alt="" width="48" height="48" loading="lazy"><img class="avatar" src="assets/artists/logistx.svg" alt="" width="48" height="48" loading="lazy"></span>
+          <span class="avatar-duo"><img class="avatar" src="assets/artists/tiff.jpeg" alt="" width="48" height="48" loading="lazy"><img class="avatar" src="assets/artists/logistx.avif" alt="" width="48" height="48" loading="lazy"></span>
           <div><strong><a href="https://www.instagram.com/bgirltiff">TIFF</a> <span class="vs">vs</span> <a href="https://www.instagram.com/logistx">Logistx</a></strong><span>5 rounds · no maximum</span></div>
         </li>
       </ul>
 
       <h3 class="partner-group">Judges</h3>
       <ul class="people">
-        <li class="person"><a class="person-link" href="https://www.instagram.com/logistx"><img class="avatar" src="assets/artists/logistx.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Logistx</strong><span>Red Bull BC One All Star, 2021 world champion</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/ronnieabaldonado"><img class="avatar" src="assets/artists/ronnie.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Ronnie</strong><span>Super Cr3w / Full Force, Red Bull BC One world champion</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/mgability"><img class="avatar" src="assets/artists/mgability.svg" alt="" width="48" height="48" loading="lazy"><div><strong>MGability</strong><span>Canadian powerhouse representing on the world stage</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/logistx"><img class="avatar" src="assets/artists/logistx.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Logistx</strong><span>Red Bull BC One All Star, 2021 world champion</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/ronnieabaldonado"><img class="avatar" src="assets/artists/ronnie.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Ronnie</strong><span>Super Cr3w / Full Force, Red Bull BC One world champion</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/mgability"><img class="avatar" src="assets/artists/mgbility.jpeg" alt="" width="48" height="48" loading="lazy"><div><strong>MGbility</strong><span>Canadian powerhouse representing on the world stage</span></div></a></li>
       </ul>
 
       <h3 class="partner-group">Workshop Facilitators</h3>
       <ul class="people">
-        <li class="person"><a class="person-link" href="https://www.instagram.com/logistx"><img class="avatar" src="assets/artists/logistx.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Logistx</strong><span>Red Bull BC One All Star, 2021 world champion</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/ronnieabaldonado"><img class="avatar" src="assets/artists/ronnie.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Ronnie</strong><span>Super Cr3w / Full Force, Red Bull BC One world champion</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/logistx"><img class="avatar" src="assets/artists/logistx.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Logistx</strong><span>Red Bull BC One All Star, 2021 world champion</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/ronnieabaldonado"><img class="avatar" src="assets/artists/ronnie.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Ronnie</strong><span>Super Cr3w / Full Force, Red Bull BC One world champion</span></div></a></li>
       </ul>
 
       <h3 class="partner-group">DJs</h3>
       <ul class="people">
-        <li class="person"><a class="person-link" href="https://www.instagram.com/djbbad"><img class="avatar" src="assets/artists/b-bad.svg" alt="" width="48" height="48" loading="lazy"><div><strong>B Bad</strong><span>Toronto break DJ keeping the cyphers alive</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/djtimber"><img class="avatar" src="assets/artists/timber.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Timber</strong><span>Break DJ powering jams across Canada</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/djbbad"><img class="avatar" src="assets/artists/b-bad.svg" alt="" width="48" height="48" loading="lazy"><div><strong>B Bad</strong><span>MEC Crew, Toronto break DJ keeping the cyphers alive</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/djtimber"><img class="avatar" src="assets/artists/timber.jpeg" alt="" width="48" height="48" loading="lazy"><div><strong>Timber</strong><span>Your favourite dancer&rsquo;s favourite DJ</span></div></a></li>
       </ul>
 
       <h3 class="partner-group">MCs / Hosts</h3>
       <ul class="people">
-        <li class="person"><a class="person-link" href="https://www.instagram.com/boobjester"><img class="avatar" src="assets/artists/boobjester.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Boobjester</strong><span>Canadian b-boy legend, MC and host</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/switchb"><img class="avatar" src="assets/artists/switch-b.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Switch B</strong><span>B-girl, MC and community builder</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/boobjester"><img class="avatar" src="assets/artists/boobjester.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Boobjester</strong><span>MEC Crew, Canadian b-boy legend, MC and host</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/switchb"><img class="avatar" src="assets/artists/switch-b.jpeg" alt="" width="48" height="48" loading="lazy"><div><strong>Switch B</strong><span>MEC Crew, MC and community builder</span></div></a></li>
       </ul>
 
       <h3 class="partner-group">Panel Discussion</h3>
       <ul class="people">
-        <li class="person"><a class="person-link" href="https://www.instagram.com/deadlymike"><img class="avatar" src="assets/artists/deadly-mike.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Deadly Mike</strong><span>Canadian breaking pioneer and community leader</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/philwizard_"><img class="avatar" src="assets/artists/phil-wizard.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Phil Wizard</strong><span>Paris 2024 Olympic breaking gold medalist</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/ronnieabaldonado"><img class="avatar" src="assets/artists/ronnie.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Ronnie</strong><span>Super Cr3w / Full Force, Red Bull BC One world champion</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/logistx"><img class="avatar" src="assets/artists/logistx.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Logistx</strong><span>Red Bull BC One All Star, 2021 world champion</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/mgability"><img class="avatar" src="assets/artists/mgability.svg" alt="" width="48" height="48" loading="lazy"><div><strong>MGability</strong><span>Canadian powerhouse representing on the world stage</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/bgirltiff"><img class="avatar" src="assets/artists/tiff.svg" alt="" width="48" height="48" loading="lazy"><div><strong>TIFF</strong><span>Team Canada b-girl competing worldwide</span></div></a></li>
-        <li class="person"><a class="person-link" href="https://www.instagram.com/bboypiecez"><img class="avatar" src="assets/artists/piecez.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Piecez <span class="mod-tag">Moderator</span></strong><span>Legacy Jam founder, Unity Charity founder</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/deadlymike"><img class="avatar" src="assets/artists/deadly-mike.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Deadly Mike</strong><span>Canadian breaking pioneer and community leader</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/philwizard_"><img class="avatar" src="assets/artists/phil-wizard.jpeg" alt="" width="48" height="48" loading="lazy"><div><strong>Phil Wizard</strong><span>Paris 2024 Olympic breaking gold medalist</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/ronnieabaldonado"><img class="avatar" src="assets/artists/ronnie.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Ronnie</strong><span>Super Cr3w / Full Force, Red Bull BC One world champion</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/logistx"><img class="avatar" src="assets/artists/logistx.avif" alt="" width="48" height="48" loading="lazy"><div><strong>Logistx</strong><span>Red Bull BC One All Star, 2021 world champion</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/mgability"><img class="avatar" src="assets/artists/mgbility.jpeg" alt="" width="48" height="48" loading="lazy"><div><strong>MGbility</strong><span>Canadian powerhouse representing on the world stage</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/bgirltiff"><img class="avatar" src="assets/artists/tiff.jpeg" alt="" width="48" height="48" loading="lazy"><div><strong>TIFF</strong><span>Team Canada b-girl competing worldwide</span></div></a></li>
+        <li class="person"><a class="person-link" href="https://www.instagram.com/bboypiecez"><img class="avatar" src="assets/artists/piecez.svg" alt="" width="48" height="48" loading="lazy"><div><strong>Piecez <span class="mod-tag">Moderator</span></strong><span>MEC Crew, Unity Charity Founder, EPIC Leadership Founder</span></div></a></li>
       </ul>
 
-      <h3 class="partner-group">Generations Battle — Special Guests</h3>
+      <h3 class="partner-group">Generations Battle: Special Guests</h3>
       <ul class="people">
-        <li class="person"><div><strong>To be confirmed</strong><span>Announcing soon — follow Instagram for the drop</span></div></li>
+        <li class="person"><div><strong>To be confirmed</strong><span>Announcing soon: follow <a href="https://www.instagram.com/legacy.jam" target="_blank" rel="noopener noreferrer"><strong>@legacy.jam</strong></a> for the drop</span></div></li>
       </ul>
 
       <h3 class="partner-group">Youth Showcase Battles</h3>
@@ -225,93 +283,123 @@
     </div>
   </section>
 
+  <!-- ================= PURPOSE ================= -->
+  <section id="purpose" class="section" aria-labelledby="purpose-title">
+    <div class="wrap about-narrow">
+      <p class="eyebrow">Our purpose</p>
+      <h2 id="purpose-title">Why Legacy Jam</h2>
+      <p class="purpose">
+        Breaking is rooted in cyphers, community and culture, passed down
+        generation to generation. Legacy Jam keeps that chain alive: celebrating the
+        people who built Canadian breaking, investing in the youth who&rsquo;ll carry
+        it forward, and putting Canadian breakers on the world stage.
+      </p>
+      <h3>The festival</h3>
+      <p>Six experiences, one weekend, purpose driven:</p>
+      <ul class="inner-list">
+        <li><strong>Legacy Cypher</strong>: brings back the raw cypher for youth and the community; Youth &amp; Pro winners fly to Outbreak Europe 2027.</li>
+        <li><strong>Legacy Generations</strong>: teacher &amp; student battle 2v2, proving breaking is passed down; $2,500 cash on the line.</li>
+        <li><strong>Legacy Exchanges</strong>: curated battle conversations, Canadian breakers vs international guests, built to inspire across generations.</li>
+        <li><strong>Legacy Talks</strong>: real talk on mentorship and building a life in breaking, from those who&rsquo;ve done it.</li>
+        <li><strong>Legacy Workshops</strong>: world-class breakers pass down real skills to the next generation.</li>
+        <li><strong>Legacy Party</strong>: an after-hours party for the whole community. 19+.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= VOLUNTEER & MEDIA ================= -->
+  <section id="volunteer" class="section" aria-labelledby="volunteer-title">
+    <div class="wrap about-narrow">
+      <p class="eyebrow">Get involved</p>
+      <h2 id="volunteer-title">Volunteer With Us</h2>
+      <p>
+        Legacy Jam happens because of dedicated volunteers: we need your help
+        to make this event possible for the community.
+      </p>
+      <p class="cta-row">
+        <a class="btn btn-gold" href="volunteer.html">Apply to volunteer for Legacy Jam</a>
+        <a class="btn btn-outline" href="mailto:info@legacyjam.com?subject=Media%20Pass%20Request&amp;body=Name%3A%0D%0AOutlet%20/%20Instagram%20handle%3A%0D%0APhoto%2C%20video%2C%20or%20both%3F%3A%0D%0AWhich%20day%28s%29%3F%20%28Sat/Sun/Both%29%3A">Request a Media Pass</a>
+      </p>
+      <p class="note">Shooting photo or video at the event? The media pass link is for you.</p>
+    </div>
+  </section>
+
   <!-- ================= SCHEDULE ================= -->
   <section id="schedule" class="section" aria-labelledby="schedule-title">
     <div class="wrap">
-      <p class="eyebrow">Three days, one culture</p>
+      <p class="eyebrow">Cyphers all weekend</p>
       <h2 id="schedule-title">Schedule</h2>
+      <p class="sched-alert">⏱️ Battles run on time. Don&rsquo;t be late!</p>
+      <p class="hint">Times may change &mdash; check back for updates.</p>
       <div class="sched-grid">
 
         <article class="sched-day" aria-labelledby="day1">
-          <h3 id="day1">Fri, Oct 23 <span class="day-label">Legacy Sessions — Opening Night</span></h3>
-          <p class="venue">Location announced on Instagram</p>
+          <h3 id="day1">Fri, Oct 23 <span class="day-label">Welcome Jam</span></h3>
+          <p class="venue">Collective: 389 Spadina Ave, Toronto</p>
           <ul class="sched-list">
-            <li><span class="time">7:00 PM</span> Doors + open practice</li>
-            <li><span class="time">8:00 PM</span> Welcome cyphers &amp; battle check-in</li>
-            <li><span class="time">10:00 PM</span> Close</li>
+            <li><span class="time">5:00&ndash;10:00 PM</span> Cyphers, graffiti workshop, music &amp; good vibes &mdash; free, all welcome, no tickets needed!</li>
           </ul>
         </article>
 
         <article class="sched-day" aria-labelledby="day2">
           <h3 id="day2">Sat, Oct 24 <span class="day-label">Battle Day</span></h3>
-          <p class="venue">918 Bathurst Centre — 918 Bathurst St, Toronto</p>
+          <p class="venue">918 Bathurst Centre: 918 Bathurst St, Toronto <span class="hint">(not wheelchair accessible)</span></p>
           <ul class="sched-list">
-            <li><span class="time">12:00 PM</span> Doors, open cyphers + registration check-in</li>
-            <li><span class="time">12:30 PM</span> Youth Cypher Battle — preliminaries</li>
-            <li><span class="time">1:30 PM</span> Pro Cypher Battle — preliminaries</li>
-            <li><span class="time">2:30 PM</span> Generations Battle (2v2) — preliminaries</li>
-            <li><span class="time">3:30 PM</span> Legacy Exchanges — round one</li>
-            <li><span class="time">4:00 PM</span> Youth Cypher — semis &amp; final</li>
-            <li><span class="time">4:45 PM</span> Generations Battle — semis &amp; final</li>
-            <li><span class="time">5:30 PM</span> Legacy Exchanges — round two</li>
-            <li><span class="time">6:00 PM</span> Pro Cypher — semis &amp; final</li>
-            <li><span class="time">6:45 PM</span> Awards + closing circle</li>
-            <li><span class="time">9:00 PM</span> <strong>Legacy Party</strong> with DJ Mensa × Cypher Playground</li>
+            <li><span class="time">12:00 PM</span> Arrive · register · open cyphers</li>
+            <li><span class="time">1:00 PM</span> Generations prelims: 1 round</li>
+            <li><span class="time">2:30 PM</span> Pro &amp; Youth cypher prelims: 2 circles</li>
+            <li><span class="time">3:30 PM</span> Exhibition battles 1 &amp; 2</li>
+            <li><span class="time">4:00 PM</span> Generations top 16: 1 round</li>
+            <li><span class="time">4:30 PM</span> Pro &amp; Youth top 8: 2 rounds</li>
+            <li><span class="time">5:00 PM</span> Generations top 8: 1 round</li>
+            <li><span class="time">5:30 PM</span> Exhibition battle 3</li>
+            <li><span class="time">5:45 PM</span> Pro &amp; Youth top 4: 3 rounds</li>
+            <li><span class="time">6:15 PM</span> Generations top 4: 2 rounds</li>
+            <li><span class="time">6:30 PM</span> Pro &amp; Youth finals: 5 rounds</li>
+            <li><span class="time">6:45 PM</span> OG Cypher: 20 minutes</li>
+            <li><span class="time">7:00 PM</span> Generations final: 2 rounds</li>
+            <li><span class="time">7:30 PM</span> Awards + closing circle</li>
           </ul>
+          <p class="note">
+            <!-- TODO: confirm Legacy Party venue address before launch -->
+            <span class="time">9:00 PM</span> <strong>Legacy Party (19+)</strong>:
+            separate event, different venue. Details closer to the date.
+          </p>
+          <div class="kids-zone">
+            <h4>Children&rsquo;s Hip Hop Zone <span class="badge badge-maroon">Family friendly</span></h4>
+            <p><span class="time">1:00&ndash;6:00 PM</span> &middot; basement, 918 Bathurst St &middot; ages 3&ndash;12</p>
+            <p>Beginner moves, breaker-name &amp; art name tag making, art stations, a hip hop scavenger hunt &amp; a mini kids&rsquo; cypher.</p>
+            <p class="hint">Parents must accompany their children at all times.</p>
+          </div>
         </article>
 
         <article class="sched-day" aria-labelledby="day3">
-          <h3 id="day3">Sun, Oct 25 <span class="day-label">Workshops &amp; Talks</span></h3>
-          <p class="venue">Unity Studio — 1560 Yonge St, Suite 204, Toronto</p>
+          <h3 id="day3">Sun, Oct 25 <span class="day-label">Workshops &amp; Panels</span></h3>
+          <p class="venue">Unity Studio: 1560 Yonge St, Suite 204, Toronto <span class="hint">(wheelchair accessible)</span></p>
           <ul class="sched-list">
-            <li><span class="time">11:00 AM</span> Doors + warm-up</li>
-            <li><span class="time">11:30 AM</span> Workshop 1</li>
-            <li><span class="time">1:00 PM</span> Legacy Talks — session one</li>
-            <li><span class="time">2:15 PM</span> Workshop 2</li>
-            <li><span class="time">3:45 PM</span> Legacy Talks — session two</li>
-            <li><span class="time">5:00 PM</span> Workshop 3</li>
-            <li><span class="time">6:15 PM</span> Closing cypher</li>
+            <li><span class="time">10:00 AM</span> Cyphers: community <span class="hint">(free)</span></li>
+            <li class="has-desc">
+              <span class="time">11:00 AM&ndash;12:00 PM</span> Panel Discussion: Mentorship <span class="hint">(free)</span>
+              <span class="sched-desc">Why mentorship matters to breaking's next generation. Panelists to be announced soon.</span>
+            </li>
+            <li class="has-desc">
+              <span class="time">12:00&ndash;1:00 PM</span> Panel Discussion: Breaking careers &amp; parallel careers <span class="hint">(free)</span>
+              <span class="sched-desc">Building a career in and beyond breaking. Panelists to be announced soon.</span>
+            </li>
+            <li><span class="time">1:00&ndash;2:20 PM</span> Workshop 1</li>
+            <li><span class="time">2:20&ndash;3:40 PM</span> Workshop 2</li>
+            <li><span class="time">3:40&ndash;5:00 PM</span> Workshop 3</li>
           </ul>
+          <p class="note">Cyphers &amp; panels (10 AM&ndash;1 PM) are free. Workshops: $25 each, or all 3 for $50.</p>
         </article>
 
       </div>
-      <p class="note">Schedule may shift slightly — final times posted on <a href="https://www.instagram.com/legacyjam">Instagram</a> the week of the event.</p>
-    </div>
-  </section>
 
-  <!-- ================= FESTIVAL PROGRAMMING ================= -->
-  <section id="festival" class="section section-alt" aria-labelledby="festival-title">
-    <div class="wrap">
-      <p class="eyebrow">Five experiences</p>
-      <h2 id="festival-title">The Festival</h2>
-      <p class="section-lede">Legacy Jam is five experiences in one weekend.</p>
-      <ul class="cards festival-grid">
-        <li class="card">
-          <h3><span class="brand-script-sm">Legacy</span> Cypher</h3>
-          <p>The heart of Battle Day. The Youth Cypher Battle winner and the Pro Cypher Battle winner are each flown to <strong>Outbreak Europe 2027</strong> — one of the biggest breaking festivals in the world.</p>
-        </li>
-        <li class="card">
-          <h3><span class="brand-script-sm">Legacy</span> Exchanges</h3>
-          <p>Curated battle conversations that push the art form to new heights: Canadian breakers matched against international guests, bringing Canadian breaking to the world stage.</p>
-        </li>
-        <li class="card">
-          <h3><span class="brand-script-sm">Legacy</span> Talks</h3>
-          <p>Real conversations about the culture, in partnership with <strong>Unity</strong> and sponsored by <strong>Sheridan College</strong>.</p>
-          <!-- TODO: replace with the two confirmed talk topics from the deck -->
-          <ul class="inner-list">
-            <li>Building a Life in Breaking — sustainable careers in the culture</li>
-            <li>Passing It Down — mentorship and the next generation</li>
-          </ul>
-        </li>
-        <li class="card">
-          <h3><span class="brand-script-sm">Legacy</span> Workshops</h3>
-          <p>Learn directly from world-class breakers, in partnership with <strong>Expand the Cypher</strong>. Three workshops, all levels welcome.</p>
-        </li>
-        <li class="card">
-          <h3><span class="brand-script-sm">Legacy</span> Party</h3>
-          <p>Saturday night after the battles — <strong>DJ Mensa</strong> × <strong>Cypher Playground</strong>. Included with the Full Weekend Pass.</p>
-        </li>
-      </ul>
+      <p class="note">Schedule may shift slightly. Final times posted on <a href="https://www.instagram.com/legacy.jam" target="_blank" rel="noopener noreferrer">@legacy.jam</a> the week of the event.</p>
+      <p class="cta-row">
+        <a class="btn btn-gold" href="https://legacyjam2026.eventbrite.ca" target="_blank" rel="noopener noreferrer">Get Tickets <span class="btn-badge">Early Bird</span></a>
+        <a class="btn btn-outline" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to Battle</a>
+      </p>
     </div>
   </section>
 
@@ -320,29 +408,71 @@
     <div class="wrap">
       <p class="eyebrow">Getting here</p>
       <h2 id="travel-title">Coming from out of town?</h2>
+
+      <h3 class="partner-group">Generations Partners</h3>
+      <p class="partner-note">
+        Are you a studio, non-profit, event organizer or other organization
+        that supports breaking in Canada, the USA or internationally, and
+        entering the Generations Battle? Sign up as a Generations Partner for:
+      </p>
+      <ul class="inner-list partner-note">
+        <li>A discount promo code for students &amp; staff</li>
+        <li>A VIP meet &amp; greet with our guests <span class="hint">(optional)</span></li>
+        <li>An event table for your classes or merch <span class="hint">(optional)</span></li>
+        <li>Sunday organizers meeting <span class="hint">(optional)</span></li>
+        <li>A pre-booked airport shuttle for your guests <span class="hint">(optional, limited spots — book soon)</span></li>
+        <li>Promotion through our event&rsquo;s social media and website: get the word out on your studio, classes and work in the community</li>
+      </ul>
+      <p class="partner-note">
+        Optional perks are limited: let us know you&rsquo;re interested and
+        we&rsquo;ll confirm availability.
+      </p>
+      <p class="partner-note">
+        Five-minute sign-up. We&rsquo;ll follow up within 48 hours.
+      </p>
+      <p class="cta-row">
+        <a class="btn btn-outline" href="generations-partner.html">Become a Generations Partner</a>
+      </p>
+      <!-- HIDDEN until these Generations Partners reconfirm for 2026: remove the
+           `hidden` attribute below to show the logos again. Placeholder SVGs below,
+           overwrite each file with the real logo (or upload with any name and update the src). -->
+      <ul class="logo-row" hidden>
+        <li><img src="assets/logos/brkn-quebec.png" alt="BRKN Québec" loading="lazy"></li>
+        <li><img src="assets/logos/flava-factory.png" alt="The Flava Factory" loading="lazy"></li>
+        <li><img src="assets/logos/aba.png" alt="ABA" loading="lazy"></li>
+        <li><img src="assets/logos/the-spot.png" alt="The Spot Arts Community" loading="lazy"></li>
+        <li><img src="assets/logos/breaking-canada.png" alt="Breaking Canada" loading="lazy"></li>
+        <li><img src="assets/logos/tuff.png" alt="Tuff" loading="lazy"></li>
+      </ul>
+
       <div class="travel-cols">
         <div>
-          <h3>Free airport shuttle 🚐</h3>
+          <h3>New to Toronto?</h3>
           <p>
-            We run a <strong>complimentary shuttle from Toronto Pearson Airport</strong> for out-of-town guests.
-            Seats are limited — email us to pre-book:
+            Email us and let us know you&rsquo;re coming from out of town. We&rsquo;ll
+            do what we can to help welcome you to our city and our jam.
           </p>
-          <p class="shuttle-email">
-            <!-- TODO: confirm shuttle email address -->
-            <a class="btn btn-outline" href="mailto:shuttle@legacyjam.ca?subject=Airport%20shuttle%20pre-booking">shuttle@legacyjam.ca</a>
+          <p class="travel-email">
+            <a class="btn btn-outline" href="mailto:info@legacyjam.com?subject=Coming%20from%20out%20of%20town">info@legacyjam.com</a>
           </p>
-          <p>Include your name, arrival date/time, flight number and number of guests.</p>
         </div>
         <div>
           <h3>Affordable places to stay</h3>
-          <p>All close to the Battle Day venue (918 Bathurst St) or an easy subway ride away:</p>
-          <ul class="hotel-list">
-            <li><strong>The Annex Hotel</strong> — 296 Brunswick Ave · 8-min walk to the venue</li>
-            <li><strong>Planet Traveler Hostel</strong> — 357 College St · budget beds near Kensington Market</li>
-            <li><strong>HI Toronto Hostel</strong> — 76 Church St · downtown budget classic</li>
-            <li><strong>Howard Johnson Yorkville</strong> — 89 Avenue Rd · simple &amp; central</li>
-          </ul>
-          <p class="note">October is busy in Toronto — book early for the best rates.</p>
+          <!-- TODO: verify every address/distance below before launch -->
+          <details class="hotel-details">
+            <summary>See 7 budget-friendly options near the venue</summary>
+            <p>All close to the Battle Day venue (918 Bathurst St) or an easy subway ride away:</p>
+            <ul class="hotel-list">
+              <li><strong>The Annex Hotel</strong>: 296 Brunswick Ave · 8-min walk to the venue</li>
+              <li><strong>Planet Traveler Hostel</strong>: 357 College St · budget beds near Kensington Market</li>
+              <li><strong>HI Toronto Hostel</strong>: 76 Church St · downtown budget classic</li>
+              <li><strong>Howard Johnson Yorkville</strong>: 89 Avenue Rd · simple &amp; central</li>
+              <li><strong>Global Village Backpackers</strong>: 460 King St W · long-running downtown hostel</li>
+              <li><strong>Neill-Wycik Hostel</strong>: 96 Gerrard St E · dorms &amp; private rooms, subway to the venue</li>
+              <li><strong>Cambridge Suites Toronto</strong>: 15 Richmond St E · suites with kitchenettes, subway to the venue</li>
+            </ul>
+            <p class="note">October is busy in Toronto. Book early for the best rates.</p>
+          </details>
         </div>
       </div>
     </div>
@@ -356,68 +486,119 @@
 
       <h3 class="partner-group">Funders</h3>
       <ul class="logo-row">
-        <li><a href="https://torontoartscouncil.org"><img src="assets/logos/toronto-arts-council.webp" alt="Funded by the City of Toronto — Toronto Arts Council" loading="lazy"></a></li>
+        <li><a href="https://torontoartscouncil.org"><img src="assets/logos/toronto-arts-council.webp" alt="Funded by the City of Toronto, Toronto Arts Council" loading="lazy"></a></li>
+      </ul>
+
+      <h3 class="partner-group">Academic Partner</h3>
+      <ul class="logo-row">
         <li><a href="https://www.sheridancollege.ca"><img src="assets/logos/sheridan-college.png" alt="Sheridan College" loading="lazy"></a></li>
       </ul>
 
       <h3 class="partner-group">Media partners</h3>
       <ul class="logo-row">
-        <li><a href="https://thelegitsblast.com"><img src="assets/logos/outbreak-europe.png" alt="Outbreak Europe / The Legits" loading="lazy"></a></li>
         <li><img src="assets/logos/bboy-network.jpeg" alt="Bboy Network" loading="lazy"></li>
+        <li><a href="https://thelegitsblast.com"><img src="assets/logos/outbreak-europe.png" alt="Outbreak Europe / The Legits" loading="lazy"></a></li>
       </ul>
 
       <h3 class="partner-group">Program partners</h3>
       <ul class="logo-row">
         <li><a href="https://www.unitycharity.com"><img src="assets/logos/unity-charity.png" alt="Unity Charity" loading="lazy"></a></li>
-        <li><img src="assets/logos/expand-the-cypher.jpeg" alt="Expand the Cypher" loading="lazy"></li>
-        <li><img src="assets/logos/cypher-playground.jpeg" alt="Cypher Playground" loading="lazy"></li>
+        <!-- HIDDEN until Expand the Cypher confirms partnership for 2026:
+             remove the `hidden` attribute below to show it again. -->
+        <li hidden><img src="assets/logos/expand-the-cypher.jpeg" alt="Expand the Cypher" loading="lazy"></li>
+        <!-- HIDDEN for now, partnership may be added back later:
+             remove the `hidden` attribute below to show it again. -->
+        <li hidden><img src="assets/logos/cypher-playground.jpeg" alt="Cypher Playground" loading="lazy"></li>
       </ul>
 
-      <h3 class="partner-group">National partners</h3>
-      <!-- Placeholder SVGs below — overwrite each file with the real logo
-           (or upload with any name and update the src) -->
-      <ul class="logo-row">
-        <li><img src="assets/logos/brkn-quebec.png" alt="BRKN Québec" loading="lazy"></li>
-        <li><img src="assets/logos/wntr-mssv.png" alt="WNTR MSSV" loading="lazy"></li>
-        <li><a href="https://torontobreakdance.com"><img src="assets/logos/break-to.webp" alt="Break TO" loading="lazy"></a></li>
-        <li><img src="assets/logos/flava-factory.png" alt="The Flava Factory" loading="lazy"></li>
-        <li><a href="https://thelegitsblast.com"><img src="assets/logos/legits-blast.png" alt="The Legits Blast" loading="lazy"></a></li>
-        <li><img src="assets/logos/break-city.png" alt="Break City" loading="lazy"></li>
-        <li><img src="assets/logos/aba.png" alt="ABA" loading="lazy"></li>
-        <li><img src="assets/logos/the-spot.png" alt="The Spot Arts Community" loading="lazy"></li>
-        <li><img src="assets/logos/breaking-canada.png" alt="Breaking Canada" loading="lazy"></li>
-        <li><img src="assets/logos/tuff.png" alt="Tuff" loading="lazy"></li>
-      </ul>
     </div>
   </section>
 
   <!-- ================= ABOUT ================= -->
   <section id="about" class="section" aria-labelledby="about-title">
     <div class="wrap about-narrow">
-      <p class="eyebrow">Our purpose</p>
-      <h2 id="about-title">Why Legacy Jam</h2>
-      <p class="purpose">
-        Breaking is passed down — from teacher to student, from cypher to cypher, from one
-        generation to the next. Legacy Jam exists to keep that chain alive: to celebrate the
-        people who built Canadian breaking, invest in the youth who will carry it forward,
-        and put Canadian breakers on the world stage.
-      </p>
-      <p>
-        Every part of the weekend is built around that purpose — a battle format that pairs
-        teachers with students, youth prizes that send the next generation to Outbreak Europe,
-        exchanges that connect Canada to the international scene, and talks and workshops that
-        pass on the knowledge behind the moves.
+      <p class="eyebrow">Who&rsquo;s behind it</p>
+      <h2 id="about-title">MEC Crew</h2>
+      <p class="bio">
+        MEC Crew is breakers, DJs and organizers working for and with the community:
+        decades on the floor between them, battling, judging, teaching and building
+        events. Breaking, DJing, hosting, teaching, visual art: they live the
+        elements, and still show up for the cypher for the love of hip hop culture,
+        breaking and building future generations.
       </p>
 
-      <h3>The crew</h3>
-      <!-- TODO: replace with final bio copy from the crew bio file -->
-      <p class="bio">
-        Legacy Jam is produced by a crew of Toronto breakers with decades in the culture —
-        organizers, teachers and competitors who came up through this city's cyphers and have
-        spent their careers building spaces for the next generation, including through
-        Unity Charity and Toronto's community jam scene. This is the event we wish we had
-        coming up. Now it's yours.
-      </p>
+      <details class="crew-details">
+        <summary>Meet the organizing team</summary>
+        <p>
+          <strong>Piecez</strong> (Michael Prosserman): breaking since 1999,
+          Piecez has judged battles and taught workshops across Canada, Europe
+          and Asia, from the Canadian Arctic to Japan and Hong Kong. He&rsquo;s
+          won 26 international breaking competitions, serves as a certified
+          Breaking Judge and Head Judge with the World DanceSport Federation,
+          and has judged the World Games and the WDSF World Breaking
+          Championships. He&rsquo;s also the founder of Unity Charity, a
+          national organization using hip hop to support youth mental health
+          that&rsquo;s reached over 250,000 youth across Canada, and the
+          bestselling author of Building Unity.
+        </p>
+        <p>
+          <strong>Boobjester</strong> (Roberto Veruela Jr.): repping Winnipeg
+          since 1994, Boobjester&rsquo;s musicality and finesse have earned him
+          respect across the Canadian breaking scene as a member of Dangerous
+          Goods Crew, Maximum Efficiency Crew and the Wintor Massiv Artist
+          Collective. He&rsquo;s organized major events including Red Bull BC
+          One Canada and Red Bull Dance Your Style, received the Absolute
+          Canadian B-boy Award in 2008, and is a certified World DanceSport
+          Federation judge. He now serves as National Program Director at
+          Unity Charity, delivering hip hop programming in northern
+          communities and youth correctional facilities across Canada.
+        </p>
+        <p>
+          <strong>B Bad</strong> (Andel James): a b-boy since 1999 before
+          picking up DJing in 2010, B Bad blends hip hop, R&amp;B, funk, breaks
+          and soul into sets built for battles and cyphers. He&rsquo;s
+          performed at Red Bull BC One, Freestyle Session, Breaking Canada and
+          The Notorious I.B.E., and has worked with youth through Unity
+          Charity since 2007. A member of Maximum Efficiency Crew and the
+          Wintor Massiv collective, he founded the 2U4U collective in 2017 to
+          bring dancers and musicians together around hip hop culture.
+        </p>
+        <p>
+          <strong>Switch B</strong> (Adrian Bernard): repping Floor Assassins
+          Militia and Maximum Efficiency Crew, Switch B has 20+ years of
+          competitive experience and more than 50 competition wins, including
+          Skillz-O-Meter 5 in 2015. He represented Canada internationally
+          after winning The B-Boy Unit Canada qualifier, competed in Seoul,
+          and served as the Canadian Olympic breaking color commentator with
+          CBC during the 2024 Summer Olympics. In 2019 he co-created The
+          Breaking Draft, a concept battle event held in Toronto and
+          Vancouver.
+        </p>
+        <p>
+          <strong>MEDÊIO</strong> (Rei Misiri): originally from Tirana,
+          Albania, MEDÊIO came up as a breaker in the Canadian scene, winning
+          15+ first-place titles and representing Canada at events like the
+          Notorious IBE in the Netherlands, before transitioning into
+          calligraphy and visual art. He remains active in the breaking
+          community as a judge, panelist and mentor at events across Canada,
+          including Yukon Cypher Fest. His visual art practice has taken him
+          to New York, Miami, Zurich, Barcelona and Los Angeles, working with
+          brands like Bloomingdale&rsquo;s, Porsche and Samsung.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= FINAL CALL TO ACTION ================= -->
+  <section class="section section-alt cta-final" aria-labelledby="cta-title">
+    <div class="wrap">
+      <p class="eyebrow">Don&rsquo;t sleep</p>
+      <h2 id="cta-title">Lock In Your Spot</h2>
+      <p class="section-lede">Early bird tickets are limited and going fast &mdash; grab yours on Eventbrite now and claim your battle spot.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold btn-big" href="https://breakkonnect.com/event/4898" target="_blank" rel="noopener noreferrer">Register to Battle</a>
+        <a class="btn btn-outline btn-big" href="https://legacyjam2026.eventbrite.ca" target="_blank" rel="noopener noreferrer">Get Tickets <span class="btn-badge">Early Bird</span></a>
+      </div>
     </div>
   </section>
 
@@ -425,18 +606,67 @@
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <p class="brand-script" aria-hidden="true">Legacy</p>
-    <p><strong>Legacy Jam 2026</strong> · October 23–25 · Toronto</p>
+    <img class="footer-logo" src="assets/legacy-jam-logo-script.png" alt="" loading="lazy">
+    <p><strong>Legacy Jam</strong> · October 23–25, 2026 · Toronto</p>
     <ul class="footer-links">
-      <li><a href="https://www.instagram.com/legacyjam">Instagram</a></li>
-      <li><a href="https://www.eventbrite.ca/e/legacy-jam-2026">Tickets</a></li>
-      <li><a href="mailto:shuttle@legacyjam.ca">Shuttle pre-booking</a></li>
+      <li><a class="footer-ig" href="https://www.instagram.com/legacy.jam" target="_blank" rel="noopener noreferrer">📣 Follow <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="ig-grad-footer" x1="0" y1="24" x2="24" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FEDA75"/><stop offset="0.25" stop-color="#FA7E1E"/><stop offset="0.5" stop-color="#D62976"/><stop offset="0.75" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><path fill="url(#ig-grad-footer)" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .2 2.4.4.6.2 1 .5 1.4 1 .4.4.7.8 1 1.4.2.5.3 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 2-.4 2.4-.2.6-.5 1-1 1.4-.4.4-.8.7-1.4 1-.5.2-1.2.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.2-2.4-.4-.6-.2-1-.5-1.4-1-.4-.4-.7-.8-1-1.4-.2-.5-.3-1.2-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-2 .4-2.4.2-.6.5-1 1-1.4.4-.4.8-.7 1.4-1 .5-.2 1.2-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1 .1-1.6.2-2 .3-.5.2-.8.4-1.2.7-.4.4-.6.7-.7 1.2-.1.4-.3 1-.3 2C3 9.5 3 9.9 3 13s0 3.5.1 4.7c.1 1 .2 1.6.3 2 .2.5.4.8.7 1.2.4.4.7.6 1.2.7.4.1 1 .3 2 .3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.6-.2 2-.3.5-.2.8-.4 1.2-.7.4-.4.6-.7.7-1.2.1-.4.3-1 .3-2 .1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.6-.3-2-.2-.5-.4-.8-.7-1.2-.4-.4-.7-.6-1.2-.7-.4-.1-1-.3-2-.3-1.2-.1-1.6-.1-4.7-.1z"/><path fill="url(#ig-grad-footer)" d="M12 7.4a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2zm0 7.6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/><circle fill="url(#ig-grad-footer)" cx="17.3" cy="6.7" r="1.1"/></svg> @legacy.jam</a></li>
+      <li><a href="https://legacyjam2026.eventbrite.ca" target="_blank" rel="noopener noreferrer">Tickets</a></li>
     </ul>
     <p class="note">
-      Questions? <a href="mailto:hello@legacyjam.ca">hello@legacyjam.ca</a>
+      Questions? <a href="mailto:info@legacyjam.com">info@legacyjam.com</a>
     </p>
   </div>
 </footer>
+
+<a href="#top" class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5l-7 7h4v7h6v-7h4z"/></svg>
+</a>
+
+<div class="ig-popup" id="ig-popup" role="complementary" aria-label="Follow Legacy Jam on Instagram">
+  <button class="ig-popup-close" id="ig-popup-close" type="button" aria-label="Close">&times;</button>
+  <p>📣 Don&rsquo;t miss updates. Follow <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="ig-grad-popup" x1="0" y1="24" x2="24" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FEDA75"/><stop offset="0.25" stop-color="#FA7E1E"/><stop offset="0.5" stop-color="#D62976"/><stop offset="0.75" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><path fill="url(#ig-grad-popup)" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .2 2.4.4.6.2 1 .5 1.4 1 .4.4.7.8 1 1.4.2.5.3 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 2-.4 2.4-.2.6-.5 1-1 1.4-.4.4-.8.7-1.4 1-.5.2-1.2.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.2-2.4-.4-.6-.2-1-.5-1.4-1-.4-.4-.7-.8-1-1.4-.2-.5-.3-1.2-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-2 .4-2.4.2-.6.5-1 1-1.4.4-.4.8-.7 1.4-1 .5-.2 1.2-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1 .1-1.6.2-2 .3-.5.2-.8.4-1.2.7-.4.4-.6.7-.7 1.2-.1.4-.3 1-.3 2C3 9.5 3 9.9 3 13s0 3.5.1 4.7c.1 1 .2 1.6.3 2 .2.5.4.8.7 1.2.4.4.7.6 1.2.7.4.1 1 .3 2 .3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.6-.2 2-.3.5-.2.8-.4 1.2-.7.4-.4.6-.7.7-1.2.1-.4.3-1 .3-2 .1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.6-.3-2-.2-.5-.4-.8-.7-1.2-.4-.4-.7-.6-1.2-.7-.4-.1-1-.3-2-.3-1.2-.1-1.6-.1-4.7-.1z"/><path fill="url(#ig-grad-popup)" d="M12 7.4a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2zm0 7.6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/><circle fill="url(#ig-grad-popup)" cx="17.3" cy="6.7" r="1.1"/></svg> <a href="https://www.instagram.com/legacy.jam" target="_blank" rel="noopener noreferrer">@legacy.jam</a> on Instagram.</p>
+</div>
+
+<script>
+  // Progressive enhancement only: the link above works with plain #top navigation
+  // even if this never runs. It just toggles when the button is visible, and
+  // forces a true scroll to (0,0), some mobile browsers stop short of the
+  // page top when following a #top anchor past the sticky header.
+  (function () {
+    var btn = document.querySelector('.back-to-top');
+    if (!btn) return;
+    var toggle = function () {
+      btn.classList.toggle('is-visible', window.scrollY > 600);
+    };
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+    });
+  })();
+
+  // Instagram follow nudge: shows once per session, auto-dismisses after 10s,
+  // and has its own close button for dismissing early. No JS = it never shows,
+  // which is fine since it's a bonus nudge, not page content.
+  (function () {
+    var popup = document.getElementById('ig-popup');
+    var closeBtn = document.getElementById('ig-popup-close');
+    if (!popup || !closeBtn) return;
+    try {
+      if (sessionStorage.getItem('igPopupDismissed')) return;
+    } catch (e) { /* private browsing may block storage; just show it once */ }
+    var hide = function () {
+      popup.classList.remove('is-visible');
+      try { sessionStorage.setItem('igPopupDismissed', '1'); } catch (e) {}
+    };
+    setTimeout(function () {
+      popup.classList.add('is-visible');
+      setTimeout(hide, 10000);
+    }, 5000);
+    closeBtn.addEventListener('click', hide);
+  })();
+</script>
 
 </body>
 </html>
